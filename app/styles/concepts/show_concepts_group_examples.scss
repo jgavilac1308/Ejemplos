@@ -1,0 +1,201 @@
+@import "../common/_mixins.scss";
+
+.liz-show-concepts-group-examples{
+
+	.block{
+		.clearfix{
+			span{
+				strong{
+					color:black;
+				}
+			}
+		}
+	}
+	
+	.group-container{
+		float: left;
+		border: 3px solid #000;
+		margin-bottom: 10px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-left: 10px;
+
+		.group-title{
+			width: 190px;
+			height: 190px;
+			text-align: center;
+			color: white;
+			font-size: 25px;
+			display: table-cell;
+			vertical-align: middle;
+
+			.group-subtitle {
+				font-size: 16px;
+				padding: 0 5px;
+			}
+		}
+
+	}
+
+	.textbox1{
+
+		.main-img{width:190px;float: left;}
+		min-width: 15%;
+		min-height: 150px;
+		float: left;
+		display: table;
+	}
+
+	.text-box{
+
+		
+
+		width: 70%;
+		float: left;
+		padding: 0.6em;
+
+
+		
+
+			p{
+				width: 69%;
+				float: left;
+				margin-left: 0.6em;
+				margin-top: 0.2em;
+				margin-bottom: 0.2em;
+
+			}			
+		
+	}
+
+	.item{
+
+		width: 10%; // 4 por columna
+				
+		.item-title{
+			width: 99%;
+			height: 108px;
+			text-align: center;
+			padding-top: 20px;
+			color:white;
+			margin-left: 1%;
+		}
+
+		
+
+		// Clases para definir el tamaño
+		@for $i from 1 through 6{
+			&.per-row-#{$i}{ width: (99%/$i); }
+		}
+
+		@media(max-width: 992px){
+			width: 50%;
+			text-align: left;
+			font-size: 18px;
+			
+		}
+
+		float: left;
+		font-size: 24px;
+		text-align: center;		
+
+	}
+
+	.complete-container{
+		position: relative;
+		float: left;
+		border: 3px solid transparent;
+		font-size: 1.4em;
+		padding: 5px;
+		font-family: 'century_gothic';
+		width: 80%;
+		float: left;
+		margin-left: 1%;
+		
+		
+		.complete-words-container{margin-left:1%;}
+
+		span{
+
+			.item-text{
+				float: left;
+				width: 89%;
+				margin-left: 5px;
+			}
+		}
+	}
+
+	// vocales con las nuevas consonantes
+	.letters{
+		text-align: center;
+
+		.syllable{
+			display: inline-block;
+			padding: 0 20px;
+			font-size: 2em;
+		}
+		
+	}
+
+	.show-concepts-group-examples-small {
+		width: 48% !important;
+		margin-right: 10px;
+
+		.complete-container {
+			width: 56% !important;
+
+			.item {
+				width: 33% !important;
+			}
+
+			.item-text {
+				width: 64%;
+			}
+		}
+	}
+
+	.width50{
+
+		width: 48%;
+		margin-right: 2%;
+
+		.group-title{
+			height: 305px;
+		}
+
+		.complete-container{
+
+			width: 58%;
+
+			.item{
+
+				width: 100%!important;
+
+				img{
+
+					width: 100%!important;
+				}
+
+			}
+
+			.item-text{
+				text-align: center;
+				width: 100%!important;
+			}
+			
+		}
+
+		
+	}
+
+	.right-answer, .wrong-answer{
+		position: absolute;
+		top:50%;
+		margin-top: -25px;
+		right: 15px;
+		$size: 50px;
+	    width: $size;
+	    height: $size;
+	    background-size: $size $size;
+	}
+}

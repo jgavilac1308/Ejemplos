@@ -1,0 +1,105 @@
+@import "../bourbon/bourbon";
+
+.liz-show-text-character{
+	
+	.block-content{
+			padding-top:  0!important;
+			
+	}
+
+	.items{
+		width: 60%;
+		float: left;
+		margin-top: 5%;
+
+		
+	}
+
+	.item{
+		width: 100%;
+		float: left;
+		margin-top: 10px;
+		padding-right: 5px;
+		padding-left: 15px;
+	}
+	
+	.inner-title{
+		width: 100%;
+		padding: 5px;
+		text-align: center;
+		border-radius: 10px;
+		margin-top: 9px;
+		font-size: 25px;
+		color: #fff;
+		border: 0px solid;
+		@include transition(all 0.4s ease-out);
+
+		// Cuando está activo
+		&.is-selected{ box-shadow: 0px 0px 0px 5px #272727; }
+
+	}
+
+
+	.inner-item{
+		$size: 4.0em;
+		width: $size;
+		height: $size;
+		line-height: $size;
+		text-align: center;
+		border-radius: 50%;
+		color: #fff;
+		cursor: pointer;
+		margin-left: -25px;
+		background-color: #fff;
+		border: 3px solid;
+		float: left;
+		@include transition(all 0.4s ease-out);
+
+		// Cuando está activo
+		&.is-selected{ box-shadow: 0px 0px 0px 5px #272727; }
+
+		.inner-item-inner{
+		$size: 3.6em;
+		width: $size;
+		height: $size;
+		line-height: $size;
+		text-align: center;
+		border-radius: 50%;
+		color: #fff;
+		cursor: pointer;
+		margin: auto;
+		background-color: #fff;
+		border: 3px solid;
+		@include transition(all 0.4s ease-out);
+
+		}
+	}
+
+	.text-box{
+		width: 40%;
+		float: left;
+		display: flex;//centrar verticalmente
+		align-items: center;//centrar verticalmente
+		justify-content: center;//centrar verticalmente
+
+		.block-content{
+			padding-top:  0!important;
+			padding: 0.4em;
+			min-height: 180px;
+
+			img{
+				display: block;
+				margin: auto;
+				max-height: 180px;
+			}
+		}
+
+		.main-img{
+			width: 90%;
+			
+		}
+
+	}
+
+}
+

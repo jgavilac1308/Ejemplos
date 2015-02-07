@@ -1,0 +1,21 @@
+.liz-select-correct-image-options .block-content .option-images .option-image {
+  margin-bottom: 24px;
+}
+.liz-select-correct-image-options .block-content .option-images .option-image img {
+  display: inline-block;
+}
+.liz-select-correct-image-options .block-content .option-images .option-image .option {
+  position: absolute;
+  cursor: pointer;
+}
+.liz-select-correct-image-options .block-content .option-images .option-image .option.opt-completed {
+  background: rgba(12, 100, 233, 0.5);
+}
+.liz-select-correct-image-options .right-answer, .liz-select-correct-image-options .wrong-answer {
+  height: 70px;
+  width: 70px;
+  background-size: 70px 70px;
+  position: absolute;
+  left: 36px;
+  bottom: 16px;
+}

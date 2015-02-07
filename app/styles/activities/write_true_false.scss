@@ -1,0 +1,80 @@
+@import "../bourbon/bourbon";
+@import "../common/_mixins";
+
+.liz-write-true-false {
+
+  .main-img {
+    max-width: 40%;
+    float: left;
+  }
+
+  .items{
+
+    float: left;
+    margin-left: 20px;
+
+  }
+
+  .true-false-container {
+
+    p {
+      margin-top: 11px;
+      font-size: 18px;
+    }
+
+    .btn-primary {
+      float: left;
+      margin-top: 0;
+      margin-right: 6px;
+      width: auto;
+      font-size: 23px;
+    }
+
+    .input-primary {
+      padding: 6px 9px;
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+
+    .text.block {
+      margin-bottom: 5px;
+    }
+  }
+
+  .overlay {
+    background: #fff;
+  }
+
+  .big-img {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 151;
+    top: 0;
+    left: 0;
+    overflow: scroll;
+
+    img {
+      color: #fff;
+    }
+  }
+
+  .close-btn {
+    z-index: 152;
+    position: fixed;
+    top: 16px;
+    right: 32px;
+    font-size: 22px;
+    width: 2em;
+    height: 2em;
+  }
+
+  // Caras
+  .face{
+    margin-left: -72px;
+    width: 124px;
+    left: 50%;
+    z-index: 6;
+  }
+
+}

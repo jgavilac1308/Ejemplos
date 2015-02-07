@@ -1,0 +1,88 @@
+@import "../bourbon/bourbon.scss";
+@import "../common/_mixins.scss";
+
+$drop-fz: 22px;
+
+.liz-drag-to-texts {
+
+  //
+  // Items: Stack for draggables
+  // ---------------------------------------------------------
+  .items {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+
+  .item {
+    display: inline-block;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 4px 6px;
+    border-radius: 3px;
+    font-size: 18px;
+  }
+
+  //
+  // Main img
+  // ---------------------------------------------------------
+  .main-img {
+    width: 23%;
+    float: left;
+  }
+
+  //
+  // Targets
+  // ---------------------------------------------------------
+  .template-container {
+    font-size: $drop-fz;
+    width: 77%;
+    float: left;
+    line-height: 32px;
+    border: 2px solid;
+    padding: 0px 17px;
+  }
+
+  .drop-container {
+    display: inline-block;
+    width: 100px;
+    border: 2px solid #000;
+    min-height: 36px;
+    margin-bottom: -9px;
+    position: relative;
+    @include transition(background-color 0.5s);
+
+    &.large {
+      width: 200px;
+    }
+
+    &.disabled {
+      background: #ededed;
+    }
+  }
+
+  .answer-icon {
+    $size: 1.5em;
+    width: $size;
+    height: $size;
+    background-size: $size;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 3px;
+    @include animation(scale1 0.5s ease-in forwards);
+  }
+
+  .icon-right {
+    @extend .answer-icon;
+    background-image: url('../resources/common/icon_right.png');
+  }
+
+  .icon-wrong {
+    @extend .answer-icon;
+    background-image: url('../resources/common/icon_wrong.png');
+  }
+
+}

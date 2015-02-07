@@ -1,0 +1,68 @@
+@import "../bourbon/bourbon.scss";
+@import "../common/_mixins.scss";
+
+.liz-drag-mark-canvas {
+
+	.item-descriptions {
+		width: 50%;
+		float: left;
+	}
+
+	.item {
+		@include align-children;
+		justify-content: flex-start;
+		margin-bottom: 2px;
+	}
+
+	.item-draggable {
+		background: #bd0926;
+		width: 2em;
+		height: 2em;
+		line-height: 2em;
+		text-align: center;
+		color: #fff;
+		border-radius: 50%;
+		font-size: 17px;
+		cursor: pointer;
+		z-index: 20;
+	}
+
+	.item-text {
+		margin-left: 5px;
+	}
+
+	// Canvas
+	.canvas-img {
+		width: 50%;
+		float: left;
+	}
+
+	.canvas-img-inner {
+		display: inline-block;
+		position: relative;
+	}
+
+
+	// targets
+	.target {
+		position: absolute;
+//		background: rgba(255, 0, 0, 0.3);
+	}
+
+	.target-inner {
+		width: 100%;
+		height: 100%;
+		@include align-children;
+	}
+
+
+	// Caras 
+	.face{
+		margin-left: -72px;
+		width: 124px;
+		left: 50%;
+		z-index: 6;
+	}
+
+}
+

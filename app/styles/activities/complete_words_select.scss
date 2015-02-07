@@ -1,0 +1,73 @@
+.liz-complete-words-select {
+
+	.wordsSelectRow {
+		padding: 0 106px;
+		margin-bottom: 20px;
+
+		&:first-child {
+			padding-top: 40px;
+		}
+
+		&:last-child {
+			padding-bottom: 20px;
+		}
+
+		.blockNumber {
+			padding: 0 10px;
+
+			& > span {
+				padding: 8px 14px;
+				text-align: center;
+				color: #FFF;
+				display: block;
+				font-size: 20px;
+			}
+		}
+
+		.wordsSelectText {
+			font-size: 20px;
+
+			.input-container {
+				display: inline-block;
+				position: relative;
+
+				select {
+                    border: none;
+                    background: transparent;
+                    float: none;
+                    min-width: 150px;
+                    line-height: 26px;
+                    //cursor: pointer;
+                   /* outline: none;
+                    display: inline-block;
+                    text-indent: 0.01px;
+                    padding: 3px;
+                    text-overflow: "";
+                    -moz-appearance: none;
+                    -webkit-appearance: none;
+                    -webkit-border-radius: 0;
+                    -moz-border-radius: 0;
+                    border-radius: 0;*/
+				}
+
+                &:after {
+                  content: "";
+                  width: 0;
+                  height: 0;
+                  right: 10px;
+                  top: 17px;
+                  position: absolute;
+                  pointer-events: none;
+                  border-right: 6px solid transparent;
+                  border-left: 6px solid transparent;
+                }
+
+				.wrong-answer, .right-answer {
+					position: absolute;
+					top: 5px;
+					right: 20px;
+				}
+			}
+		}
+	}
+}

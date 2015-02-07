@@ -1,0 +1,43 @@
+.liz-complete-table-with-text .table-text-options {
+  padding: 0 50px;
+  text-align: center;
+}
+.liz-complete-table-with-text .table-text-options .table-text-option {
+  display: inline-block;
+  float: none;
+  width: 20%;
+  margin-bottom: 10px;
+}
+.liz-complete-table-with-text .table-text-options .table-text-option > div {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  color: #FFF;
+}
+.liz-complete-table-with-text .tableImageInputs thead th {
+  text-align: center;
+  font-size: 20px;
+}
+.liz-complete-table-with-text .tableImageInputs .tableImageInputsRow td.tableImageData > span {
+  font-size: 18px;
+  color: #FFF;
+  margin: 6px 0;
+  vertical-align: middle;
+  display: block;
+  float: left;
+  padding-left: 6px;
+}
+.liz-complete-table-with-text .tableImageInputs .tableImageInputsRow td > input {
+  height: 112% !important;
+}
+.liz-complete-table-with-text .tableImageInputs .tableImageInputsRow td .right-answer, .liz-complete-table-with-text .tableImageInputs .tableImageInputsRow td .wrong-answer {
+  width: 30px;
+  height: 30px;
+  -webkit-background-size: 30px 30px;
+  background-size: 30px 30px;
+  right: 6px;
+  top: 2px;
+}

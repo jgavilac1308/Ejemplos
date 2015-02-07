@@ -1,0 +1,18 @@
+.liz-text1 > .block-content {
+  padding: 0.3em;
+}
+.liz-text1 .no-border {
+  border: 0px;
+}
+.liz-text1 .liz-text1-image img {
+  display: block;
+  margin: auto;
+}
+.liz-text1 .liz-text1-image p {
+  margin: 0;
+  font-size: 1.4em;
+}
+.liz-text1 strong2 {
+  font-weight: bold;
+  color: black;
+}

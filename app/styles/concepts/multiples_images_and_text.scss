@@ -1,0 +1,79 @@
+.liz-multiples-images-and-text{
+	
+	.block-content{
+		text-align: center;
+	}
+
+	.item{
+		display: inline-block;
+		text-align: center;
+		padding: 10px;
+
+		img{
+			display: inline-block;
+			max-height: 300px;
+		}
+
+		div{
+			/* border: 3px solid #000; */
+			font-size: 1.5em;
+			width: 50%;
+			margin-left: 25%;
+			/* border-radius: 10px; */
+			color: white;
+			margin-top: 1%;
+			position: relative;
+			padding: 0 10px;
+			
+
+
+			
+			&:after {
+				content: "";
+				position: absolute;
+				/* Pushed down half way, will get pulled back up half height of triangle
+				   ensures centering if font-size or line-height changes */
+				top: -40%;
+				width: 0;
+				height: 0;
+			
+				/* Smaller and different position triangle */
+				left: 45%;
+				width: 0px;
+				height: 0px;
+				border-style: solid;
+				border-width: 0 15px 30px 15px;
+				border-color: transparent transparent #007bff transparent;
+			}
+
+			
+		}
+
+		.no-after{
+			/* border: 3px solid #000; */
+			font-size: 1.5em;
+			width: 100%;
+			display: inline-block;
+			/* border-radius: 10px; */
+			color: white;
+			margin-top: 0;
+			margin-left: 0;
+			position: relative;
+			padding: 0 10px;
+			
+			&:after {
+				visibility: hidden;
+			}
+
+			strong{
+
+				color: black;
+			}
+			
+			
+		}
+
+
+	}
+
+}

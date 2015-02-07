@@ -1,0 +1,59 @@
+.liz-show-hover-words {
+
+	.block-content {
+		min-height: 380px;
+
+		.hover-words-row {
+			text-align: center;
+
+			.hover-words-item {
+				padding: 0 5px;
+				display: inline-block;
+				float: none;
+
+				& > img {
+					border: 3px solid #d44a27;
+				}
+
+				.hover-words-container {
+					font-size: 18px;
+					padding: 6px 0;
+
+					& > .main-word {
+						color: #F00;
+					}
+				}
+			}
+		}
+	}
+
+	.tooltip-inner {
+		color: #FFF;
+		background: #d44a27;
+		border: solid 1px #d44a27;
+		padding: 5px;
+		font-size: 18px;
+	}
+
+	.tooltip.bottom .tooltip-arrow {
+		top: -4px !important;
+		left: 0;
+		margin-left: 0;
+		border: none;
+		width: 100%;
+		float: left;
+		display: block;
+		height: 21px;
+
+		&:after {
+			content: "";
+			width: 0;
+			height: 0;
+			position: absolute;
+			pointer-events: none;
+			border-bottom: 9px solid #d44a27;
+			border-right: 9px solid transparent;
+			border-left: 9px solid transparent;
+		}
+	}
+}

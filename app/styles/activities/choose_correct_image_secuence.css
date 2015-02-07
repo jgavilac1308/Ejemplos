@@ -1,0 +1,34 @@
+.liz-choose-correct-image-secuence .block-content {
+  display: flex;
+}
+.liz-choose-correct-image-secuence .block-content .options {
+  width: 60%;
+  text-align: center;
+  margin-left: 10px;
+}
+.liz-choose-correct-image-secuence .block-content .options .option {
+  margin-left: 10px;
+  cursor: pointer;
+}
+.liz-choose-correct-image-secuence .block-content .options .option img {
+  border: 3px solid green;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.liz-choose-correct-image-secuence .block-content .options2 {
+  width: 40%;
+}
+.liz-choose-correct-image-secuence .block-content .options2 .option {
+  width: 200px;
+  height: 200px;
+}
+.liz-choose-correct-image-secuence .block-content .options2 .option .img {
+  cursor: pointer;
+}
+.liz-choose-correct-image-secuence .face {
+  margin-left: -72px;
+  width: 124px;
+  left: 50%;
+  display: none;
+  z-index: 6;
+}

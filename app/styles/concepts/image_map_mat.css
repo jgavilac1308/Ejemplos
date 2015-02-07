@@ -1,0 +1,83 @@
+.liz-image-map-mat > .block-content {
+  *zoom: 1; }
+  .liz-image-map-mat > .block-content:before, .liz-image-map-mat > .block-content:after {
+    content: " ";
+    display: table; }
+  .liz-image-map-mat > .block-content:after {
+    clear: both; }
+.liz-image-map-mat .canvas {
+  width: 75%;
+  float: left;
+  margin-left: -1%;
+  position: relative; }
+.liz-image-map-mat .items .item {
+  position: absolute; }
+.liz-image-map-mat .items .item.btn-primary {
+  font-size: 15px;
+  width: auto;
+  padding:100px }
+.liz-image-map-mat .text-box {
+  width: 25%;
+  float: left;
+ }
+
+.liz-image-map-mat .btn-primar, .mat .btn-primar-farewell {
+  background: transparent;
+}
+.liz-image-map-mat .btn-primar:hover, .mat .btn-primar:active, .mat .btn-primar.active, .mat .btn-primar-farewell:hover, .mat .btn-primar-farewell:active, .mat .btn-primar-farewell.active {
+  background: transparent;
+}
+
+.btn-primar {
+  display: inline-block;
+  background: transparent;
+  color: transparent !important;
+  border: none;
+  margin-top: -80px;
+  width: 500%;
+  max-width: 700px;
+  margin-left: -29%;
+  font-size: 1px;
+  padding: 200px;
+  cursor: pointer !important;
+  outline: none;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+.btn-prima.disabled {
+  background: #8f8f8f !important;
+  cursor: default;
+}
+
+.input-prima {
+  width: 100%;
+  border: 3px solid;
+}
+
+.btn-prima-farewell {
+  position: absolute;
+  top: 60%;
+  left: -50%;
+  display: inline-block;
+  background: transparent;
+  color: #000 !important;
+  text-decoration: none !important;
+  border: none;
+  margin-top: 20px;
+  width: 30%;
+  max-width: 400px;
+  font-size: 32px;
+  padding: 10px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  -webkit-animation: easy_in 2s ease-in;
+  -moz-animation: easy_in 2s ease-in;
+  animation: easy_in 2s ease-in;
+}
+.btn-primary-farewell.disabled {
+  background: transparent;
+  cursor: default;
+}

@@ -1,0 +1,94 @@
+.liz-crossword-with-letter .block-content {
+  display: inline-block;
+}
+.liz-crossword-with-letter .clues {
+  width: 40%;
+  float: left;
+}
+.liz-crossword-with-letter .clues h1 {
+  margin-top: 0;
+}
+.liz-crossword-with-letter .clue {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.liz-crossword-with-letter .clue .number {
+  font-weight: bold;
+}
+.liz-crossword-with-letter .clue.actived {
+  color: #fff;
+}
+.liz-crossword-with-letter .clue.clue-img {
+  width: 33%;
+  float: left;
+  padding: 2px;
+}
+.liz-crossword-with-letter .crossword-container {
+  width: 60%;
+  float: right;
+  *zoom: 1;
+}
+.liz-crossword-with-letter .crossword-container:before, .liz-crossword-with-letter .crossword-container:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.liz-crossword-with-letter .crossword-container:after {
+  clear: both;
+}
+.liz-crossword-with-letter table.crossword {
+  float: right;
+}
+.liz-crossword-with-letter table.crossword td {
+  width: 1.4em;
+  height: 1.4em;
+  line-height: 1.4em;
+  text-align: center;
+  position: relative;
+  padding: 0;
+  font-size: 30px;
+}
+.liz-crossword-with-letter table.crossword td.able {
+  border: 2px solid #000;
+  cursor: pointer;
+}
+.liz-crossword-with-letter table.crossword td input[type="text"] {
+  width: 1.4em;
+  height: 1.4em;
+  line-height: 1.4em;
+  text-align: center;
+  outline: none;
+  border: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.liz-crossword-with-letter table.crossword td.actived .number {
+  color: #fff;
+}
+.liz-crossword-with-letter table.crossword td.actived input[type="text"] {
+  color: #fff;
+}
+.liz-crossword-with-letter table.crossword td.main-actived .number {
+  color: #fff;
+}
+.liz-crossword-with-letter table.crossword td.main-actived input[type="text"] {
+  color: #fff;
+}
+.liz-crossword-with-letter table.crossword .number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.liz-crossword-with-letter .verify-button {
+  width: 100%;
+  float: right;
+  text-align: right;
+}

@@ -1,0 +1,55 @@
+.liz-sound-group{
+
+	.group-container{
+		width: 40%;
+		float: left;
+		position: relative;
+	}
+
+	.group{
+		$size: 24em;
+		width: $size;
+		height: $size;
+		margin: 19px;
+		border: 2px solid #000;
+		border-radius: 50%; 
+		position: relative;
+
+		.item{
+			position: absolute;
+		}
+	}
+
+	// pila de elementos
+	.items{
+		width: 50%;
+		float: right;
+		
+		.item{
+			cursor: pointer;
+			width: calc(25% - 2px);
+			float: left;
+			padding: 10px;
+		}
+	}
+
+	.icon-sound{
+		position: absolute;
+		top: 0;
+		left: 0;
+		$size: 80px;
+		width: $size;
+		height: $size;
+		background: url('../resources/common/icon_sound.png') no-repeat 0 0;
+		background-size: $size $size;
+		cursor: pointer;
+	}
+
+	// Caras 
+	.face{
+		margin-left: -72px;
+		width: 124px;
+		left: 50%;
+		z-index: 6;
+	}
+}

@@ -1,0 +1,60 @@
+.liz-drag-drop-multiples-diff{
+
+	.block-content {
+		min-height: 520px;
+	}
+
+	.multiples-diff-countdown-cont {
+		margin-top: 12px;
+		margin-bottom: 12px;
+		
+		.multiples-diff-countdown {
+			width: 280px;
+			float: left;
+			text-align: center;
+			padding: 10px;
+			border-radius: 4px;
+			background-color: #0c64e9;
+			color: #fff;
+			font-size: 20PX;
+			border: 4px solid #063782;
+			font-weight: bold;
+
+			& > div {
+				display: inline-block;
+			}
+		}
+	}
+
+	.group{
+
+		.inner-group{
+			.block-content{
+				min-height: 200px;
+				width: auto;
+			}
+
+			.items {
+				float: left;
+
+				.item {
+					width: 27% !important;
+				}
+			}
+		}
+
+		&.single-item {
+			.inner-group{
+
+				.items {
+
+					.item {
+						width: 100% !important;
+					}
+				}
+			}
+		}
+
+	}
+
+}

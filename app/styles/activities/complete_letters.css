@@ -1,0 +1,83 @@
+.liz-complete-letters {
+  padding-bottom: 35px !important;
+}
+.liz-complete-letters .block {
+  margin-bottom: 10px;
+}
+.liz-complete-letters .item {
+  width: 25%;
+  float: left;
+  font-size: 24px;
+  text-align: center;
+  padding: 10px 20px;
+}
+.liz-complete-letters .item.per-row-1 {
+  width: 99%;
+}
+.liz-complete-letters .item.per-row-2 {
+  width: 49.5%;
+}
+.liz-complete-letters .item.per-row-3 {
+  width: 33%;
+}
+.liz-complete-letters .item.per-row-4 {
+  width: 24.75%;
+}
+.liz-complete-letters .item.per-row-5 {
+  width: 19.8%;
+}
+.liz-complete-letters .item.per-row-6 {
+  width: 16.5%;
+}
+@media (max-width: 992px) {
+  .liz-complete-letters .item {
+    width: 50%;
+    text-align: left;
+    font-size: 18px;
+  }
+}
+.liz-complete-letters .item .item-margin-bottom {
+  float: left;
+  height: 50px;
+  display: inline-block;
+  margin-top: 25px;
+}
+.liz-complete-letters .item .input-container, .liz-complete-letters .item .letter {
+  display: inline-block;
+}
+.liz-complete-letters .item input[type=text] {
+  width: 20px;
+  text-align: center;
+  outline: none;
+  font-size: 24px;
+  background: transparent;
+  color: #333333;
+  border: none;
+  border-bottom: 2px solid #000;
+}
+@media (max-width: 992px) {
+  .liz-complete-letters .item input[type=text] {
+    font-size: 18px;
+  }
+}
+.liz-complete-letters .item input[type=text]:focus {
+  color: #ffffff;
+}
+.liz-complete-letters .letters {
+  text-align: center;
+}
+.liz-complete-letters .letters .syllable {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 2em;
+}
+.liz-complete-letters .item-help {
+  width: 100%;
+  text-align: center;
+  float: left;
+}
+.liz-complete-letters .right-answer, .liz-complete-letters .wrong-answer {
+  width: 25px;
+  height: 25px;
+  background-size: 25px 25px;
+}

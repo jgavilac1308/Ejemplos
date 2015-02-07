@@ -1,0 +1,39 @@
+.liz-complete-inputs-true-false .aOptionsRow {
+  padding: 20px 107px 0;
+}
+.liz-complete-inputs-true-false .aOptionsRow .aOptionsCol > span {
+  display: block;
+  padding: 10px 10px 10px 17px;
+  font-size: 20px;
+  color: #FFF;
+}
+.liz-complete-inputs-true-false .inputsFalseTrueContainer {
+  width: 58%;
+  margin: 20px auto 0;
+}
+.liz-complete-inputs-true-false .inputsFalseTrueContainer td {
+  border-right: 4px solid #FFF;
+  border-bottom: 10px solid #FFF;
+  position: relative;
+  font-size: 20px;
+}
+.liz-complete-inputs-true-false .inputsFalseTrueContainer td.blockNumber > span {
+  padding: 10px 14px;
+  text-align: center;
+  color: #FFF;
+  display: block;
+}
+.liz-complete-inputs-true-false .inputsFalseTrueContainer td.blockInput > input {
+  text-align: center;
+  width: 70%;
+  height: 40px;
+  text-transform: uppercase;
+}
+.liz-complete-inputs-true-false .inputsFalseTrueContainer td .wrong-answer, .liz-complete-inputs-true-false .inputsFalseTrueContainer td .right-answer {
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+  position: absolute;
+  right: -43px;
+  top: -7px;
+}

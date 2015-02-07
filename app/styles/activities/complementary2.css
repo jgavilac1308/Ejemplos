@@ -1,0 +1,13 @@
+.liz-complementary2 .block-content {
+  float: left;
+  width: 100%;
+}
+.liz-complementary2 .block-content .complementary-main-img-container {
+  position: relative;
+  float: none;
+  margin: 0 auto;
+}
+.liz-complementary2 .block-content .complementary-main-img-container > a {
+  display: block;
+  position: absolute;
+}

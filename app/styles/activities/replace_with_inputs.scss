@@ -1,0 +1,116 @@
+@import "../bourbon/bourbon.scss";
+@import "../common/_mixins.scss";
+
+.liz-replace-with-inputs {
+
+  > .block-content {
+    @include clearfix;
+    position: relative;
+  }
+
+  // Contenedor de la imagen a la izquierda
+  .img-container {
+    width: 40%;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  // Contenido de la actividad
+  .operation-container {
+    width: 60%;
+    float: left;
+
+    h1 {
+      font-size: 1.6em;
+      font-weight: normal;
+    }
+
+    // 100% width if there's no image
+    &.full {
+      width: 100%;
+    }
+  }
+
+  // donde se añade el el contenido generado por $compile
+  .operation-content {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
+
+    input[type="text"] {
+      width: 50px;
+      outline: none;
+      text-align: center;
+    }
+
+    p {
+      margin-top: 0;
+      margin-bottom: 39px;
+    }
+  }
+
+  // Contenedor de cada input
+  .input-container {
+    display: inline-block;
+    position: relative;
+
+    input[type="text"] {
+
+      &.large {
+        width: 200px !important;
+      }
+    }
+  }
+
+  // Ícono de audio adicional
+  .add-audio {
+    display: inline-block;
+    background: #000000;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 4px;
+    border-radius: 50%;
+
+    img {
+      margin-right: 0;
+      width: 3.7em;
+
+    }
+  }
+
+  // Íconos de respuesta
+  .answer-icon {
+    $size: 1.5em;
+    width: $size;
+    height: $size;
+    background-size: $size;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    @include animation(scale1 0.5s ease-in forwards);
+  }
+
+  .icon-right {
+    @extend .answer-icon;
+    background-image: url('../resources/common/icon_right.png');
+  }
+
+  .icon-wrong {
+    @extend .answer-icon;
+    background-image: url('../resources/common/icon_wrong.png');
+  }
+
+  // Caras
+  .face{
+    margin-left: -72px;
+    width: 124px;
+    left: 50%;
+    top: 60%;
+    z-index: 161;
+  }
+
+}

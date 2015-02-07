@@ -1,0 +1,33 @@
+.liz-side-numbers .numbers-block {
+  width: 50%;
+  float: left;
+  font-size: 25px;
+  margin-bottom: 0.5em; }
+.liz-side-numbers .number-input-block {
+  width: 30%;
+  display: inline-block;
+  position: relative; }
+  .liz-side-numbers .number-input-block input[type="text"] {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border: 0;
+    border-bottom: 3px solid #bd0926;
+    outline: none;
+    border-radius: 4px; }
+    .liz-side-numbers .number-input-block input[type="text"]:focus {
+      background: #bd0926;
+      color: #fff; }
+.liz-side-numbers .central-number {
+  display: inline-block;
+  width: 30%;
+  text-align: center; }
+.liz-side-numbers .right-answer, .liz-side-numbers .wrong-answer {
+  width: 28px;
+  height: 28px;
+  background-size: 28px 28px;
+  position: absolute;
+  margin: auto;
+  right: 0;
+  top: 0;
+  bottom: 0; }

@@ -1,0 +1,25 @@
+.liz-show-images-block-description .images-block-row .images-block-col {
+  width: 18%;
+}
+.liz-show-images-block-description .img-examples-container {
+  padding: 5px;
+}
+.liz-show-images-block-description .img-examples-container .frame {
+  border: 3px solid;
+}
+.liz-show-images-block-description .img-examples-container .frame .img-examples-text {
+  color: white;
+  text-align: center;
+}
+.liz-show-images-block-description .images-block-selected-row {
+  padding: 0 52px;
+}
+.liz-show-images-block-description .images-block-selected-row > .block-content {
+  border-top-width: 2px;
+  min-height: 136px;
+  position: relative;
+}
+.liz-show-images-block-description .images-block-selected-row > .block-content .icon-play-description {
+  border-radius: 50%;
+  border: 3px solid;
+}

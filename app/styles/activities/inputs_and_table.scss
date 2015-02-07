@@ -1,0 +1,52 @@
+@import "../bourbon/bourbon";
+@import "../common/_mixins.scss";
+
+$main-color: #BD0926;
+
+.liz-inputs-and-table{
+
+	.inputs{
+		@include clearfix;
+	}
+
+	.input-container{
+		float: left;
+		padding: 3px;
+	}
+
+	.input-primary{
+		font-size: 20px;
+		padding: 4px 6px;
+		text-align: center;
+		outline: none;
+	}
+
+	.table-description{
+		margin-top: 10px;
+		margin-bottom: 5px;
+		font-size: 20px;
+	}
+	
+	table{
+		width: 100%;
+
+		&, * { border-color: $main-color !important; } // Mismo color de borde para los hijos
+		th, td{ border: 3px solid; }
+
+		th{
+			background: $main-color;
+			color: #fff;
+		}
+
+		td{ font-size: 18px; }
+	}
+
+	// Caras 
+	.face{
+		margin-left: -72px;
+		width: 124px;
+		left: 50%;
+		z-index: 6;
+	}
+
+}

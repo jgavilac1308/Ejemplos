@@ -1,0 +1,40 @@
+.liz-complete-input-parts {
+	.inputPartsBlocks {
+		padding: 40px 30px;
+		
+		.inputPartsBlock {
+			border: 4px solid;
+			width: 31%;
+			margin-right: 20px;
+			margin-bottom: 20px;
+
+			&:last-child {
+				margin-right: 0;
+			}
+
+			& > .canvas {
+				width: 100%;
+
+				.items > .item {
+					width: 90px;
+
+					.right-answer, .wrong-answer {
+						width: 30px;
+						height: 30px;
+						background-size: 30px 30px;
+						position: absolute;
+						right: 4px;
+						top: 2px;
+					}
+				}
+			}
+
+			.inputPartBlockTitle > div {
+				padding: 10px 15px;
+				font-size: 18px;
+				text-align: center;
+				color: #FFFFFF;
+			}
+		}
+	}
+}

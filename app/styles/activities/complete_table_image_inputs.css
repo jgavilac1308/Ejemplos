@@ -1,0 +1,45 @@
+.liz-complete-table-image-inputs .tableImageInputs {
+  margin: 19px auto 0;
+  width: 64%;
+}
+.liz-complete-table-image-inputs .tableImageInputs thead tr {
+  color: #FFF;
+}
+.liz-complete-table-image-inputs .tableImageInputs thead tr th {
+  padding: 16px;
+  border: 2px solid #FFF;
+  border-top: none;
+}
+.liz-complete-table-image-inputs .tableImageInputs thead tr th:first-child {
+  border-left: none;
+}
+.liz-complete-table-image-inputs .tableImageInputs .tableImageInputsRow td {
+  padding: 0 !important;
+  border: 2px solid #FFF;
+  position: relative;
+}
+.liz-complete-table-image-inputs .tableImageInputs .tableImageInputsRow td:first-child {
+  padding: 0;
+  border-left: none;
+}
+.liz-complete-table-image-inputs .tableImageInputs .tableImageInputsRow td img {
+  width: 29%;
+  margin: 0 auto;
+}
+.liz-complete-table-image-inputs .tableImageInputs .tableImageInputsRow td input {
+  width: 100% !important;
+  font-size: 21px;
+  height: 100% !important;
+  padding: 0 6px;
+}
+.liz-complete-table-image-inputs .tableImageInputs .tableImageInputsRow td input:focus {
+  outline: 0;
+}
+.liz-complete-table-image-inputs .tableImageInputs .tableImageInputsRow td .wrong-answer, .liz-complete-table-image-inputs .tableImageInputs .tableImageInputsRow td .right-answer {
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+  position: absolute;
+  right: 5px;
+  top: 3px;
+}

@@ -1,0 +1,54 @@
+.liz-radio-questions .main-img {
+  max-width: 60%;
+  float: left;
+  padding-right: 20px; }
+.liz-radio-questions .questions {
+  float: right;
+  width: 40%; }
+.liz-radio-questions .item-feedback {
+  font-size: 15px; }
+.liz-radio-questions .question {
+  margin-bottom: 50px;
+  position: relative; }
+  .liz-radio-questions .question .number {
+    color: #fff;
+    display: inline-block;
+    float: left;
+    font-size: 26px;
+    width: 1.4em;
+    height: 1.4em;
+    line-height: 1.4em;
+    text-align: center;
+    margin-right: 9px; }
+  .liz-radio-questions .question .question-text, .liz-radio-questions .question .answers {
+    font-size: 18px; }
+.liz-radio-questions .answers {
+  *zoom: 1;
+  margin-top: 25px; }
+  .liz-radio-questions .answers:before, .liz-radio-questions .answers:after {
+    display: table;
+    content: "";
+    line-height: 0; }
+  .liz-radio-questions .answers:after {
+    clear: both; }
+.liz-radio-questions .answer {
+  width: 50%;
+  float: left; }
+.liz-radio-questions .face {
+  margin-left: -72px;
+  width: 124px;
+  left: 50%;
+  top: 0;
+  z-index: 161; }
+.liz-radio-questions .onlyText {
+  float: none !important;
+  width: 60% !important;
+  margin: 0 auto; }
+.liz-radio-questions .right-answer, .liz-radio-questions .wrong-answer {
+  width: 50px;
+  height: 50px;
+  -webkit-background-size: 50px 50px;
+  background-size: 50px 50px;
+  right: -20px;
+  top: 0;
+  position: absolute; }

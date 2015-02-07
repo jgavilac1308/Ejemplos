@@ -1,0 +1,25 @@
+.liz-choose-correct-image .block-content .options {
+  padding: 0 20px;
+  text-align: center;
+}
+.liz-choose-correct-image .block-content .options .option {
+  display: inline-block;
+}
+.liz-choose-correct-image .block-content .options .option > img {
+  cursor: pointer;
+  border: 3px solid #0c64e9;
+}
+.liz-choose-correct-image .item-text-container {
+  padding: 5px;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+.liz-choose-correct-image .face {
+  margin-left: -72px;
+  width: 124px;
+  left: 50%;
+  display: none;
+  z-index: 6;
+}

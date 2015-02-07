@@ -1,0 +1,45 @@
+.liz-complete-table-inputs {
+
+	.tableInputs{
+		margin-top: 16px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+
+		thead > tr {
+
+			th {
+				color: #FFF;
+				padding: 10px;
+			}
+		}
+
+		.tableInputsRow {
+			td {
+				border: 2px solid #FFF;
+				position: relative;
+
+				&:first-child {
+					color: #FFF;
+					padding-left: 17px;
+				}
+
+				textarea {
+					width: 100%;
+					float: left;
+				}
+
+				div.right-answer, div.wrong-answer {
+					width: 50px;
+					height: 50px;
+					background-size: 50px 50px;
+					position: absolute;
+					right: 10px;
+					top: 6px;
+				}
+			}
+
+		}
+	}
+
+}

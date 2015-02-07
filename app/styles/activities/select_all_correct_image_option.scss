@@ -1,0 +1,47 @@
+.liz-select-all-correct-image-options {
+
+	.block-content {
+
+		.option-images {
+
+			.option-image {
+				margin-bottom: 24px;
+
+				img{
+
+					display:inline-block;
+				}
+				.option {
+					position: absolute;
+					cursor: pointer;
+
+					&.opt-completed {
+						background: rgba(12,100,233,0.5);
+					}
+
+					&.complete-1{
+
+						border: 3px solid ;border-radius: 50%;background: transparent;
+					}
+
+					&.is-true{
+						background: rgba(0, 255, 10, 0.23)!important;
+					}
+
+					&.is-false{
+						background: rgba(0, 25, 211, 0.23)!important;
+					}
+				}
+			}
+		}
+	}
+
+	.right-answer, .wrong-answer {
+		height: 70px;
+		width: 70px;
+		background-size: 70px 70px;
+		position: absolute;
+		left: 36px;
+		bottom: 16px;
+	}
+}

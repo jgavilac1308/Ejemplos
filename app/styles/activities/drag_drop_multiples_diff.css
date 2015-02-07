@@ -1,0 +1,35 @@
+.liz-drag-drop-multiples-diff .block-content {
+  min-height: 520px;
+}
+.liz-drag-drop-multiples-diff .multiples-diff-countdown-cont {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.liz-drag-drop-multiples-diff .multiples-diff-countdown-cont .multiples-diff-countdown {
+  width: 280px;
+  float: left;
+  text-align: center;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #0c64e9;
+  color: #fff;
+  font-size: 20PX;
+  border: 4px solid #063782;
+  font-weight: bold;
+}
+.liz-drag-drop-multiples-diff .multiples-diff-countdown-cont .multiples-diff-countdown > div {
+  display: inline-block;
+}
+.liz-drag-drop-multiples-diff .group .inner-group .block-content {
+  min-height: 200px;
+  width: auto;
+}
+.liz-drag-drop-multiples-diff .group .inner-group .items {
+  float: left;
+}
+.liz-drag-drop-multiples-diff .group .inner-group .items .item {
+  width: 27% !important;
+}
+.liz-drag-drop-multiples-diff .group.single-item .inner-group .items .item {
+  width: 100% !important;
+}

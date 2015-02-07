@@ -1,0 +1,54 @@
+.liz-compare-sounds .icon-sound {
+  width: 80px;
+  height: 80px;
+  background: url("../resources/common/icon_sound.png") no-repeat 0 0;
+  background-size: 80px 80px;
+  position: relative;
+}
+.liz-compare-sounds .icon-right {
+  width: 80px;
+  height: 80px;
+  background: url("../resources/common/icon_right.png") no-repeat 0 0;
+  background-size: 80px 80px;
+}
+.liz-compare-sounds .icon-wrong {
+  width: 80px;
+  height: 80px;
+  background: url("../resources/common/icon_wrong.png") no-repeat 0 0;
+  background-size: 80px 80px;
+}
+.liz-compare-sounds .audios {
+  width: 100%;
+  position: relative;
+  min-height: 4em;
+  margin-top: 80px;
+}
+.liz-compare-sounds .audios.actived {
+  -webkit-animation: goTop 0.4s ease-in forwards;
+  -moz-animation: goTop 0.4s ease-in forwards;
+  animation: goTop 0.4s ease-in forwards;
+}
+.liz-compare-sounds .audios .audio {
+  position: absolute;
+  top: 0;
+  text-align: center;
+  cursor: pointer;
+}
+.liz-compare-sounds .audios .audio * {
+  -webkit-animation: scale1 0.4s ease-in;
+  -moz-animation: scale1 0.4s ease-in;
+  animation: scale1 0.4s ease-in;
+  display: inline-block;
+}
+.liz-compare-sounds .images {
+  overflow: hidden;
+}
+.liz-compare-sounds .images .image {
+  float: left;
+  cursor: pointer;
+  padding: 0.2em;
+  margin-top: 1.4em;
+  -webkit-animation: easy_in 0.7s ease-in;
+  -moz-animation: easy_in 0.7s ease-in;
+  animation: easy_in 0.7s ease-in;
+}

@@ -1,0 +1,11 @@
+.liz-watch .block-content {
+  text-align: center;
+  padding: 4px 6px; }
+.liz-watch .item {
+  display: inline-block;
+  position: relative;
+  padding: 5px;
+  text-align: center; }
+  .liz-watch .item img {
+    display: inline-block;
+    max-height: 256px; }

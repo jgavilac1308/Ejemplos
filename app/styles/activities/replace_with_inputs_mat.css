@@ -1,0 +1,98 @@
+.liz-replace-with-inputs-mat > .block-content {
+  *zoom: 1;
+  position: relative;
+
+
+}
+.liz-replace-with-inputs-mat > .block-content:before, .liz-replace-with-inputs-mat > .block-content:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.liz-replace-with-inputs-mat > .block-content:after {
+  clear: both;
+}
+.liz-replace-with-inputs-mat .img-container {
+  width: 40%;
+  float: left;
+  display: flex;
+  justify-content: space-around;
+}
+.liz-replace-with-inputs-mat .operation-container {
+  width: 60%;
+  float: left;
+}
+.liz-replace-with-inputs-mat .operation-container h1 {
+  font-size: 1.6em;
+  font-weight: normal;
+}
+.liz-replace-with-inputs-mat .operation-container.full {
+  width: 100%;
+}
+.liz-replace-with-inputs-mat .operation-content {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 30px;
+}
+.liz-replace-with-inputs-mat .operation-content input[type="text"] {
+  width: 50px;
+  outline: none;
+  text-align: center;
+}
+.liz-replace-with-inputs-mat .operation-content p {
+  margin-top: 0;
+  margin-bottom: 39px;
+}
+.liz-replace-with-inputs-mat .input-container {
+  display: inline-block;
+  position: relative;
+}
+.liz-replace-with-inputs-mat .input-container input[type="text"].large {
+  width: 200px !important;
+}
+.liz-replace-with-inputs-mat .add-audio {
+  display: inline-block;
+  background: #000000;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  padding: 4px;
+  border-radius: 50%;
+}
+.liz-replace-with-inputs-mat .add-audio img {
+  margin-right: 0;
+  width: 3.7em;
+}
+.liz-replace-with-inputs-mat .answer-icon, .liz-replace-with-inputs-mat .icon-right, .liz-replace-with-inputs-mat .icon-wrong {
+  width: 1.5em;
+  height: 1.5em;
+  background-size: 1.5em;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  -webkit-animation: scale1 0.5s ease-in forwards;
+  -moz-animation: scale1 0.5s ease-in forwards;
+  animation: scale1 0.5s ease-in forwards;
+}
+.liz-replace-with-inputs-mat .icon-right {
+  background-image: url("../resources/common/icon_right.png");
+}
+.liz-replace-with-inputs-mat .icon-wrong {
+  background-image: url("../resources/common/icon_wrong.png");
+}
+.liz-replace-with-inputs-mat .face {
+  margin-left: -72px;
+  width: 124px;
+  left: 50%;
+  top: 60%;
+  z-index: 161;
+}
+
+.boton{
+ margin-left: 5%;
+ padding: -1%;
+ height:10%;
+ width: 10%;
+}

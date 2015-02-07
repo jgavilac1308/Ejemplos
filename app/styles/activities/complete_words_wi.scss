@@ -1,0 +1,92 @@
+@import "../common/_mixins.scss";
+
+.liz-complete-words-wi{
+	
+	.liz-complete-words-wi-inner{
+		
+	}
+
+	.item{
+		width: 40%; // 4 por columna
+		
+		// Clases para definir el tamaño
+		@for $i from 1 through 6{
+			&.per-row-#{$i}{ width: (99%/$i); }
+		}
+
+		@media(max-width: 992px){
+			width: 50%;
+			text-align: left;
+			font-size: 18px;
+			
+		}
+
+		float: left;
+		font-size: 24px;
+		text-align: center;
+		
+
+	}
+
+	.complete-container{
+		float: left;
+		border: 3px solid #000;
+		font-size: 1.4em;
+		padding: 20px;
+		font-family: 'century_gothic';
+		width: 55%;
+		float: left;
+		margin-left: 5%;
+		
+
+		span{
+
+			.input-container{width: 211px;border: none;border-bottom: 2px solid #000;}
+
+			div{display: inline-block;}
+
+			input[type=text]{
+				width: 180px;
+				text-align: center;
+				outline: none;
+				font-size: 24px;
+				background: transparent;
+				color: #333333;
+				border: none;
+				
+
+				@media(max-width: 992px){
+					font-size: 18px;
+				}
+
+				&:focus{
+					color: #ffffff;
+				}
+
+				&:disabled{
+					color:rgb(201, 201, 202);
+				}
+			}
+
+		}
+	}
+
+	// vocales con las nuevas consonantes
+	.letters{
+		text-align: center;
+
+		.syllable{
+			display: inline-block;
+			padding: 0 20px;
+			font-size: 2em;
+		}
+		
+	}
+
+	.right-answer, .wrong-answer{
+		$size: 25px;
+	    width: $size;
+	    height: $size;
+	    background-size: $size $size;
+	}
+}

@@ -1,0 +1,60 @@
+.liz-complete-words-select .wordsSelectRow {
+  padding: 0 106px;
+  margin-bottom: 20px;
+}
+.liz-complete-words-select .wordsSelectRow:first-child {
+  padding-top: 40px;
+}
+.liz-complete-words-select .wordsSelectRow:last-child {
+  padding-bottom: 20px;
+}
+.liz-complete-words-select .wordsSelectRow .blockNumber {
+  padding: 0 10px;
+}
+.liz-complete-words-select .wordsSelectRow .blockNumber > span {
+  padding: 8px 14px;
+  text-align: center;
+  color: #FFF;
+  display: block;
+  font-size: 20px;
+}
+.liz-complete-words-select .wordsSelectRow .wordsSelectText {
+  font-size: 20px;
+}
+.liz-complete-words-select .wordsSelectRow .wordsSelectText .input-container {
+  display: inline-block;
+  position: relative;
+}
+.liz-complete-words-select .wordsSelectRow .wordsSelectText .input-container select {
+  border: none;
+  background: transparent;
+  float: none;
+  min-width: 150px;
+  line-height: 26px;
+  /* outline: none;
+   display: inline-block;
+   text-indent: 0.01px;
+   padding: 3px;
+   text-overflow: "";
+   -moz-appearance: none;
+   -webkit-appearance: none;
+   -webkit-border-radius: 0;
+   -moz-border-radius: 0;
+   border-radius: 0;*/
+}
+.liz-complete-words-select .wordsSelectRow .wordsSelectText .input-container:after {
+  content: "";
+  width: 0;
+  height: 0;
+  right: 10px;
+  top: 17px;
+  position: absolute;
+  pointer-events: none;
+  border-right: 6px solid transparent;
+  border-left: 6px solid transparent;
+}
+.liz-complete-words-select .wordsSelectRow .wordsSelectText .input-container .wrong-answer, .liz-complete-words-select .wordsSelectRow .wordsSelectText .input-container .right-answer {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+}

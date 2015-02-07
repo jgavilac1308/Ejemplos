@@ -1,0 +1,107 @@
+@import "../bourbon/bourbon.scss";
+@import "../common/_mixins.scss";
+
+$td-size: 1.4em;
+
+.liz-crossword-with-letter{
+
+	.block-content{display: inline-block;}
+
+	//-------------------------------------------------------------
+	// pistas
+	//-------------------------------------------------------------
+	.clues{
+		width: 40%;
+		float: left;
+
+		h1{
+			margin-top: 0;
+
+		}
+	}
+
+	.clue{
+		@include transition(all 0.3s);
+
+		.number{ font-weight: bold; }
+		&.actived{ color: #fff; }
+
+		&.clue-img{
+			width: 33%;
+			float: left;
+			padding: 2px;
+		}
+	}
+	
+	//-------------------------------------------------------------
+	// crucigrama
+	//-------------------------------------------------------------
+	.crossword-container{
+		width: 60%;
+		float: right;
+		@include clearfix;
+	}
+
+	
+	table.crossword{
+		float: right;
+
+		// cada una de las celdas
+		td{
+			width: $td-size;
+			height: $td-size;
+			line-height: $td-size;
+			text-align: center;
+			position: relative;
+			padding: 0;
+			font-size: 30px;
+
+			// si es parte del crucigrama, agregamos el borde de cada celda
+			&.able{
+				border: 2px solid #000;
+				cursor: pointer;
+			}
+
+			// Cuadro de texto en cada uno
+			input[type="text"]{
+				width: $td-size;
+				height: $td-size;
+				line-height: $td-size;
+				text-align: center;
+				outline: none;
+				border: none;
+				@include transition(all 0.3s);
+			}
+
+			&.actived {
+				.number{ color: #fff; }
+				input[type="text"]{ color: #fff; }
+			}
+
+			&.main-actived {
+				.number{ color: #fff; } 
+				input[type="text"]{ color: #fff; }
+			}
+
+		}
+
+		// índice de cada palabra
+		.number{
+			position: absolute;
+			top: 0;
+			left: 0;
+			font-weight: bold;
+			font-size: 16px;
+			line-height: 16px;
+			@include transition(all 0.3s);
+		}
+	}
+
+	// Botón de verificación
+	.verify-button{
+		width: 100%;
+		float: right;
+		text-align: right;
+	}
+
+}

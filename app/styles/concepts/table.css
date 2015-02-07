@@ -1,0 +1,11 @@
+.liz-table > .block-content {
+  text-align: center;
+  padding: 6px; }
+.liz-table table {
+  width: 100%; }
+  .liz-table table th, .liz-table table td {
+    border: 3px solid; }
+  .liz-table table th {
+    color: #fff; }
+  .liz-table table td {
+    font-size: 18px; }

@@ -1,0 +1,151 @@
+@import "../common/_mixins.scss";
+
+.liz-group-classify-table{
+	
+	.liz-group-classify-table-inner{
+		
+	}
+
+	.item{
+
+		width: 100%; // 4 por columna
+		
+		.item-name{
+			width: 100%;
+			height: 100px;
+			text-align: center;
+			line-height: 100px;
+			color:white;
+
+			div{
+
+			}
+			.main-img{
+				float: left;
+				width: 100px;
+			}
+		}
+
+	}
+
+	.text-box{
+		width: 30%;
+		float: left;
+
+		&.with-groups{
+
+			width: 100%;
+
+
+			.block-content{
+
+				min-height: 0em;
+
+				p{
+				width: 23%;
+				float: left;
+				margin-left: 0.6em;
+				margin-top: 0.2em;
+				margin-bottom: 0.2em;
+
+				}
+			}	
+		}
+
+
+		.block{
+			min-height: 50px;
+			text-align: center!important;
+
+		}
+
+		.block-content{
+
+			width: 100%;
+			min-height: 10em;
+			padding: 0.6em;
+			border: 3px solid #000;
+			display: inline-block;
+			strong{
+				font-size: 20px!important;
+				text-decoration: underline;
+			}
+			
+			strong2{
+				font-size: 20px!important;
+			}
+
+			p{
+				width: 99%;
+				float: left;
+				margin-left: 0.6em;
+				margin-top: 0.2em;
+				margin-bottom: 0.2em;
+
+			}
+
+			.main-img{width: 100%;float: left;}
+		}
+	}
+
+
+	.complete-container{
+		float: left;
+		border: 3px solid #000;
+		font-size: 1.4em;
+		padding-bottom: 5px;
+		font-family: 'century_gothic';
+		width: 22%;
+		float: left;
+		margin-left: 1%;
+		margin-bottom: 1%;
+		
+
+		.complete-words-container{margin-left:1%;}
+
+		span{
+
+			.input-container{width: 98%;border: none;border-bottom: 2px solid #000;margin-left: 1%;position: relative;}
+
+			div{display: inline-block;}
+
+			input[type=text]{
+				width: 86%;
+				text-align: center;
+				outline: none;
+				font-size: 24px;
+				background: transparent;
+				color: #333333;
+				border: none;
+
+				
+
+				@media(max-width: 992px){
+					font-size: 18px;
+				}
+
+				&:focus{
+					color: #ffffff;
+				}
+
+				&:disabled{
+					color:rgb(201, 201, 202);
+				}
+			}
+
+		}
+	}
+
+	
+
+	.right-answer, .wrong-answer{
+		position: absolute;
+		margin-top: 5px;
+		$size: 25px;
+	    width: $size;
+	    height: $size;
+	    background-size: $size $size;
+	    top: 2px;
+	    right: 1px;
+	}
+}

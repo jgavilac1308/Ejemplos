@@ -1,0 +1,19 @@
+.liz-puzzle5 .block-content .puzzle2-canvas {
+  width: 100%;
+}
+.liz-puzzle5 .block-content .puzzle2-canvas .inner-canvas > img {
+  margin: auto;
+}
+.liz-puzzle5 .block-content .puzzle2-canvas .inner-canvas > .target {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  min-width: 4%;
+  min-height: 7%;
+  max-height: 7%;
+  background-color: #fff;
+}
+.liz-puzzle5 .block-content .puzzle2-canvas .inner-canvas > .target > .target-item {
+  width: 100% !important;
+  height: 25px !important;
+}

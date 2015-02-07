@@ -1,0 +1,24 @@
+.liz-select-all-correct-image-options .block-content .option-images .option-image {
+  margin-bottom: 24px; }
+  .liz-select-all-correct-image-options .block-content .option-images .option-image img {
+    display: inline-block; }
+  .liz-select-all-correct-image-options .block-content .option-images .option-image .option {
+    position: absolute;
+    cursor: pointer; }
+    .liz-select-all-correct-image-options .block-content .option-images .option-image .option.opt-completed {
+      background: rgba(12, 100, 233, 0.5); }
+    .liz-select-all-correct-image-options .block-content .option-images .option-image .option.complete-1 {
+      border: 3px solid;
+      border-radius: 50%;
+      background: transparent; }
+    .liz-select-all-correct-image-options .block-content .option-images .option-image .option.is-true {
+      background: rgba(0, 255, 10, 0.23) !important; }
+    .liz-select-all-correct-image-options .block-content .option-images .option-image .option.is-false {
+      background: rgba(0, 25, 211, 0.23) !important; }
+.liz-select-all-correct-image-options .right-answer, .liz-select-all-correct-image-options .wrong-answer {
+  height: 70px;
+  width: 70px;
+  background-size: 70px 70px;
+  position: absolute;
+  left: 36px;
+  bottom: 16px; }

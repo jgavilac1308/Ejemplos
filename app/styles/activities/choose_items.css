@@ -1,0 +1,34 @@
+.liz-choose-items .letter {
+  font-size: 5.8em;
+  cursor: pointer;
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+.liz-choose-items .letter:hover {
+  color: #fff !important;
+}
+.liz-choose-items .choose-items-img {
+  float: left;
+  padding: 4px;
+  cursor: pointer;
+}
+.liz-choose-items .row-container {
+  position: absolute;
+  bottom: 10%;
+  width: 94%;
+}
+.liz-choose-items .item-text-container {
+  padding: 5px;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+.liz-choose-items .face {
+  margin-left: -72px;
+  width: 124px;
+  left: 50%;
+  z-index: 6;
+  top: 20%;
+}

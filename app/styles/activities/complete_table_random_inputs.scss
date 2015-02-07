@@ -1,0 +1,33 @@
+.liz-complete-table-random-inputs {
+	.tableImageInputs {
+
+		thead th {
+			font-size: 24px;
+		}
+
+		.random-inputs {
+			background-color: none;
+			font-size: 20px;
+
+			&.random-inputs-with-text {
+				background-color: rgba(249, 223, 217, 0.5) !important;
+			}
+
+			.random-inputs-input {
+				text-align: center;
+				font-size: 20px;
+				float: left;
+				height: 50px;
+			}
+
+			.wrong-answer, .right-answer {
+				width: 25px !important;
+				height: 25px !important;
+				background-size: 25px 25px !important;
+				position: absolute !important;
+				right: 5px !important;
+				top: 3px !important
+			}
+		}
+	}
+}

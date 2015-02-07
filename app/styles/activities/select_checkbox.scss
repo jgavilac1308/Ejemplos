@@ -1,0 +1,94 @@
+@import "../bourbon/bourbon";
+@import "../common/_mixins";
+@import "../common/themes";
+
+.liz-select-checkbox {
+
+  > .block-content {
+    @include clearfix;
+  }
+
+  .questions {
+    @include clearfix;
+    margin-bottom: 20px;
+    /* border-bottom: 2px solid rgb(226, 223, 223); */
+
+    .items-title{
+      display: inline-block;
+    }
+
+    .items-text{
+      font-size: 20px;
+      float: left;
+      display: inline-block;
+      max-width: 93%;
+    }
+
+    .items-number{
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      font-size: 20px;
+      float: left;
+      margin-right: 10px;
+      text-align: center;
+      color: white;
+    }
+  }
+  .items{
+    display: inline-block;
+    margin-top: 10px;
+    width: 100%;
+    .item {
+      float: left;
+      font-size: 22px;
+      margin-left: 1%;
+    }
+
+  }
+  
+
+  // Caras
+  .face{
+    margin-left: -72px;
+    width: 124px;
+    left: 50%;
+    z-index: 6;
+  }
+
+  .feedback {
+    font-size: 23px;
+  }
+
+  .items-big{
+
+    &.questions{
+
+      border: 3px solid; 
+      @extend .bd-1;
+    }
+    .items-title{
+
+      width: 100%!important;
+
+    }
+
+    .items-text{
+      
+      @extend .bg-1;
+      color: white;
+      text-align: center;
+      width: 100%!important;
+      font-size: 30px!important;
+      max-width: 100%!important;    
+    }
+
+    .item{
+
+      font-size: 30px!important;
+    }
+
+
+  }
+}

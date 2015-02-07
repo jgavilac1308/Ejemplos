@@ -1,0 +1,156 @@
+@import "../common/_mixins.scss";
+
+.liz-group-complete-text{
+	
+	.liz-group-complete-text-inner{
+		
+	}
+
+	.item{
+
+		width: 70%; // 4 por columna
+		
+		.item-name{
+			width: 100%;
+			height: 108px;
+			text-align: center;
+			padding-top: 20px;
+			color:white;
+		}
+
+		
+
+		// Clases para definir el tamaño
+		@for $i from 1 through 6{
+			&.per-row-#{$i}{ width: (99%/$i); }
+		}
+
+		@media(max-width: 992px){
+			width: 50%;
+			text-align: left;
+			font-size: 18px;
+			
+		}
+
+		float: left;
+		font-size: 24px;
+		text-align: center;
+		
+
+	}
+
+	.complete-container{
+		float: left;
+		position: relative;
+		border: 3px solid #000;
+		font-size: 1.4em;
+		padding: 5px;
+		font-family: 'century_gothic';
+		width: 98%;
+		float: left;
+		margin-left: 1%;
+		margin-bottom: 1%;
+
+		
+		
+		.complete-words-container{margin-left:1%;}
+
+		div{
+
+			.input-container{width: 211px;border: none;border-bottom: 2px solid #000;margin-left: 1%;}
+
+			div{display: inline-block;}
+
+			textarea[type=text]{
+				width: 29%;
+				outline: none;
+				font-size: 24px;
+				background: transparent;
+				display: inline-block;
+				color: #333333;
+								
+
+				@media(max-width: 992px){
+					font-size: 18px;
+				}
+
+				&:focus{
+					color: #ffffff;
+				}
+
+				&:disabled{
+					color:rgb(201, 201, 202);
+				}
+			}
+
+		}
+	}
+
+	// vocales con las nuevas consonantes
+	.letters{
+		text-align: center;
+
+		.syllable{
+			display: inline-block;
+			padding: 0 20px;
+			font-size: 2em;
+		}
+		
+	}
+
+	.items-small{
+
+		.item{
+
+			width: 50%!important;
+
+			.item-name{
+
+				font-size: 50px;
+			}
+		}
+
+		.complete-words-container{
+			float:left;
+			width: 49%!important;
+
+			textarea[type=text]{
+				
+				width: 100%!important;
+				font-size: 70px!important;
+				line-height: 34px;
+			}
+
+			.right-answer, .wrong-answer{
+				position: absolute;
+				bottom: 20px;
+				right: 10px;
+				$size: 30px;
+			    width: $size;
+			    height: $size;
+			    background-size: $size $size;
+			}
+		}
+	}
+
+	textarea::-webkit-input-placeholder {
+      font-size: 24px!important;
+    }
+    textarea:-moz-placeholder {
+      font-size: 24px!important; 
+    }
+    textarea:-ms-input-placeholder { 
+      font-size: 24px!important; 
+    }
+
+
+	.right-answer, .wrong-answer{
+		position: absolute;
+		bottom: 10px;
+		right: 10px;
+		$size: 50px;
+	    width: $size;
+	    height: $size;
+	    background-size: $size $size;
+	}
+}

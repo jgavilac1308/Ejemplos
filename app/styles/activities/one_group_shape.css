@@ -1,0 +1,54 @@
+.liz-one-group-shape .items {
+  width: 50%;
+  float: left;
+  *zoom: 1;
+}
+.liz-one-group-shape .items:before, .liz-one-group-shape .items:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.liz-one-group-shape .items:after {
+  clear: both;
+}
+.liz-one-group-shape .item {
+  width: 33%;
+  float: left;
+  cursor: pointer;
+}
+.liz-one-group-shape .group-container {
+  width: 50%;
+  float: right;
+  text-align: center;
+}
+.liz-one-group-shape .canvas-container {
+  display: inline-block;
+  position: relative;
+}
+.liz-one-group-shape .group {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  height: 0;
+  width: 100%;
+  height: 100%;
+}
+.liz-one-group-shape .group-item {
+  position: absolute;
+}
+.liz-one-group-shape .group-item img {
+  -webkit-animation: scale1 0.4s ease-out;
+  -moz-animation: scale1 0.4s ease-out;
+  animation: scale1 0.4s ease-out;
+  -webkit-transform-origin: center center;
+  -moz-transform-origin: center center;
+  -ms-transform-origin: center center;
+  -o-transform-origin: center center;
+  transform-origin: center center;
+}
+.liz-one-group-shape .face {
+  margin-left: -72px;
+  width: 124px;
+  left: 50%;
+  z-index: 6;
+}

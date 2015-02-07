@@ -1,0 +1,20 @@
+.liz-drop-condition .items {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px; }
+.liz-drop-condition .targets {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around; }
+.liz-drop-condition .target {
+  border: 2px solid #000;
+  width: 5em;
+  height: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+.liz-drop-condition .face {
+  margin-left: -72px;
+  width: 124px;
+  left: 50%;
+  z-index: 6; }

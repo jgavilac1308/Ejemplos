@@ -1,0 +1,59 @@
+.liz-choose-correct-option {
+
+	.block-content {
+		padding-top: 30px;
+		
+		.correctOptionActRow {
+			padding: 0 20px;
+			width: 80%;
+			margin-bottom: 10px;
+			border: 3px solid #009500;
+			position: relative;
+            min-height: 77px;
+            display: table;
+
+			.correctOptionActMainCol {
+				border-right: 3px solid #009500;
+                font-size: 20px;
+                display: table-cell;
+                vertical-align: middle;
+                min-height: 71px;
+                width: 100%;
+                padding: 5px 0;
+			}
+
+			.correctOptionActOptions {
+                display: table-cell;
+                vertical-align: middle;
+                float: none;
+
+				& > div {
+                    display: table-cell !important;
+                    vertical-align: middle !important;
+                    float: none !important;
+
+                    .correctOptionActOption {
+                        border: 2px solid #005300 !important;
+                        background-color: #009500 !important;
+                        color: #FFFFFF !important;
+                        font-size: 20px;
+                        min-width: 100px;
+
+                        &:hover, &:focus {
+                            background-color: #00B000 !important;
+                        }
+                    }
+                }
+			}
+
+			.right-answer, .wrong-answer {
+				width: 40px;
+				height: 40px;
+				background-size: 40px 40px;
+				position: absolute;
+				right: -49px;
+				top: 2px;
+			}
+		}
+	}
+}

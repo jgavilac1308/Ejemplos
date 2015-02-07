@@ -1,0 +1,16 @@
+.liz-differences .images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+.liz-differences .images img {
+  margin: 0 1em;
+  max-height: 260px;
+}
+.liz-differences .inputs input[type="text"] {
+  outline: none;
+  margin-bottom: 10px;
+  font-size: 20px;
+  padding: 4px 6px;
+}

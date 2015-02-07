@@ -1,0 +1,37 @@
+.liz-show-parts .canvas {
+  width: 50%;
+  float: left;
+  position: relative; }
+.liz-show-parts .item {
+  position: absolute; }
+.liz-show-parts .item-title {
+  width: 4em;
+  height: 4em;
+  line-height: 4em;
+  float: right;
+  color: #fff;
+  text-align: center;
+  display: block;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out; }
+  .liz-show-parts .item-title.is-selected {
+    z-index: 2;
+    box-shadow: 0px 0px 0px 5px #272727; }
+.liz-show-parts .item-line {
+  background: #272727;
+  width: calc(100% - ( 4em / 2 ) );
+  height: 4px;
+  margin-top: calc(2em - 2px); }
+.liz-show-parts .text-box {
+  width: 50%;
+  float: left;
+  padding: 0.6em; }
+  .liz-show-parts .text-box .block {
+    min-height: 50px; }
+  .liz-show-parts .text-box .block-content {
+    min-height: 10em;
+    padding: 0.6em; }

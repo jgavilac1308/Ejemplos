@@ -1,0 +1,47 @@
+.liz-show-description-images-sound .main-img {
+  width: 100%;
+}
+.liz-show-description-images-sound .conceptsImagesMainContent {
+  width: 100%;
+  margin: 0 auto;
+}
+.liz-show-description-images-sound .conceptsImagesMainContent .conceptImagesRow {
+  margin-bottom: 10px;
+}
+.liz-show-description-images-sound .conceptsImagesMainContent .conceptImagesRow .inner-title {
+  padding: 8px;
+  width: 100%;
+  background-color: #009500;
+  color: #FFF;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+.liz-show-description-images-sound .conceptsImagesMainContent .conceptImagesRow .inner-title.is-selected {
+  box-shadow: 0px 0px 0px 5px #272727;
+}
+.liz-show-description-images-sound .conceptsImagesMainContent .conceptsImagesBox {
+  display: inline-flex;
+  width: 100%;
+}
+.liz-show-description-images-sound .conceptsImagesMainContent .conceptsImagesBox .sonido {
+  float: left;
+}
+.liz-show-description-images-sound .conceptsImagesMainContent .conceptsImagesBox .titulo {
+  float: left;
+  width: 50%;
+}
+.liz-show-description-images-sound .conceptsImagesMainContent .conceptsImagesBox .imagen {
+  float: right;
+}
+.liz-show-description-images-sound .conceptsImagesMainContent .conceptsImagesBox > div {
+  width: 100%;
+  min-height: 130px;
+  border-top-width: 2px;
+}
+.liz-show-description-images-sound .conceptsImagesMainContent .conceptsImagesBox .conceptsImagesCol {
+  width: 100%;
+}

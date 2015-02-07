@@ -1,0 +1,85 @@
+@import "../bourbon/bourbon.scss";
+@import "../common/_mixins.scss";
+
+$color1: #BD0926;
+
+.liz-operation-input{
+
+	img{
+		max-height: 265px;
+	}
+
+	.units{
+		width: 55%;
+		@include clearfix;
+		float: left;
+	}
+
+	.unit{
+		width: 50%;
+		float: left;
+		padding: 0 4px;
+	}
+
+	.unit-inner{
+		border: 3px solid $color1;
+		border-radius: 2px;
+	}
+
+	input[type="text"]{
+		border: 2px solid $color1;
+		display: block;
+		margin: 0 auto 6px;
+		font-size: 22px;
+		width: 4em;
+		outline: none;
+		text-align: center;
+
+		&:focus{
+			background: $color1;
+			color: #fff;
+		}
+	}
+
+	.total{
+		width: 45%;
+		float: left;
+		padding: 0 4px;
+	}
+
+	.total-inner{
+		border: 3px solid $color1;
+		border-radius: 2px;
+		text-align: center;
+
+		img{
+			display: inline-block;
+		}
+	}
+
+	.total-inputs{
+		font-size: 22px;
+
+		.total-operation{
+			border: 2px solid $color1;
+			display: inline-block;
+			width: 4em;
+			outline: none;
+			text-align: center;
+		}
+
+		input[type="text"]{
+			display: inline-block;
+		}
+
+	}
+
+	// Caras 
+	.face{
+		margin-left: -72px;
+		width: 124px;
+		left: 50%;
+		z-index: 6;
+	}
+
+}

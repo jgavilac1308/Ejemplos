@@ -1,0 +1,120 @@
+@import "../common/_mixins.scss";
+
+.liz-group-complete-yes-not{
+	
+	.liz-group-complete-yes-not-inner{
+		
+	}
+
+	.item{
+
+		width: 77%; // 4 por columna
+		
+		.item-name{
+			width: 88%;
+			height: 108px;
+			text-align: center;
+			color:white;
+			margin-top: 0;
+			float: left;
+			margin-left: 1%;
+			padding-top: 30px;
+		}
+
+		.item-number{
+			width: 10%;
+			height: 108px;
+			text-align: center;
+			line-height: 108px;
+			color:white;
+			float: left;
+		}
+		
+
+		// Clases para definir el tamaño
+		@for $i from 1 through 6{
+			&.per-row-#{$i}{ width: (99%/$i); }
+		}
+
+		@media(max-width: 992px){
+			width: 50%;
+			text-align: left;
+			font-size: 18px;
+			
+		}
+
+		float: left;
+		font-size: 24px;
+		text-align: center;
+		
+
+	}
+
+	.complete-container{
+		float: left;
+		border: 3px solid #000;
+		font-size: 1.4em;
+		padding: 5px;
+		font-family: 'century_gothic';
+		width: 98%;
+		float: left;
+		margin-left: 1%;
+		margin-bottom: 1%;
+		
+		.complete-words-container{margin-left:1%;}
+
+		span{
+
+			.input-container{width: 211px;border: none;border-bottom: 2px solid #000;margin-left: 1%;}
+
+			/* div{display: inline-block;} */
+
+			button{
+				width: 10%!important;
+				height:108px; 
+				outline: none;
+				font-size: 24px;
+				color: #333333;
+				margin-top: 0;
+				float: right;
+				margin-right: 1%;
+								
+
+				@media(max-width: 992px){
+					font-size: 18px;
+				}
+
+				&:focus{
+					color: #ffffff;
+				}
+
+				&:disabled{
+					background-color:rgb(201, 201, 202);
+				}
+			}
+
+		}
+	}
+
+	// vocales con las nuevas consonantes
+	.letters{
+		text-align: center;
+
+		.syllable{
+			display: inline-block;
+			padding: 0 20px;
+			font-size: 2em;
+		}
+		
+	}
+
+	.right-answer, .wrong-answer{
+		position: absolute;
+		margin-top:0%;
+		left: 69%;
+		$size: 50px;
+	    width: $size;
+	    height: $size;
+	    background-size: $size $size;
+	}
+}

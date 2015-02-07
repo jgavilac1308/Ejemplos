@@ -1,0 +1,23 @@
+.liz-tangram #kinetic-container {
+  z-index: 160;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 960px;
+  height: 650px;
+  border-radius: 2px;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.7); }
+.liz-tangram .block-content {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+.liz-tangram .face {
+  margin-left: -72px;
+  width: 124px;
+  left: 50%;
+  top: 60%;
+  z-index: 161; }

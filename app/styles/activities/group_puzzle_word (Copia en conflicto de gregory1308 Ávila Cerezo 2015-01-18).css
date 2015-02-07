@@ -1,0 +1,91 @@
+.liz-group-puzzle-word .group {
+  width: 100%;
+  height: 100px;
+  border: solid 3px;
+  float: left;
+  margin-bottom: 50px;
+}
+.liz-group-puzzle-word .group.row-2 {
+  width: 46%;
+  margin-left: 2.5%;
+}
+.liz-group-puzzle-word .section {
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+  float: left;
+  display: flex;
+  justify-content: space-around;
+}
+.liz-group-puzzle-word .section.section1 {
+  padding: 10px 42px;
+  border-right: solid 1px #ededed;
+}
+.liz-group-puzzle-word .items {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.liz-group-puzzle-word .item {
+  width: 72px;
+  height: 72px;
+  display: inline-block;
+  color: #ffffff;
+  cursor: move;
+  padding: 10px;
+  /* border-radius: 3px; */
+  font-size: 35px;
+  text-align: center;
+}
+.liz-group-puzzle-word .item.disabled {
+  background: #ededed !important;
+  color: #A5A5A5;
+  cursor: no-drop;
+}
+.liz-group-puzzle-word .item.no-cursor {
+  cursor: default !important;
+}
+.liz-group-puzzle-word .is-true {
+  background: rgba(0, 255, 10, 0.23);
+}
+.liz-group-puzzle-word .is-false {
+  background: rgba(0, 25, 211, 0.23);
+}
+.liz-group-puzzle-word .drop-container {
+  display: inline-block;
+  width: 74px;
+  height: 74px;
+  /* border-radius: 4px; */
+  border: 2px solid #000;
+  min-height: 36px;
+  margin-bottom: -9px;
+  position: relative;
+  -webkit-transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+.liz-group-puzzle-word .drop-container.large {
+  width: 200px;
+}
+.liz-group-puzzle-word .drop-container.disabled {
+  background: #ededed;
+}
+.liz-group-puzzle-word .answer-icon, .liz-group-puzzle-word .icon-right, .liz-group-puzzle-word .icon-wrong {
+  width: 1.5em;
+  height: 1.5em;
+  background-size: 1.5em;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin: auto;
+  top: 1px;
+  right: 2%;
+  -webkit-animation: scale1 0.5s ease-in forwards;
+  -moz-animation: scale1 0.5s ease-in forwards;
+  animation: scale1 0.5s ease-in forwards;
+}
+.liz-group-puzzle-word .icon-right {
+  background-image: url("../resources/common/icon_right.png");
+}
+.liz-group-puzzle-word .icon-wrong {
+  background-image: url("../resources/common/icon_wrong.png");
+}

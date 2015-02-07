@@ -1,0 +1,50 @@
+.liz-correct-word-in-sentence {
+
+  .block-content {
+
+    .hover-words-row {
+      padding: 2% 10;
+      margin-left: 10%;
+
+      .answer_ok{
+        color:  #d44a27;
+      }
+
+      .number {
+        color: #fff;
+        display: inline-block;
+        font-size: 26px;
+        width: 1.4em;
+        height: 1.4em;
+        line-height: 1.4em;
+        text-align: center;
+        margin-right: 9px;
+      }
+
+      .hover-phrase-phrases {
+        font-size: 23px;
+        padding-top: 80px;
+
+        .float{
+          color:red;
+          float: left;
+        }
+      }
+    }
+
+
+    .right-answer, .wrong-answer {
+      width: 40px;
+      height: 40px;
+      display: block;
+      float: left;
+      // -webkit-background-size: 50px 50px;
+      background-size: 30px 30px;
+      //right: 100px;
+      //top: 25%;
+      //position: absolute;
+    }
+
+
+  }
+}

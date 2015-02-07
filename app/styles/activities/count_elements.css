@@ -1,0 +1,38 @@
+.liz-count-elements .numbers {
+  width: calc(30% - 1em);
+  margin-right: 1em;
+  min-height: 10em;
+  float: left; }
+.liz-count-elements .number {
+  font-size: 1.6em;
+  line-height: 1.6em;
+  background: #000;
+  width: 1.6em;
+  height: 1.6em;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 7px;
+  border-radius: 50%;
+  cursor: pointer; }
+.liz-count-elements .targets {
+  width: 70%;
+  float: left; }
+  .liz-count-elements .targets .target {
+    width: 100%;
+    margin-bottom: 2px;
+    float: left; }
+  .liz-count-elements .targets .sortable {
+    width: 2.9em;
+    height: 2.9em;
+    float: left;
+    border: 3px solid #000;
+    margin-right: 5px;
+    border-radius: 2px; }
+  .liz-count-elements .targets .images img {
+    display: inline-block;
+    max-height: 2.4em; }
+.liz-count-elements .face {
+  margin-left: -72px;
+  width: 124px;
+  left: 50%;
+  z-index: 6; }

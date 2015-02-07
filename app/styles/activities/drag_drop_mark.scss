@@ -1,0 +1,131 @@
+@import "../common/animations.scss";
+
+.liz-drag-drop-mark{
+
+	.marks{
+		text-align: center;
+		margin-bottom: -35px;
+	}
+
+	._mark{
+		$size: 70px;
+
+		width: $size;
+		height: $size;
+		background-size: $size $size;
+		cursor: pointer;
+		position: relative;
+		z-index: 4;
+		display: inline-block;
+	}
+
+	.right-mark{
+		@extend ._mark;
+		background-image: url('../resources/common/icon_right.png');
+	}
+
+	.wrong-mark{
+		@extend ._mark;
+		background-image: url('../resources/common/icon_wrong.png');
+	}
+
+
+	.items{
+
+		.item {
+			width: 33.33%;
+			float: left;
+			position: relative;
+			text-align: center;
+
+			img{
+				position: relative;
+				z-index: 3;
+				display: inline-block;
+				max-height: 200px;
+			}
+
+			// Donde se sueltan las marcas
+			.target{
+				position: absolute;
+				bottom: 0;
+				right: 0;
+				width: 75px;
+				height: 75px;
+				border: 2px solid #000;
+				background: #fff;
+
+				.right-mark, .wrong-mark{
+					@include animation(scale1 0.4s ease-in); 
+				}
+			}
+		}
+	}
+
+	// Clases personalizadas
+	.items.text {
+		margin-top: 40px;
+
+		.item {
+			width: 100%;
+			margin-bottom: 4px;
+
+			p {
+				margin: 0;
+				padding: 9px 5px;
+				margin-left: 78px;
+				color: #FFF;
+				text-align: left;
+			}
+		}
+		
+		.target {
+			float: left;
+			position: relative;
+		}
+
+	}
+
+	.items-with-questions{
+
+		.item-question{
+		min-height: 30px;
+		margin-top: 50px;
+		font-size: 25px;
+		width: 85%!important;
+		display: inline-block;
+		
+		}
+		.item-number{
+			display: inline-block;
+			height: 50px;
+			font-size: 25px;
+			width: 50px!important;
+			line-height: 50px;
+			text-align: center;
+			margin-right: 10px;
+			color: white;
+		}
+
+		.item{
+
+			text-align: start!important;
+			min-height: 100px;
+			width: 100%!important;
+		}
+
+
+	}
+
+	
+
+
+	// Caras 
+	.face{
+		margin-left: -72px;
+		width: 124px;
+		left: 50%;
+		z-index: 6;
+	}
+
+}

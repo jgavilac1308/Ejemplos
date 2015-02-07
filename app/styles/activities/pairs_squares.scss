@@ -1,0 +1,52 @@
+.liz-pairs-squares{
+
+	// Cuadros donde van a dar los elementos definidos
+	.squares{
+		float: left;
+		width: 40%;
+		padding: 15px;
+
+		._square{
+			$size: 95px;
+
+			width: $size;
+			height: $size;
+			border: 2px solid #000;	
+			float: left;
+			margin-bottom: 10px;
+		}
+		
+		.square1{
+			@extend ._square;
+			margin-right: 10px;
+		}
+
+		.square2{
+			@extend ._square;
+		}
+	}
+
+	// Pila de elementos
+	.stack {
+		float: right;
+		width: 60%;
+
+		.item{
+			$size: 60px;
+
+			width: $size;
+			height: $size;
+			float: left;
+		}
+		
+	}
+	
+	// Caras 
+	.face{
+		margin-left: -72px;
+		width: 124px;
+		left: 50%;
+		z-index: 6;
+	}
+
+}

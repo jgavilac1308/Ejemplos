@@ -1,0 +1,48 @@
+@import "../common/_mixins";
+
+.liz-sequences{
+
+	// Draggables
+	.draggables{
+		@include align-children;
+	}
+	
+	.draggable{
+		padding: 20px;
+		cursor: pointer;
+
+		img{
+			max-width: 120px;
+		}
+	}
+
+	// Secuencia
+	.sequence{
+		border: 2px solid #000;
+		overflow: hidden;
+		@include clearfix;
+	}
+
+	.sequence-item{
+		border-right: 2px solid #000;
+		padding: 2px; // Sin el padding presenta errores en contenedores vacíos
+		float: left;
+
+		// hack para definir el height al 100% del padre
+		@include full-height-child;
+		
+		&:last-child{
+			border-right: none;
+		}
+
+	}
+
+	// icono de correcto/incorrecto
+	.face{
+		margin-left: -72px;
+		width: 124px;
+		left: 50%;
+		z-index: 6;
+	}
+
+}

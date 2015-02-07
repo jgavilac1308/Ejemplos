@@ -1,0 +1,61 @@
+.liz-drag-to-img  .items {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.liz-drag-to-img  .item {
+  display: inline-block;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 4px 6px;
+  border-radius: 3px;
+  font-size: 18px;
+}
+.liz-drag-to-img  .main-img {
+  width: 50%;
+}
+.liz-drag-to-img  .template-container {
+  font-size: 22px;
+  width: 77%;
+  float: left;
+  line-height: 32px;
+  border: 2px solid;
+  padding: 0px 17px;
+}
+.liz-drag-to-img  .drop-container {
+  display: inline-block;
+  width: 100px;
+  border: 2px solid #000;
+  min-height: 36px;
+  margin-bottom: -9px;
+  position: relative;
+  -webkit-transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+.liz-drag-to-img  .drop-container.large {
+  width: 200px;
+}
+.liz-drag-to-img  .drop-container.disabled {
+  background: #ededed;
+}
+.liz-drag-to-img  .answer-icon, .liz-drag-to-img  .icon-right, .liz-drag-to-img  .icon-wrong {
+  width: 1.5em;
+  height: 1.5em;
+  background-size: 1.5em;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 3px;
+  -webkit-animation: scale1 0.5s ease-in forwards;
+  -moz-animation: scale1 0.5s ease-in forwards;
+  animation: scale1 0.5s ease-in forwards;
+}
+.liz-drag-to-img  .icon-right {
+  background-image: url("../resources/common/icon_right.png");
+}
+.liz-drag-to-img  .icon-wrong {
+  background-image: url("../resources/common/icon_wrong.png");
+}

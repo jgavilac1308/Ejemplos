@@ -1,0 +1,23 @@
+@import "../bourbon/bourbon";
+
+.liz-watch{
+
+	.block-content{
+		text-align: center;
+		padding: 4px 6px;
+	}
+
+	.item{
+		display: inline-block;
+		position: relative;
+		padding: 5px;
+		text-align: center;
+
+		img{
+			display: inline-block;
+			max-height: 256px;
+		}
+
+	}
+
+}

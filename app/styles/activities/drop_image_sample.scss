@@ -1,0 +1,63 @@
+@import "../bourbon/bourbon";
+@import "../common/_mixins.scss";
+
+.liz-drop-image-sample{
+
+	& > .block-content {
+		padding: 0;
+	}
+
+	// Items
+	.items {
+		position: relative;
+	}
+
+	.item {
+		position: absolute; // las coordenadas las fijamos usando javascript
+		cursor: pointer;
+		padding: 5px;
+	}
+
+
+	// Canvas
+	.canvas-container {
+		text-align: center;
+	}
+
+	.inner-canvas {
+		display: inline-block;
+		position: relative; // Debe ser relativo para poder organizar los targets
+	}
+
+
+	// targets
+	.target {
+		position: absolute;
+		/* background: rgba(0, 0, 0, 0.5); // Para depurar */
+	}
+
+	.target-inner {
+		position: relative;
+	}
+
+	// así podemos organizar mejor cada elemento dentro de cada target
+	.target-inner-inner {
+		position: absolute;
+	}
+
+	// Samples
+	.sample {
+		margin-top: 0.2em;
+	}
+
+	// Caras 
+	.face {
+		margin-left: -72px;
+		width: 124px;
+		left: 50%;
+		z-index: 6;
+	}
+
+
+}
+

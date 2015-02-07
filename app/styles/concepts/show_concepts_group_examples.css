@@ -1,0 +1,154 @@
+.liz-show-concepts-group-examples .block .clearfix span strong {
+  color: black;
+}
+.liz-show-concepts-group-examples .group-container {
+  float: left;
+  border: 3px solid #000;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+.liz-show-concepts-group-examples .group-container .group-title {
+  width: 190px;
+  height: 190px;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.liz-show-concepts-group-examples .group-container .group-title .group-subtitle {
+  font-size: 16px;
+  padding: 0 5px;
+}
+.liz-show-concepts-group-examples .textbox1 {
+  min-width: 15%;
+  min-height: 150px;
+  float: left;
+  display: table;
+}
+.liz-show-concepts-group-examples .textbox1 .main-img {
+  width: 190px;
+  float: left;
+}
+.liz-show-concepts-group-examples .text-box {
+  width: 70%;
+  float: left;
+  padding: 0.6em;
+}
+.liz-show-concepts-group-examples .text-box p {
+  width: 69%;
+  float: left;
+  margin-left: 0.6em;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+.liz-show-concepts-group-examples .item {
+  width: 10%;
+  float: left;
+  font-size: 24px;
+  text-align: center;
+}
+.liz-show-concepts-group-examples .item .item-title {
+  width: 99%;
+  height: 108px;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+  margin-left: 1%;
+}
+.liz-show-concepts-group-examples .item.per-row-1 {
+  width: 99%;
+}
+.liz-show-concepts-group-examples .item.per-row-2 {
+  width: 49.5%;
+}
+.liz-show-concepts-group-examples .item.per-row-3 {
+  width: 33%;
+}
+.liz-show-concepts-group-examples .item.per-row-4 {
+  width: 24.75%;
+}
+.liz-show-concepts-group-examples .item.per-row-5 {
+  width: 19.8%;
+}
+.liz-show-concepts-group-examples .item.per-row-6 {
+  width: 16.5%;
+}
+@media (max-width: 992px) {
+  .liz-show-concepts-group-examples .item {
+    width: 50%;
+    text-align: left;
+    font-size: 18px;
+  }
+}
+.liz-show-concepts-group-examples .complete-container {
+  position: relative;
+  float: left;
+  border: 3px solid transparent;
+  font-size: 1.4em;
+  padding: 5px;
+  font-family: 'century_gothic';
+  width: 80%;
+  float: left;
+  margin-left: 1%;
+}
+.liz-show-concepts-group-examples .complete-container .complete-words-container {
+  margin-left: 1%;
+}
+.liz-show-concepts-group-examples .complete-container span .item-text {
+  float: left;
+  width: 89%;
+  margin-left: 5px;
+}
+.liz-show-concepts-group-examples .letters {
+  text-align: center;
+}
+.liz-show-concepts-group-examples .letters .syllable {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 2em;
+}
+.liz-show-concepts-group-examples .show-concepts-group-examples-small {
+  width: 48% !important;
+  margin-right: 10px;
+}
+.liz-show-concepts-group-examples .show-concepts-group-examples-small .complete-container {
+  width: 56% !important;
+}
+.liz-show-concepts-group-examples .show-concepts-group-examples-small .complete-container .item {
+  width: 33% !important;
+}
+.liz-show-concepts-group-examples .show-concepts-group-examples-small .complete-container .item-text {
+  width: 64%;
+}
+.liz-show-concepts-group-examples .width50 {
+  width: 48%;
+  margin-right: 2%;
+}
+.liz-show-concepts-group-examples .width50 .group-title {
+  height: 305px;
+}
+.liz-show-concepts-group-examples .width50 .complete-container {
+  width: 58%;
+}
+.liz-show-concepts-group-examples .width50 .complete-container .item {
+  width: 100% !important;
+}
+.liz-show-concepts-group-examples .width50 .complete-container .item img {
+  width: 100% !important;
+}
+.liz-show-concepts-group-examples .width50 .complete-container .item-text {
+  text-align: center;
+  width: 100% !important;
+}
+.liz-show-concepts-group-examples .right-answer, .liz-show-concepts-group-examples .wrong-answer {
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+  right: 15px;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+}

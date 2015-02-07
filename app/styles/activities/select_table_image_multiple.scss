@@ -1,0 +1,83 @@
+.liz-image-map-description {
+	.block-content {
+
+		.image-table-content {
+			width: 70%;
+			margin: 0 auto;
+
+			& > thead th {
+				background-color: #0c64e9;
+				padding: 10px;
+				color: #FFF;
+				border: 2px solid #FFF;
+			}
+
+			.image-table-rows {
+				border: 2px solid #FFF;
+				border-bottom-color: #0c64e9;
+				
+				.image-table {
+					padding: 0 18px;
+
+					& > img {
+						border: 2px solid #0c64e9;
+					}
+				}
+
+				.image-table-images-options {
+					position: relative;
+					padding: 10px;
+
+					.image-options {
+						position: relative;
+					}
+
+					.image-option {
+						position: absolute;
+						cursor: pointer;
+					}
+				}
+			}
+		}
+
+		.disabled-option {
+			cursor: default !important;
+		}
+
+		.option-red {
+			border: 1px solid #FFF;
+			background-color: #df0209;
+		}
+
+		.option-yellow {
+			border: 1px solid #FFF;
+			background-color: #ffef00;
+		}
+
+		.option-green {
+			border: 1px solid #FFF;
+			background-color: #008f2f;
+		}
+
+		.option-person-red {
+			background-image: url(../resources/02/soc/06/rojo_peatonal_posterior.png);
+			-webkit-background-size: 75px 75px;
+			background-size: 75px 75px;
+		}
+
+		.option-person-green {
+			background-image: url(../resources/02/soc/06/verde_peatonal_posterior.png);
+			-webkit-background-size: 80px 79px;
+			background-size: 75px 75px;
+		}
+
+		.right-answer, .wrong-answer {
+			height: 50px;
+			width: 50px;
+			background-size: 50px 50px;
+			position: absolute;
+			right: -6px;
+			top: -2px;
+		}
+	}
+}

@@ -1,0 +1,199 @@
+@import "../bourbon/bourbon";
+
+$icon-size: 38px;
+
+.liz-pairs-inputs {
+
+	&.default {
+		.block-content{
+			text-align: center;
+			padding: 4px 6px;
+		}
+
+		.input-groups{
+			width: 48%;
+			margin-right: 2%;
+			float: left;
+		}
+
+		.input-group{
+			border: 2px solid #000;
+			width: 100%;
+			margin-bottom: 3px;
+			padding: 2px;
+			font-size: 22px;
+			position: relative;
+
+			.input-text{
+				display: inline-block;
+				float: left;
+				cursor: pointer;
+				text-align: left;
+				padding: 4px 6px;
+			}
+
+			input[type="text"]{
+				float: right;
+				border-width: 2px;
+				border-style: solid;
+				padding: 4px 6px;
+				@include transition(all 0.2s);
+				outline: none;
+
+				&:focus{
+					color: #fff;
+				}
+			}
+		}
+
+		.image{
+			width: 50%;
+			float: left;
+			text-align: center;
+
+			img{
+				display: inline-block;
+			}
+		}
+
+		// Íconos de pregunta
+		.right-answer, .wrong-answer{
+			width: $icon-size;
+			height: $icon-size;
+			background-size: $icon-size $icon-size;
+			position: absolute;
+			margin: auto;
+			right: -43px;
+			top: 0;
+			bottom: 0;
+		}
+	}
+
+
+	//================================================================
+	// THEMES
+	//================================================================
+	&.book {
+
+		.block-content {
+			position: relative;
+		}
+
+		.input-groups {
+			position: absolute;
+			margin: 0 auto;
+			top: 180px;
+			left: 0px;
+			right: 0;
+			width: 50%;
+		}
+
+		.input-group{
+			width: calc(50% - 34px);
+			margin-right: 34px;
+			float: left;
+			margin-bottom: 3px;
+			padding: 2px;
+			font-size: 22px;
+			position: relative;
+
+			.input-text{
+				display: inline-block;
+				float: left;
+				cursor: pointer;
+				text-align: left;
+				padding: 4px 6px;
+			}
+
+			input[type="text"]{
+				background: transparent;
+				float: right;
+				border-width: 2px;
+				border-style: solid;
+				padding: 4px 6px;
+				@include transition(all 0.2s);
+				outline: none;
+			}
+		}
+
+		.image{
+			text-align: center;
+
+			img{ display: inline-block; }
+		}
+
+		// Íconos de pregunta
+		.right-answer, .wrong-answer{
+			width: $icon-size;
+			height: $icon-size;
+			background-size: $icon-size $icon-size;
+			position: absolute;
+			margin: auto;
+			right: -6px;
+			top: -23px;
+			bottom: 0;
+		}
+	
+	}
+	
+	
+	// Una columna grande
+	&.one-column {
+
+		.block-content {
+			position: relative;
+		}
+
+		.input-groups {
+			width: 100%;
+			margin-bottom: 15px;
+		}
+
+		.input-group{
+			border: 2px solid #000;
+			width: 100%;
+			margin-bottom: 3px;
+			padding: 2px;
+			font-size: 22px;
+			position: relative;
+
+			.input-text{
+				display: inline-block;
+				float: left;
+				cursor: pointer;
+				text-align: left;
+				padding: 4px 6px;
+			}
+
+			input[type="text"]{
+				background: transparent;
+				float: right;
+				border-width: 2px;
+				border-style: solid;
+				padding: 4px 6px;
+				@include transition(all 0.2s);
+				outline: none;
+			}
+		}
+
+		.image{
+			text-align: center;
+
+			img{ display: inline-block; }
+		}
+
+		// Íconos de pregunta
+		.right-answer, .wrong-answer{
+			width: $icon-size;
+			height: $icon-size;
+			background-size: $icon-size $icon-size;
+			position: absolute;
+			margin: auto;
+			right: 4px;
+			top: -2px;
+			bottom: 0;
+		}
+	
+	}
+
+}

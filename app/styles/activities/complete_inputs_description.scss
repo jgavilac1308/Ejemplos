@@ -1,0 +1,129 @@
+.liz-complete-inputs-description {
+
+  .input-container {
+    padding: 0 10px;
+    width: 20%;
+    float: left;
+
+    &:last-child {
+      padding-bottom: 10px;
+    }
+  }
+
+  .input-group {
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    border: 3px solid #000;
+  }
+
+  .input-group-addon {
+    border: 0;
+    border-radius: 0;
+    font-size: 48px;
+    color: #ffffff;
+    width: 50%;
+  }
+
+  input[type="text"] {
+    border-radius: 0;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+    height: auto;
+    box-shadow: none;
+    font-size: 24px;
+    padding: 0;
+    text-align: center;
+
+    &[disabled="disabled"] {
+      background: #ffffff;
+      cursor: default;
+    }
+  }
+
+  // Íconos de pregunta
+  .right-answer, .wrong-answer {
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+  }
+
+  .block-content {
+    text-align: center;
+  }
+
+  .item-container {
+    display: inline-block;
+    padding: 10px 10px;
+  }
+
+  .item {
+    position: relative;
+    text-align: center;
+    border: 3px solid #000;
+
+    p {
+      text-align: center;
+      font-size: 1.1em;
+      letter-spacing: 1px;
+      min-height: 150px;
+    }
+
+    img {
+      display: inline-block;
+      max-height: 512px!important;
+    }
+
+    .number {
+      position: absolute;
+      margin: auto;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      font-size: 4em;
+    }
+
+  }
+
+  .text-box {
+    width: 100%;
+    float: left;
+    padding: 0.6em;
+
+    .block {
+      min-height: 50px;
+    }
+
+    .block-content {
+      min-height: 10em;
+      padding: 0.6em;
+      border: 3px solid #000;
+
+      strong {
+        font-size: 20px !important;
+        
+      }
+
+      strong2 {
+        font-size: 20px !important;
+      }
+
+      p {
+        float: left;
+        margin-left: 0.6em;
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+
+      }
+    }
+  }
+
+  .feedback {
+    padding: 10px;
+  }
+
+}

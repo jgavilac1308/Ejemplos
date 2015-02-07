@@ -1,0 +1,66 @@
+@import "../bourbon/bourbon.scss";
+@import "../common/_mixins.scss";
+
+.liz-image-group-drop{
+
+	// Imagen principal
+	.main-img {
+		width: 50%;
+		float: left;
+		position: relative;
+	}
+
+	// Grupos
+	.groups {
+
+	}
+
+	.group {
+		position: absolute;
+		/*background: rgba(0, 0, 0, 0.5);*/
+
+		.group-inner {
+			position: relative;
+			height: 100%;
+		}
+
+		.item {
+			position: absolute;
+		}
+	}
+
+	// Pila de elementos
+	.stack {
+		width: 50%;
+		float: left;
+
+		.item {
+			float: left;
+			margin-right: 5px;
+		}
+	}
+
+	// Cada uno de los items
+	.item {
+		$size: 2em;
+		font-size: 27px;
+		width: $size;
+		height: $size;
+		line-height: $size;
+		text-align: center;
+		background: #000;
+		color: #fff;
+		margin-bottom: 2px;
+		border-radius: 50%;
+		cursor: pointer;
+	}
+
+	// Caras 
+	.face{
+		margin-left: -72px;
+		width: 124px;
+		left: 50%;
+		z-index: 6;
+	}
+
+}

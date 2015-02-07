@@ -1,0 +1,101 @@
+.liz-select-options-img .input-container {
+  padding: 0 10px;
+  width: 20%;
+  float: left;
+}
+.liz-select-options-img .input-container:last-child {
+  padding-bottom: 10px;
+}
+.liz-select-options-img .input-group {
+  margin-top: 10px;
+  position: relative;
+  width: 100%;
+  height: 200px;
+  border: 3px solid #000;
+}
+.liz-select-options-img .input-group-addon {
+  border: 0;
+  border-radius: 0;
+  width: 30%;
+  font-size: 48px;
+  color: #ffffff;
+  width: 50%;
+}
+.liz-select-options-img select {
+  width: 100%;
+  margin-top: 10px;
+  border: 2px solid;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.liz-select-options-img select:disabled {
+  background: #ededed;
+  color: #8f8f8f;
+}
+.liz-select-options-img .right-answer, .liz-select-options-img .wrong-answer {
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+.liz-select-options-img .block-content {
+  text-align: center;
+}
+.liz-select-options-img .item-container {
+  display: inline-block;
+  padding: 10px 10px;
+}
+.liz-select-options-img .item {
+  position: relative;
+  padding: 5px;
+  text-align: center;
+  padding: 0 10px 10px;
+  border: 3px solid #000;
+}
+.liz-select-options-img .item p {
+  text-align: center;
+  font-size: 1.6em;
+  letter-spacing: 1px;
+}
+.liz-select-options-img .item img {
+  display: inline-block;
+  max-height: 256px;
+}
+.liz-select-options-img .item .number {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 4em;
+}
+.liz-select-options-img .text-box {
+  width: 100%;
+  float: left;
+  padding: 0.6em;
+}
+.liz-select-options-img .text-box .block {
+  min-height: 50px;
+}
+.liz-select-options-img .text-box .block-content {
+  min-height: 10em;
+  padding: 0.6em;
+  border: 3px solid #000;
+}
+.liz-select-options-img .text-box .block-content strong {
+  font-size: 20px !important;
+  text-decoration: underline;
+}
+.liz-select-options-img .text-box .block-content strong2 {
+  font-size: 20px !important;
+}
+.liz-select-options-img .text-box .block-content p {
+  float: left;
+  margin-left: 0.6em;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}

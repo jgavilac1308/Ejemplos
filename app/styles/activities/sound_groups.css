@@ -1,0 +1,63 @@
+.liz-sound-groups .group-container {
+  width: 40%;
+  float: left;
+  display: block;
+  margin-left: -7%;
+  position: relative; }
+.liz-sound-groups .group {
+  width: 20em;
+  height: 16em;
+  left: 82%;
+  margin: 58px;
+  border: 4px solid #BD0926;
+  border-radius: 2%;
+  position: relative; }
+
+  .liz-sound-groups .group .item {
+    position: absolute; }
+.liz-sound-group .items {
+  width: 50%;
+  float: right; }
+  .liz-sound-groups .items .item {
+    cursor: pointer;
+    margin-top: 5%;
+    width: 25%;
+    float: left;
+     }
+.liz-sound-groups .icon-sound {
+  position: absolute;
+  top: -4%;
+  width: 20em;
+  height: 5em;
+  left: 25%;
+  background: url("../resources/common/icon_sound_blanco.png") no-repeat 0 0;
+  background-size: 80px 80px;
+  cursor: pointer;
+   }
+  .liz-sound-groups .icon-sound1 {
+  position: absolute;
+  top: 83%;
+  left: 120%;
+  width: 20em;
+  background: #BD0926; 
+  height: 6em;
+  left: 95.9%;
+  border: 2px solid #BD0926;
+  border-radius: 2%; }
+  .liz-sound-groups .icon-sound2 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  width: 10em;
+  background: #BD0926;
+  height: 5em;
+  left: 20%;
+  border: 2px solid #BD0926;
+  border-radius: 2%; }
+
+.liz-sound-groups .face {
+  margin-left: -72px;
+  width: 124px;
+  left: 50%;
+  z-index: 6; }
+ }

@@ -1,0 +1,43 @@
+.liz-table-path > .block-content {
+  *zoom: 1;
+}
+.liz-table-path > .block-content:before, .liz-table-path > .block-content:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.liz-table-path > .block-content:after {
+  clear: both;
+}
+.liz-table-path .table-path {
+  width: 70%;
+  float: left;
+}
+.liz-table-path .table-path table {
+  width: 100%;
+}
+.liz-table-path .img-left,
+.liz-table-path .img-right {
+  width: 15%;
+  float: left;
+}
+.liz-table-path .inner-cell {
+  cursor: pointer;
+  text-align: center;
+  font-size: 20px;
+  padding: 4px 6px;
+  border: 2px solid #000;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.liz-table-path .inner-cell.completed {
+  color: #fff;
+}
+.liz-table-path .face {
+  margin-left: -72px;
+  width: 124px;
+  left: 50%;
+  top: 0;
+  z-index: 161;
+}

@@ -1,0 +1,203 @@
+@import "../common/_mixins.scss";
+@import "../common/themes.scss";
+
+.liz-group-select-multiples-words{
+	
+
+	.words{
+
+		border-radius: 5px;
+		cursor: pointer;
+		margin-bottom: 10px;
+
+		@include transition(background 0.1s ease-out);
+
+		&:hover{
+
+			color:white!important;
+			@extend .bg-1;
+		}
+	}
+
+	.item-img{
+		width: 25%;
+		float: right;
+		font-size: 24px;
+		text-align: center;
+	}
+
+	.item{
+
+		width: 5%; // 4 por columna
+		
+		
+		// Clases para definir el tamaño
+		@for $i from 1 through 6{
+			&.per-row-#{$i}{ width: (99%/$i); }
+		}
+
+		@media(max-width: 992px){
+			width: 50%;
+			text-align: left;
+			font-size: 18px;
+			
+		}
+
+		float: left;
+		font-size: 24px;
+		text-align: center;
+	}
+
+	.text-box{
+		width: 100%;
+		float: left;
+		padding: 0.6em;
+
+
+		.block{
+			min-height: 50px;
+			text-align: center!important;
+
+		}
+
+		.block-content{
+			width: 100%;
+			min-height: 5em;
+			padding: 0.6em;
+			border: 3px solid #000;
+			display: flex;//centrar verticalmente
+			align-items: center;//centrar verticalmente
+			justify-content: center;//centrar verticalmente
+			strong{
+				font-size: 20px!important;
+				text-decoration: underline;
+			}
+			
+			strong2{
+				font-size: 20px!important;
+			}
+
+			p{
+				width: 69%;
+				float: left;
+				margin-left: 0.6em;
+				margin-top: 0.2em;
+				margin-bottom: 0.2em;
+
+			}
+
+			.main-img{width: 29%;float: left;}
+
+			.words-examples{
+				width:200px;
+				float: left;
+				border-radius: 10px;
+				height: 50px;
+				color: white;text-align: center;
+				padding-top: 10px;
+				margin-left: 10px;
+				margin-bottom: 10px;
+			}
+		}
+	}
+
+
+	.complete-container{
+		float: left;
+		border: 3px solid #000;
+		font-size: 1.4em;
+		padding: 5px;
+		font-family: 'century_gothic';
+		width: 98%;
+		float: left;
+		margin-left: 1%;
+		margin-bottom: 1%;
+		
+		.item-name-container{
+
+			width: 50px!important;
+			float: left;
+			font-size: 24px;
+			text-align: center;
+			
+			.item-name{
+				width: 50px!important;
+				height: 50px;
+				text-align: center;
+				line-height: 50px;
+				color:white;
+			}
+		}
+
+		.complete-words-container{
+			width: 94%;
+			float: left;
+			margin-top: 12px;
+			margin-left: 5px;
+			display: inline-block;
+		}
+
+		span{
+				position: relative;
+
+			.input-container{width: 211px;border: none;border-bottom: 2px solid #000;margin-left: 1%;}
+
+			div{display: inline-block;}
+
+
+		}
+	}
+
+	.is-true{
+		background: rgba(0, 255, 10, 0.23);
+
+		.words{
+
+			border-radius: 0px;
+			cursor: default;
+			@include transition(background 0.4s ease-out);
+
+			&:hover{
+
+				background-color: transparent!important;
+				@extend .fc-1;
+			}
+		}
+
+	}
+	
+	.is-false{
+		background: rgba(0, 25, 211, 0.23);
+
+		.words{
+
+			border-radius: 0px;
+			cursor: default;
+
+			@include transition(background 0.4s ease-out);
+
+			&:hover{
+
+				background-color: transparent!important;
+				@extend .fc-1;
+			}
+		}
+	}
+	
+	.is-right{
+		border-bottom: 3px solid;
+		border-radius: 5px 5px 0 0;
+		@extend .bc-bottom-1
+	}
+
+	.right-answer, .wrong-answer{
+		position: absolute;
+		top: -50%;
+		left: 50%;
+		margin-left: -10px;
+		$size: 20px;
+	    width: $size;
+	    height: $size;
+	    background-size: $size $size;
+	}
+}

@@ -1,0 +1,89 @@
+@import "../bourbon/bourbon";
+
+@mixin perfectIcon($size, $resource) {
+  width: $size;
+  height: $size;
+  background: url($resource) no-repeat 0 0;
+  background-size: $size $size;
+}
+
+.liz-compare-sample {
+
+  .group {
+    border: 2px solid #000;
+    border-bottom-width: 0;
+
+    // Muestra
+    .sample {
+      min-width: 2px;
+      padding: 8px;
+      width: 20%;
+      float: left;
+
+      .item {
+        margin: auto;
+      }
+    }
+
+    // Elementos por aparte
+    .items {
+      width: 80%;
+      float: left;
+
+      .item {
+        padding: 8px;
+        float: left;
+        position: relative;
+
+        // Alineación total
+        @include display-box;
+        @include box-align(center);
+        @include box-orient(horizontal);
+        @include box-pack(center);
+
+        // Mozilla?
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        // Todos los hijos
+        & * {
+          cursor: pointer;
+          margin: 0 auto;
+          @include transition(all 0.2s ease-out);
+        }
+
+        :not(.icon-right):not(.icon-wrong):hover {
+          @include transform(scale(1.1));
+        }
+      }
+    }
+
+    // Animación cuando termina
+    .items.completed .item {
+      :not(.icon-right):not(.icon-wrong) {
+        @include transition(all 0.2s ease-out);
+        opacity: 0.5;
+      }
+    }
+
+    // íconos de correcto / incorrecto
+    .icon-right, .icon-wrong {
+      @include animation(scale1 0.5s ease-in forwards);
+    }
+
+    .icon-right {
+      @include perfectIcon(5.3em, '../resources/common/icon_right.png');
+    }
+
+    .icon-wrong {
+      @include perfectIcon(5.3em, '../resources/common/icon_wrong.png');
+    }
+
+    // borde al último elemento
+    &:last-child {
+      border-bottom-width: 2px;
+    }
+  }
+
+}

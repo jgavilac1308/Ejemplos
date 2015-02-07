@@ -1,0 +1,64 @@
+@import "../bourbon/bourbon.scss";
+
+@mixin perfectIcon($size, $resource){
+		width: $size;
+		height: $size;
+		background: url($resource) no-repeat 0 0;
+		background-size: $size $size;
+}
+
+.liz-compare-sounds{
+	// iconos
+	.icon-sound{
+		@include perfectIcon(80px, '../resources/common/icon_sound.png');
+		position: relative;
+	}
+	
+	.icon-right{
+		@include perfectIcon(80px, '../resources/common/icon_right.png');
+	}
+
+	.icon-wrong{
+		@include perfectIcon(80px, '../resources/common/icon_wrong.png');
+	}
+
+	// Audios
+	.audios{
+		width: 100%;
+		position: relative;
+		min-height: 4em;
+		margin-top: 80px;
+
+		&.actived{
+			@include animation(goTop 0.4s ease-in forwards);
+		}
+
+		.audio{
+			position: absolute;
+			top: 0;
+			text-align: center;
+			cursor: pointer;
+
+			// Todos los hijos
+			& *{
+				@include animation(scale1 0.4s ease-in); 
+				display: inline-block;
+			}
+		}
+	}
+
+	// Imágenes
+	.images{
+		overflow: hidden;
+		
+		.image{
+			float: left;
+			cursor: pointer;
+			padding: 0.2em;
+			margin-top: 1.4em;
+			@include animation(easy_in 0.7s ease-in);
+		}
+	}
+	
+
+}

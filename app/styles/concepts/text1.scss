@@ -1,0 +1,28 @@
+.liz-text1{
+
+	& > .block-content{
+		padding: 0.3em;
+	}
+
+	.no-border{
+		border: 0px;
+	}
+
+	.liz-text1-image{
+		img {
+			display: block;
+			margin: auto;
+		}
+		
+		p{
+			margin: 0;
+			font-size: 1.4em;
+		}
+	}
+
+	strong2{
+
+		font-weight: bold;
+		color: black;
+	}
+}

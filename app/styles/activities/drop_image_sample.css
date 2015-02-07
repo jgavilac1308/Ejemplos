@@ -1,0 +1,27 @@
+.liz-drop-image-sample > .block-content {
+  padding: 0; }
+.liz-drop-image-sample .items {
+  position: relative; }
+.liz-drop-image-sample .item {
+  position: absolute;
+  cursor: pointer;
+  padding: 5px; }
+.liz-drop-image-sample .canvas-container {
+  text-align: center; }
+.liz-drop-image-sample .inner-canvas {
+  display: inline-block;
+  position: relative; }
+.liz-drop-image-sample .target {
+  position: absolute;
+  /* background: rgba(0, 0, 0, 0.5); // Para depurar */ }
+.liz-drop-image-sample .target-inner {
+  position: relative; }
+.liz-drop-image-sample .target-inner-inner {
+  position: absolute; }
+.liz-drop-image-sample .sample {
+  margin-top: 0.2em; }
+.liz-drop-image-sample .face {
+  margin-left: -72px;
+  width: 124px;
+  left: 50%;
+  z-index: 6; }

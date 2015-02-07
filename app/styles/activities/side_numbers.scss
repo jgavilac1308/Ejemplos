@@ -1,0 +1,56 @@
+@import "../bourbon/bourbon.scss";
+
+$main-color: #BD0926;
+$icon-size: 28px;
+
+.liz-side-numbers{
+
+	.numbers-block{
+		width: 50%;
+		float: left;
+		font-size: 25px;
+		margin-bottom: 0.5em;
+	}
+
+	// Inputs a la izquierda y a la derecha
+	.number-input-block {
+		width: 30%;
+		display: inline-block;
+		position: relative;
+
+		input[type="text"]{
+			display: inline-block;
+			width: 100%;
+			text-align: center;
+			border: 0;
+			border-bottom: 3px solid $main-color;
+			outline: none;
+			border-radius: 4px;
+
+			&:focus{
+				background: $main-color;
+				color: #fff;
+			}
+		}
+	}
+	
+	// Número al centro
+	.central-number{
+		display: inline-block;
+		width: 30%;
+		text-align: center;
+	}
+
+	// Íconos de pregunta
+	.right-answer, .wrong-answer{
+		width: $icon-size;
+		height: $icon-size;
+		background-size: $icon-size $icon-size;
+		position: absolute;
+		margin: auto;
+		right: 0;
+		top: 0;
+		bottom: 0;
+	}
+
+}

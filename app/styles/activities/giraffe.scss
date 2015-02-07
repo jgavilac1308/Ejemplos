@@ -1,0 +1,88 @@
+@import "../bourbon/bourbon.scss";
+@import "../common/_mixins.scss";
+
+$main-color: #BD0926;
+
+.liz-giraffe{
+
+	& > .block-content{
+		position: relative;
+		@include clearfix;
+	}
+
+	// Óvalo donde sale la multiplicación
+	.actual-multiplication{
+		position: absolute;
+		top: 300px;
+		right: 100px;
+		background: $main-color;
+		color: #FFF;
+		border-radius: 50%;
+		font-size: 41px;
+		width: 4em;
+		height: 2em;
+		line-height: 2em;
+		text-align: center;
+	}
+
+	// imagen de jirafa
+	.giraffe-img{
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+
+	// globos
+	.balloon{
+		top: 2em;
+		left: 2em;
+		position: absolute;
+		background: $main-color;
+		font-size: 44px;
+		color: #FFF;
+		width: 1.9em;
+		height: 1.9em;
+		border-radius: 50%;
+		text-align: center;
+		line-height: 1.9em;
+		cursor: pointer;
+		@include transition(all 0.3s);
+		@include no-select;
+
+		&:hover{
+			box-shadow: 0 0 0 5px #000;
+		}
+		
+		// Subclases. Usadas especialmente para la posición
+		&.b1{ top: 2em; left: 2em; }
+		&.b2{ top: 6em; left: 6em; }
+		&.b3{ top: 6em; left: 12em; }
+		&.b4{ top: 2em; left: 9em; }
+		&.b5{ top: 3em; left: 6em; }
+		&.b6{ top: 4em; left: 1em; }
+		&.b7{ top: 5em; left: 10em; }
+	}
+	
+
+	// Círculos de respuesta/puntuación
+	.answer{
+		width: 2em;
+		height: 2em;
+		border-radius: 50%;
+		float: left;
+		margin-right: 0.4em;
+	}
+
+	.right-answer{ background: #009500; }
+	.wrong-answer{ background: #BD0926; }
+
+	// Caras 
+	.face{
+		margin-left: -72px;
+		width: 124px;
+		left: 50%;
+		top: 0%;
+		z-index: 161;
+	}
+
+}

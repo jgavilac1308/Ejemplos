@@ -1,0 +1,51 @@
+@import "../bourbon/bourbon.scss";
+
+$main-color: #BD0926;
+
+.liz-thousand-numbers{
+
+	.range{
+		background: $main-color;
+		width: 100%;
+		height: 3em;
+		margin-bottom: 1.3em;
+		line-height: 3em;
+		border-radius: 50%;
+		text-align: center;
+		color: #fff;
+		font-size: 20px;
+		cursor: pointer;
+		@include transition(all 0.4s);
+
+		&.is-active{
+			box-shadow: 0 0 0 4px #701F10;
+		}
+	}
+
+	table.thousand-numbers-table{
+		width: 100%;
+
+		td{
+			width: 10%;
+			border: 4px solid $main-color;
+			text-align: center;
+			font-size: 20px;
+			cursor: pointer;
+			@include transition(all 0.2s);
+
+			&:hover{
+				background: $main-color;
+				color: #fff;
+			}
+		}
+	}
+
+	.number-text{
+		background: $main-color;
+		color: #fff;
+		font-size: 20px;
+		text-align: center;
+		padding: 8px 12px;
+	}
+
+}

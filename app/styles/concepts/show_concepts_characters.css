@@ -1,0 +1,91 @@
+.liz-show-concepts-characters .block-content {
+  padding-top: 0 !important;
+}
+.liz-show-concepts-characters .concepts-character-video-link {
+  display: block;
+  float: left;
+  margin-left: 17% ;
+  margin-top:20%;
+}
+.liz-show-concepts-characters .items {
+  width: 30%;
+  float: left;
+  margin-top: 3%;
+}
+.liz-show-concepts-characters .item {
+  width: 33%;
+  float: left;
+  margin-top: 10px;
+}
+.liz-show-concepts-characters .inner-title {
+  width: 15em;
+  height: 3em;
+  line-height: 3em;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: 9px;
+  color: #fff;
+  border: 0px solid;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+.liz-show-concepts-characters .inner-title.is-selected {
+  box-shadow: 0px 0px 0px 5px #272727;
+}
+.liz-show-concepts-characters .inner-item {
+  width: 4em;
+  height: 4em;
+  line-height: 4em;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  margin: auto;
+  background-color: #fff;
+  border: 3px solid;
+  float: left;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+.liz-show-concepts-characters .inner-item.is-selected {
+  box-shadow: 0px 0px 0px 5px #272727;
+}
+.liz-show-concepts-characters .inner-item .inner-item-inner {
+  width: 3.6em;
+  height: 3.6em;
+  line-height: 3.6em;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  margin: auto;
+  background-color: #fff;
+  border: 3px solid;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+.liz-show-concepts-characters .text-box {
+  width: 40%;
+  float: left;
+}
+.liz-show-concepts-characters .text-box .block-content {
+  padding-top: 0 !important;
+  padding: 0.4em;
+  min-height: 180px;
+}
+.liz-show-concepts-characters .text-box .block-content img {
+  display: block;
+  margin: auto;
+  max-height: 180px;
+}
+.liz-show-concepts-characters .text-box .main-img {
+  width: 180%;
+  margin-left: -50%;
+  margin-top: 10%;
+  border:  3px solid #BD0926;
+}

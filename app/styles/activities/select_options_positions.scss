@@ -1,0 +1,102 @@
+@import "../common/_mixins.scss";
+@import "../common/themes.scss";
+
+.liz-select-options-positions{
+	
+	.items-select-individual{
+
+		padding: 10px;
+		border-radius: 5px;
+		margin-top: 10px;
+		margin-left: 2%;
+		float: left;
+		width: 100%;
+		text-align: center;
+		color: white;
+		cursor: pointer;
+
+		
+	}
+
+	.item-title{
+
+		width: 100%;
+		padding: 10px;
+		text-align: center;
+		color:white;
+		display: inline-block;
+
+		@extend .bg-1;
+
+	}
+
+	.bg-1{
+
+		&:hover{
+
+			@extend .bg-2
+		}
+	}
+
+	.item-border{
+
+		border: solid 3px;
+	}
+	
+	.section2{
+		position: relative;
+		width: 100%;
+		float: left;
+
+		.main-img{
+			width: 100%;
+			float: right;
+		}
+
+		.item-target{
+			position: absolute;
+			@include transition(background-color 0.4s ease-out);
+			@include transition(border-radius 0.1s ease-out);
+			display: inline-block;
+			span{
+			color: white;
+			}
+
+			select{
+				cursor: pointer;
+				width: 100%;
+
+				option{
+					cursor: pointer;
+				}
+			}
+			
+		}
+	}
+
+	.is-true{
+		background: #20b62f!important;
+	}
+	
+	.is-false{
+		background: rgba(0, 25, 211, 0.7)!important;
+	}
+
+	.is-disable{
+		background: #B3B3B3;
+
+		&:hover{
+			background: #B3B3B3;
+		}
+	}
+
+	.right-answer, .wrong-answer{
+		position: absolute;
+		top: -5%;
+		left: 100%;
+		$size: 25px;
+	    width: $size;
+	    height: $size;
+	    background-size: $size $size;
+	}
+}

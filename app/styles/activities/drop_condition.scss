@@ -1,0 +1,41 @@
+@import "../bourbon/bourbon.scss";
+@import "../common/_mixins.scss";
+
+$drop-fz: 22px;
+
+.liz-drop-condition {
+
+  //
+  // Items: Stack for draggables
+  // ---------------------------------------------------------
+  .items {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+
+  //
+  // Targets
+  // ---------------------------------------------------------
+  .targets {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .target {
+    border: 2px solid #000;
+    width: 5em;
+    height: 5em;
+    @include align-children;
+  }
+
+  // Caras
+  .face{
+    margin-left: -72px;
+    width: 124px;
+    left: 50%;
+    z-index: 6;
+  }
+
+}

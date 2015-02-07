@@ -1,0 +1,61 @@
+.liz-table-path-instruction td {
+  padding: 0;
+}
+.liz-table-path-instruction .section {
+  width: 30%;
+  float: left;
+}
+.liz-table-path-instruction .section2 {
+  width: 70%;
+  float: left;
+  position: absolute;
+  left: 30%;
+  display: inline-block;
+}
+.liz-table-path-instruction .section2 img {
+  position: absolute;
+  z-index: 0;
+}
+.liz-table-path-instruction > .block-content {
+  *zoom: 1;
+  display: inline-block;
+}
+.liz-table-path-instruction > .block-content:before, .liz-table-path-instruction > .block-content:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.liz-table-path-instruction > .block-content:after {
+  clear: both;
+}
+.liz-table-path-instruction .table-path {
+  width: 70%;
+  float: left;
+}
+.liz-table-path-instruction .table-path table {
+  width: 100%;
+}
+.liz-table-path-instruction .inner-cell {
+  cursor: pointer;
+  text-align: center;
+  font-size: 20px;
+  padding: 4px 6px;
+  border: 2px solid #000;
+  min-width: 44px;
+  min-height: 40px;
+  max-width: 44px;
+  max-height: 40px;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.liz-table-path-instruction .inner-cell.completed {
+  color: #fff;
+}
+.liz-table-path-instruction .face {
+  margin-left: -72px;
+  width: 124px;
+  left: 50%;
+  top: 0;
+  z-index: 161;
+}

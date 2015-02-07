@@ -1,0 +1,42 @@
+.liz-two-frames-description > .block-content {
+  *zoom: 1;
+  padding: 4px;
+}
+.liz-two-frames-description > .block-content:before, .liz-two-frames-description > .block-content:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.liz-two-frames-description > .block-content:after {
+  clear: both;
+}
+.liz-two-frames-description .items {
+  width: 20%;
+  padding: 0 5px;
+  float: left;
+}
+.liz-two-frames-description .items .btn-primary {
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+}
+.liz-two-frames-description .main-img {
+  padding: 8px 5px;
+  width: 40%;
+  float: left;
+}
+.liz-two-frames-description .main-img .main-img-inner {
+  border: 2px solid;
+  min-height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.liz-two-frames-description .text-box {
+  padding: 8px 5px;
+  width: 40%;
+  float: left;
+}
+.liz-two-frames-description .text-box .block-content {
+  margin-bottom: 0;
+}

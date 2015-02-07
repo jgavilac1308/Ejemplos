@@ -1,0 +1,54 @@
+@import "../bourbon/bourbon.scss";
+
+.liz-puzzle1{
+
+	.block-content{
+		padding: 5px;
+	}
+
+	// Elementos
+	.items{
+		width: 30%;
+		float: left;
+
+		.item{
+			width: 49%;
+			padding: 0px 4px;
+			cursor: pointer;
+			display: inline-block;
+
+		}
+	}	
+
+	// Cuadro donde van cayendo las imágenes
+	.puzzle1-canvas{
+		border: 3px solid #000;
+		float: right;
+
+		.inner-canvas{
+			min-height: 436px;
+			min-width: 546px;
+			position: relative;
+			overflow: hidden;
+
+			img{
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+		}
+
+	}
+
+	// *****************************************************************************
+	// Caras
+	// ***************************************************************************** 
+	.face{
+		margin-left: -72px;
+		width: 124px;
+		left: 50%;
+		z-index: 6;
+		top: 20%;
+	}
+
+}

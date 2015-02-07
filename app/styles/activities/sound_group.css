@@ -1,0 +1,35 @@
+.liz-sound-group .group-container {
+  width: 40%;
+  float: left;
+  position: relative; }
+.liz-sound-group .group {
+  width: 24em;
+  height: 24em;
+  margin: 19px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  position: relative; }
+  .liz-sound-group .group .item {
+    position: absolute; }
+.liz-sound-group .items {
+  width: 50%;
+  float: right; }
+  .liz-sound-group .items .item {
+    cursor: pointer;
+    width: calc(25% - 2px);
+    float: left;
+    padding: 10px; }
+.liz-sound-group .icon-sound {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  background: url("../resources/common/icon_sound.png") no-repeat 0 0;
+  background-size: 80px 80px;
+  cursor: pointer; }
+.liz-sound-group .face {
+  margin-left: -72px;
+  width: 124px;
+  left: 50%;
+  z-index: 6; }

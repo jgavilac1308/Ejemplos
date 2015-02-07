@@ -1,0 +1,131 @@
+@import "../bourbon/bourbon.scss";
+@import "../common/_mixins.scss";
+
+$drop-fz: 22px;
+
+.liz-group-puzzle-word {
+
+  //
+  // Items: Stack for draggables
+  // ---------------------------------------------------------
+
+  .group{
+
+      width: 100%;
+      height: 100px;
+      border: solid 3px;
+      float: left;
+      margin-bottom: 50px;
+
+      &.row-2{
+
+        width: 46%;
+        margin-left: 2.5%;
+
+      }
+
+  }
+
+  .section{
+
+     width: 50%; 
+     height: 100%;
+     padding: 10px;
+     float: left;
+     display: flex;
+     justify-content: space-around;
+
+     &.section1{
+      padding: 10px 42px;
+      border-right: solid 1px #ededed;
+
+     }
+
+  }
+
+  .items {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+
+  .item {
+    width: 72px;
+    height: 72px;
+    display: inline-block;
+    color: #ffffff;
+    cursor: move;
+    padding: 10px;
+    /* border-radius: 3px; */
+    font-size: 35px;
+    text-align: center;
+
+    &.disabled {
+      background: #ededed!important;
+      color: #A5A5A5;
+      cursor: no-drop;
+    }
+
+    &.no-cursor{
+
+      cursor: default!important;
+    }
+
+  }
+
+  .is-true{
+    background: rgba(0, 255, 10, 0.23);
+  }
+  
+  .is-false{
+    background: rgba(0, 25, 211, 0.23);
+  }
+
+  //
+  // Targets
+  // ---------------------------------------------------------
+  
+  .drop-container {
+    display: inline-block;
+    width: 74px;
+    height: 74px;
+    /* border-radius: 4px; */
+    border: 2px solid #000;
+    min-height: 36px;
+    margin-bottom: -9px;
+    position: relative;
+    @include transition(background-color 0.5s);
+
+    &.large {
+      width: 200px;
+    }
+
+    &.disabled {
+      background: #ededed;
+    }
+  }
+
+  .answer-icon {
+    $size: 1.5em;
+    width: $size;
+    height: $size;
+    background-size: $size;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin: auto;
+    top: 1px;
+    right: 2%;
+    @include animation(scale1 0.5s ease-in forwards);
+  }
+
+  .icon-right {
+    @extend .answer-icon;
+    background-image: url('../resources/common/icon_right.png');
+  }
+
+  .icon-wrong {
+    @extend .answer-icon;
+    background-image: url('../resources/common/icon_wrong.png');
+  }
+
+}

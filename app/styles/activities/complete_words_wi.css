@@ -1,0 +1,82 @@
+.liz-complete-words-wi .item {
+  width: 40%;
+  float: left;
+  font-size: 24px;
+  text-align: center;
+}
+.liz-complete-words-wi .item.per-row-1 {
+  width: 99%;
+}
+.liz-complete-words-wi .item.per-row-2 {
+  width: 49.5%;
+}
+.liz-complete-words-wi .item.per-row-3 {
+  width: 33%;
+}
+.liz-complete-words-wi .item.per-row-4 {
+  width: 24.75%;
+}
+.liz-complete-words-wi .item.per-row-5 {
+  width: 19.8%;
+}
+.liz-complete-words-wi .item.per-row-6 {
+  width: 16.5%;
+}
+@media (max-width: 992px) {
+  .liz-complete-words-wi .item {
+    width: 50%;
+    text-align: left;
+    font-size: 18px;
+  }
+}
+.liz-complete-words-wi .complete-container {
+  float: left;
+  border: 3px solid #000;
+  font-size: 1.4em;
+  padding: 20px;
+  font-family: 'century_gothic';
+  width: 55%;
+  float: left;
+  margin-left: 5%;
+}
+.liz-complete-words-wi .complete-container span .input-container {
+  width: 211px;
+  border: none;
+  border-bottom: 2px solid #000;
+}
+.liz-complete-words-wi .complete-container span div {
+  display: inline-block;
+}
+.liz-complete-words-wi .complete-container span input[type=text] {
+  width: 180px;
+  text-align: center;
+  outline: none;
+  font-size: 24px;
+  background: transparent;
+  color: #333333;
+  border: none;
+}
+@media (max-width: 992px) {
+  .liz-complete-words-wi .complete-container span input[type=text] {
+    font-size: 18px;
+  }
+}
+.liz-complete-words-wi .complete-container span input[type=text]:focus {
+  color: #ffffff;
+}
+.liz-complete-words-wi .complete-container span input[type=text]:disabled {
+  color: #c9c9ca;
+}
+.liz-complete-words-wi .letters {
+  text-align: center;
+}
+.liz-complete-words-wi .letters .syllable {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 2em;
+}
+.liz-complete-words-wi .right-answer, .liz-complete-words-wi .wrong-answer {
+  width: 25px;
+  height: 25px;
+  background-size: 25px 25px;
+}

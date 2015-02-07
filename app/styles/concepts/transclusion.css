@@ -1,0 +1,7 @@
+.liz-transclusion .title-container {
+  float: left;
+  width: 80%;
+}
+.liz-transclusion .block p strong {
+  color: black !important;
+}

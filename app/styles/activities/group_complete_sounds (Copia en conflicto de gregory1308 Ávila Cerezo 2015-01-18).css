@@ -1,0 +1,65 @@
+.liz-group-complete-sounds .item {
+  width: 50%;
+  float: left;
+  font-size: 24px;
+  margin-left: -10%;
+}
+.liz-group-complete-sounds .item .item-caption {
+  width: 200%;
+  height: 108px;
+  padding-top: 40px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+.liz-group-complete-sounds .item.per-row-1 {
+  width: 200%;
+}
+.liz-group-complete-sounds .item.per-row-2 {
+  width: 100%;
+}
+.liz-group-complete-sounds .item.per-row-3 {
+  width: 80%;
+}
+.liz-group-complete-sounds .item.per-row-4 {
+  width: 60%;
+}
+.liz-group-complete-sounds .item.per-row-5 {
+  width: 40%;
+}
+.liz-group-complete-sounds .item.per-row-6 {
+  width: 16.5%;
+}
+@media (max-width: 992px) {
+  .liz-group-complete-sounds .item {
+    width: 50%;
+    text-align: left;
+    font-size: 18px;
+  }
+}
+.liz-group-complete-sounds .complete-container {
+  position: relative;
+  background: #BD0926;
+  font-size: 20em;
+  padding: 40px;
+  font-family: 'century_gothic';
+  width: 40%;
+  float: left;
+  margin: 30px;
+  margin-left: 1%;
+  margin-bottom: 1%;
+}
+
+
+.liz-group-complete-sounds .complete-container .complete-words-container {
+  margin-left: 1%;
+}
+
+.rxt{
+  width: 300px;
+  height: 100px;
+  background: red;
+  margin-left: 20%;
+
+}
+

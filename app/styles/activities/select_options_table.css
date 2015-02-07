@@ -1,0 +1,92 @@
+.liz-select-options-table {
+  padding-bottom: 10px;
+}
+.liz-select-options-table .main-img {
+  width: 30%;
+  float: left;
+}
+.liz-select-options-table .item {
+  width: 100%;
+  float: left;
+  font-size: 24px;
+  text-align: center;
+}
+.liz-select-options-table .item .item-name {
+  width: 100%;
+  height: 35px;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  float: left;
+}
+.liz-select-options-table .item.per-row-1 {
+  width: 99%;
+}
+.liz-select-options-table .item.per-row-2 {
+  width: 49.5%;
+}
+.liz-select-options-table .item.per-row-3 {
+  width: 33%;
+}
+.liz-select-options-table .item.per-row-4 {
+  width: 24.75%;
+}
+.liz-select-options-table .item.per-row-5 {
+  width: 19.8%;
+}
+.liz-select-options-table .item.per-row-6 {
+  width: 16.5%;
+}
+@media (max-width: 992px) {
+  .liz-select-options-table .item {
+    width: 50%;
+    text-align: left;
+    font-size: 18px;
+  }
+}
+.liz-select-options-table .complete-container {
+  float: left;
+  border: 3px solid #000;
+  font-size: 1.4em;
+  font-family: 'century_gothic';
+  width: 15%;
+  float: left;
+  margin-left: 1px;
+}
+.liz-select-options-table .complete-container .words-container {
+  width: 100%;
+  display: inline-block;
+}
+.liz-select-options-table .complete-container .words-inner {
+  width: 100%;
+  border-bottom: 2px solid;
+  float: left;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.liz-select-options-table .complete-container .words-inner .answers {
+  /* width: 96%; */
+  /* box-sizing: border-box; */
+}
+.liz-select-options-table .complete-container .words-inner .answers label {
+  margin-right: 10px;
+  font-weight: normal !important;
+}
+.liz-select-options-table .complete-container .words-inner p {
+  margin: 0;
+}
+.liz-select-options-table .complete-container .words-inner img {
+  padding: 5px;
+}
+.liz-select-options-table .right-answer, .liz-select-options-table .wrong-answer, .liz-select-options-table .face {
+  position: relative;
+  top: 15px;
+  margin-top: -12.5px;
+  margin-left: -30px;
+  left: 100%;
+  width: 45px !important;
+  height: 25px;
+  background-size: 25px 25px;
+}

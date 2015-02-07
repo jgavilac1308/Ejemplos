@@ -1,0 +1,76 @@
+@import "../bourbon/bourbon.scss";
+
+.liz-chalkboard{
+
+	// Tablero
+	.chalkboard{
+		width: 60%;
+		float: left;
+		position: relative;
+	}
+
+	.chalkboard-operation{
+		position: absolute;
+		top: 184px;
+		left: 34px;
+		color: #FFF;
+		font-size: 32px;
+		width: 328px;
+		text-align: center;
+
+		input[type="text"]{
+			display: inline-block;
+			border: 2px solid #fff;
+			background: transparent;
+			color: #fff;
+			width: 4em;
+			outline: none;
+			text-align: center;
+		}
+	}
+
+
+	// Opciones
+	.ranges{
+		width: 40%;
+		float: left;
+	}
+
+	.range{
+		label{
+			cursor: pointer;
+		}
+
+		input[type="radio"]{
+			display: inline-block;
+			margin-top: 5px;
+		}
+
+		span{
+			display: inline-block;
+			padding: 4px 6px;
+			@include transition(all 0.3s);
+		}
+
+		// Deshabilitado
+		input[type="radio"]:disabled + span{
+			color: #b6b6b6;
+		}
+
+		// Activo
+		input[type="radio"]:checked + span{
+			background: #000;
+			color: #fff;
+		}
+
+	}
+
+	// Caras 
+	.face{
+		margin-left: -72px;
+		width: 124px;
+		left: 50%;
+		z-index: 6;
+	}
+
+}

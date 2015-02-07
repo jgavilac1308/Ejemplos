@@ -1,0 +1,107 @@
+@import "../common/_mixins.scss";
+
+.liz-group-select-words{
+	
+	
+	.text-box{
+		width: 100%;
+		float: left;
+		padding: 0.6em;
+
+
+		.block{
+			min-height: 50px;
+			text-align: center!important;
+
+		}
+
+		.block-content{
+			width: 100%;
+			min-height: 10em;
+			padding: 0.6em;
+			border: 3px solid #000;
+			display: inline-block;
+			strong{
+				font-size: 20px!important;
+				text-decoration: underline;
+			}
+			
+			strong2{
+				font-size: 20px!important;
+			}
+
+			p{
+				width: 69%;
+				float: left;
+				margin-left: 0.6em;
+				margin-top: 0.2em;
+				margin-bottom: 0.2em;
+
+			}
+
+			.main-img{width: 100%;float: right;}
+		}
+	
+		.section{width: 70%;float: left;}
+		.section2{width: 29%;float: left;}
+
+		.complete-words-container{width: 100%;float: left;}
+		.complete-words-container2{width: 100%;float: left;margin-top: 10%;
+			input[type=button]{color: white;}
+		}
+		span{
+
+			span{margin-bottom: 10%;}
+			
+
+			.input-container{width: 216px;border: none;border: 2px solid #000;margin-bottom: 10px;}
+
+			div{display: inline-block;}
+
+			input[type=button]{
+				width: 180px;
+				text-align: center;
+				outline: none;
+				font-size: 24px;
+				background: transparent;
+				color: #333333;
+				border: none;
+				padding: 0;
+
+				
+
+				@media(max-width: 992px){
+					font-size: 18px;
+				}
+
+				&:focus{
+					color: #ffffff;
+				}
+
+				&:disabled{
+					color:rgb(201, 201, 202);
+				}
+			}
+
+		}
+	}
+
+	// vocales con las nuevas consonantes
+	.letters{
+		text-align: center;
+
+		.syllable{
+			display: inline-block;
+			padding: 0 20px;
+			font-size: 2em;
+		}
+		
+	}
+
+	.right-answer, .wrong-answer{
+		$size: 25px;
+	    width: $size;
+	    height: $size;
+	    background-size: $size $size;
+	}
+}

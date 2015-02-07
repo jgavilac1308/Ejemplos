@@ -1,0 +1,61 @@
+.liz-drag-drop-pair-text .pair-text-groups {
+  width: 100%;
+  font-size: 19px; }
+  .liz-drag-drop-pair-text .pair-text-groups .target-container {
+    margin-bottom: 10px; }
+    .liz-drag-drop-pair-text .pair-text-groups .target-container .items-targets {
+      min-height: 50px;
+      position: absolute;
+      right: -38px;
+      top: 6px;
+      width: 56%;
+      z-index: 10; }
+      .liz-drag-drop-pair-text .pair-text-groups .target-container .items-targets .item-target {
+        float: left;
+        position: relative;
+        width: 100%;
+        min-height: 45px;
+        display: table; }
+        .liz-drag-drop-pair-text .pair-text-groups .target-container .items-targets .item-target .item {
+          display: table-cell;
+          vertical-align: middle;
+          text-align: center;
+          background: url("../resources/02/nat/07/rompecabezas-2.png") -15px center;
+          -webkit-background-size: 300px 88px;
+          background-size: 300px 88px; }
+  .liz-drag-drop-pair-text .pair-text-groups .item-cont {
+    margin-left: 25px; }
+    .liz-drag-drop-pair-text .pair-text-groups .item-cont .item-container {
+      margin-bottom: 10px;
+      float: left;
+      width: 100%; }
+      .liz-drag-drop-pair-text .pair-text-groups .item-cont .item-container .item-drag {
+        height: 57px;
+        display: table;
+        padding: 0px 4px; }
+        .liz-drag-drop-pair-text .pair-text-groups .item-cont .item-container .item-drag > div {
+          cursor: pointer;
+          display: table-cell;
+          vertical-align: middle;
+          text-align: center;
+          background: url("../resources/02/nat/07/rompecabezas-2.png") 0;
+          -webkit-background-size: 300px 88px;
+          background-size: 300px 88px;
+          padding-left: 36px; }
+  .liz-drag-drop-pair-text .pair-text-groups .target-title {
+    height: 57px;
+    display: table;
+    padding: 0px 4px;
+    width: 62%; }
+    .liz-drag-drop-pair-text .pair-text-groups .target-title > div {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      background: url("../resources/02/nat/07/rompecabezas-1.png") 0;
+      -webkit-background-size: 300px 88px;
+      background-size: 300px 88px; }
+.liz-drag-drop-pair-text .face {
+  margin-left: -72px;
+  width: 124px;
+  left: 50%;
+  z-index: 6; }

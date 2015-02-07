@@ -1,0 +1,46 @@
+@import "../common/_mixins.scss";
+
+.liz-click-to-complete-input{
+	
+	.popover{
+		z-index: 10;
+
+		input{
+			border-radius: 5px;
+		}
+	}
+	
+	.section2{
+		position: relative;
+		width: 100%;
+		float: left;
+
+		.main-img{
+			width: 100%;
+			float: right;
+		}
+
+		.item-target{
+			position: absolute;
+			@include transition(background-color 0.4s ease-out);
+			@include transition(border-radius 0.1s ease-out);
+			cursor: pointer;
+
+			&:hover{
+				border-radius: 50%;
+			}
+		}
+	}
+
+	
+
+	.right-answer, .wrong-answer{
+		position: absolute;
+		top: 5%;
+		left: 85%;
+		$size: 25px;
+	    width: $size;
+	    height: $size;
+	    background-size: $size $size;
+	}
+}

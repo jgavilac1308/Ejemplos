@@ -1,0 +1,50 @@
+.liz-radio-questions-images .question {
+  margin-left: 10%;
+  float: left;
+  padding: 10px;
+  margin: 0 auto;
+  margin-left: 6%;
+  margin-top: 2%;
+}
+.liz-radio-questions-images .question img {
+  float: left;
+  margin-right: 5%;
+  border: 2px solid #d44a27;
+  max-width: 65%;
+}
+.liz-radio-questions-images .question .question-text .answers {
+  font-size: 18px;
+  text-align: left;
+  vertical-align: middle;
+}
+.liz-radio-questions-images .question .answers {
+  *zoom: 1;
+  float: left;
+}
+.liz-radio-questions-images .question .answers:before, .liz-radio-questions-images .question .answers:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.liz-radio-questions-images .question .answers:after {
+  clear: both;
+}
+.liz-radio-questions-images .question .onlyText {
+  float: none !important;
+  width: 60% !important;
+  margin: 0 auto;
+}
+.liz-radio-questions-images .question .right-answer, .liz-radio-questions-images .question .wrong-answer {
+  width: 40px;
+  height: 40px;
+  display: block;
+  float: left;
+  background-size: 30px 30px;
+}
+.liz-radio-questions-images .face {
+  margin-left: -72px;
+  width: 124px;
+  left: 50%;
+  top: 0;
+  z-index: 161;
+}

@@ -1,0 +1,32 @@
+.liz-correct-word-in-sentence .block-content .hover-words-row {
+  padding: 2% 10;
+  margin-left: 10%;
+}
+.liz-correct-word-in-sentence .block-content .hover-words-row .answer_ok {
+  color: #d44a27;
+}
+.liz-correct-word-in-sentence .block-content .hover-words-row .number {
+  color: #fff;
+  display: inline-block;
+  font-size: 26px;
+  width: 1.4em;
+  height: 1.4em;
+  line-height: 1.4em;
+  text-align: center;
+  margin-right: 9px;
+}
+.liz-correct-word-in-sentence .block-content .hover-words-row .hover-phrase-phrases {
+  font-size: 23px;
+  padding-top: 80px;
+}
+.liz-correct-word-in-sentence .block-content .hover-words-row .hover-phrase-phrases .float {
+  color: red;
+  float: left;
+}
+.liz-correct-word-in-sentence .block-content .right-answer, .liz-correct-word-in-sentence .block-content .wrong-answer {
+  width: 40px;
+  height: 40px;
+  display: block;
+  float: left;
+  background-size: 30px 30px;
+}

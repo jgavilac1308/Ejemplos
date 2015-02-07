@@ -1,0 +1,158 @@
+.liz-pairs-inputs.default .block-content {
+  text-align: center;
+  padding: 4px 6px;
+}
+.liz-pairs-inputs.default .input-groups {
+  width: 48%;
+  margin-right: 2%;
+  float: left;
+}
+.liz-pairs-inputs.default .input-group {
+  border: 2px solid #000;
+  width: 100%;
+  margin-bottom: 3px;
+  padding: 2px;
+  font-size: 22px;
+  position: relative;
+}
+.liz-pairs-inputs.default .input-group .input-text {
+  display: inline-block;
+  float: left;
+  cursor: pointer;
+  text-align: left;
+  padding: 4px 6px;
+}
+.liz-pairs-inputs.default .input-group input[type="text"] {
+  float: right;
+  border-width: 2px;
+  border-style: solid;
+  padding: 4px 6px;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+  outline: none;
+}
+.liz-pairs-inputs.default .input-group input[type="text"]:focus {
+  color: #fff;
+}
+.liz-pairs-inputs.default .image {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+.liz-pairs-inputs.default .image img {
+  display: inline-block;
+}
+.liz-pairs-inputs.default .right-answer, .liz-pairs-inputs.default .wrong-answer {
+  width: 38px;
+  height: 38px;
+  background-size: 38px 38px;
+  position: absolute;
+  margin: auto;
+  right: -43px;
+  top: 0;
+  bottom: 0;
+}
+.liz-pairs-inputs.book .block-content {
+  position: relative;
+}
+.liz-pairs-inputs.book .input-groups {
+  position: absolute;
+  margin: 0 auto;
+  top: 180px;
+  left: 0px;
+  right: 0;
+  width: 50%;
+}
+.liz-pairs-inputs.book .input-group {
+  width: calc(50% - 34px);
+  margin-right: 34px;
+  float: left;
+  margin-bottom: 3px;
+  padding: 2px;
+  font-size: 22px;
+  position: relative;
+}
+.liz-pairs-inputs.book .input-group .input-text {
+  display: inline-block;
+  float: left;
+  cursor: pointer;
+  text-align: left;
+  padding: 4px 6px;
+}
+.liz-pairs-inputs.book .input-group input[type="text"] {
+  background: transparent;
+  float: right;
+  border-width: 2px;
+  border-style: solid;
+  padding: 4px 6px;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+  outline: none;
+}
+.liz-pairs-inputs.book .image {
+  text-align: center;
+}
+.liz-pairs-inputs.book .image img {
+  display: inline-block;
+}
+.liz-pairs-inputs.book .right-answer, .liz-pairs-inputs.book .wrong-answer {
+  width: 38px;
+  height: 38px;
+  background-size: 38px 38px;
+  position: absolute;
+  margin: auto;
+  right: -6px;
+  top: -23px;
+  bottom: 0;
+}
+.liz-pairs-inputs.one-column .block-content {
+  position: relative;
+}
+.liz-pairs-inputs.one-column .input-groups {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.liz-pairs-inputs.one-column .input-group {
+  border: 2px solid #000;
+  width: 100%;
+  margin-bottom: 3px;
+  padding: 2px;
+  font-size: 22px;
+  position: relative;
+}
+.liz-pairs-inputs.one-column .input-group .input-text {
+  display: inline-block;
+  float: left;
+  cursor: pointer;
+  text-align: left;
+  padding: 4px 6px;
+}
+.liz-pairs-inputs.one-column .input-group input[type="text"] {
+  background: transparent;
+  float: right;
+  border-width: 2px;
+  border-style: solid;
+  padding: 4px 6px;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+  outline: none;
+}
+.liz-pairs-inputs.one-column .image {
+  text-align: center;
+}
+.liz-pairs-inputs.one-column .image img {
+  display: inline-block;
+}
+.liz-pairs-inputs.one-column .right-answer, .liz-pairs-inputs.one-column .wrong-answer {
+  width: 38px;
+  height: 38px;
+  background-size: 38px 38px;
+  position: absolute;
+  margin: auto;
+  right: 4px;
+  top: -2px;
+  bottom: 0;
+}

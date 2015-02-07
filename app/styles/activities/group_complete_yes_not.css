@@ -1,0 +1,109 @@
+.liz-group-complete-yes-not .item {
+  width: 77%;
+  float: left;
+  font-size: 24px;
+  text-align: center;
+}
+.liz-group-complete-yes-not .item .item-name {
+  width: 88%;
+  height: 108px;
+  text-align: center;
+  color: white;
+  margin-top: 0;
+  float: left;
+  margin-left: 1%;
+  padding-top: 30px;
+}
+.liz-group-complete-yes-not .item .item-number {
+  width: 10%;
+  height: 108px;
+  text-align: center;
+  line-height: 108px;
+  color: white;
+  float: left;
+}
+.liz-group-complete-yes-not .item.per-row-1 {
+  width: 99%;
+}
+.liz-group-complete-yes-not .item.per-row-2 {
+  width: 49.5%;
+}
+.liz-group-complete-yes-not .item.per-row-3 {
+  width: 33%;
+}
+.liz-group-complete-yes-not .item.per-row-4 {
+  width: 24.75%;
+}
+.liz-group-complete-yes-not .item.per-row-5 {
+  width: 19.8%;
+}
+.liz-group-complete-yes-not .item.per-row-6 {
+  width: 16.5%;
+}
+@media (max-width: 992px) {
+  .liz-group-complete-yes-not .item {
+    width: 50%;
+    text-align: left;
+    font-size: 18px;
+  }
+}
+.liz-group-complete-yes-not .complete-container {
+  float: left;
+  border: 3px solid #000;
+  font-size: 1.4em;
+  padding: 5px;
+  font-family: 'century_gothic';
+  width: 98%;
+  float: left;
+  margin-left: 1%;
+  margin-bottom: 1%;
+}
+.liz-group-complete-yes-not .complete-container .complete-words-container {
+  margin-left: 1%;
+}
+.liz-group-complete-yes-not .complete-container span {
+  /* div{display: inline-block;} */
+}
+.liz-group-complete-yes-not .complete-container span .input-container {
+  width: 211px;
+  border: none;
+  border-bottom: 2px solid #000;
+  margin-left: 1%;
+}
+.liz-group-complete-yes-not .complete-container span button {
+  width: 10% !important;
+  height: 108px;
+  outline: none;
+  font-size: 24px;
+  color: #333333;
+  margin-top: 0;
+  float: right;
+  margin-right: 1%;
+}
+@media (max-width: 992px) {
+  .liz-group-complete-yes-not .complete-container span button {
+    font-size: 18px;
+  }
+}
+.liz-group-complete-yes-not .complete-container span button:focus {
+  color: #ffffff;
+}
+.liz-group-complete-yes-not .complete-container span button:disabled {
+  background-color: #c9c9ca;
+}
+.liz-group-complete-yes-not .letters {
+  text-align: center;
+}
+.liz-group-complete-yes-not .letters .syllable {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 2em;
+}
+.liz-group-complete-yes-not .right-answer, .liz-group-complete-yes-not .wrong-answer {
+  position: absolute;
+  margin-top: 0%;
+  left: 69%;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+}

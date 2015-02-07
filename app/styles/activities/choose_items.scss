@@ -1,0 +1,47 @@
+.liz-choose-items{
+	// Añadir aquí las nuevas clases para esta actividad
+	.letter{
+		font-size: 5.8em;
+		cursor: pointer;
+		float: left;
+		width: 20%;
+		text-align: center;
+		
+		&:hover{
+			color: #fff !important;
+		}
+	}		
+
+	.choose-items-img{
+		float: left; 
+		padding: 4px;
+		cursor: pointer;
+	}
+	
+	.row-container{
+		position: absolute;
+		bottom: 10%;
+		width: 94%;
+	}
+
+	.item-text-container{
+
+		padding: 5px;
+		display: inline-block;
+		color: white;
+		font-size: 20px;
+		text-align: center;
+	}
+
+	// *****************************************************************************
+	// Caras
+	// ***************************************************************************** 
+	.face{
+		margin-left: -72px;
+		width: 124px;
+		left: 50%;
+		z-index: 6;
+		top: 20%;
+	}
+	
+}

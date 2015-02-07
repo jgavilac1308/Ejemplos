@@ -1,0 +1,86 @@
+.liz-change-style-select .items {
+  width: 30%;
+  float: left; }
+  .liz-change-style-select .items .main-img {
+    width: 50%;
+    margin-left: 25%; }
+.liz-change-style-select .item {
+  width: 33%;
+  margin-top: 10px; }
+.liz-change-style-select .inner-title {
+  width: 15em;
+  height: 3em;
+  line-height: 3em;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 25px;
+  margin-top: 9px;
+  color: #fff;
+  border: 0px solid;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out; }
+  .liz-change-style-select .inner-title.is-selected {
+    box-shadow: 0px 0px 0px 5px #272727; }
+.liz-change-style-select .inner-item {
+  width: 4em;
+  height: 4em;
+  line-height: 4em;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  margin: auto;
+  background-color: #fff;
+  border: 3px solid;
+  float: left;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out; }
+  .liz-change-style-select .inner-item.is-selected {
+    box-shadow: 0px 0px 0px 5px #272727; }
+  .liz-change-style-select .inner-item .inner-item-inner {
+    width: 3.6em;
+    height: 3.6em;
+    line-height: 3.6em;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    margin: auto;
+    background-color: #fff;
+    border: 3px solid;
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out; }
+.liz-change-style-select .text-box {
+  width: 70%;
+  float: left; }
+  .liz-change-style-select .text-box .block {
+    text-align: center; }
+  .liz-change-style-select .text-box .block-content {
+    padding: 0.4em;
+    min-height: 400px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%; }
+    .liz-change-style-select .text-box .block-content .section,
+    .liz-change-style-select .text-box .block-content .section2 {
+      width: 49%;
+      float: left; }
+      .liz-change-style-select .text-box .block-content .section img,
+      .liz-change-style-select .text-box .block-content .section2 img {
+        display: block;
+        margin: auto;
+        margin-left: 5%; }
+      .liz-change-style-select .text-box .block-content .section .inner-text,
+      .liz-change-style-select .text-box .block-content .section2 .inner-text {
+        font-size: 15px;
+        width: 100%;
+        margin-top: 2%;
+        cursor: pointer; }
+    .liz-change-style-select .text-box .block-content .section2 {
+      padding-left: 30px; }

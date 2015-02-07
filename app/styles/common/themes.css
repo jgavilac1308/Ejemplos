@@ -1,0 +1,3263 @@
+.nat .header {
+  background: #009500;
+}
+.nat #next:hover, .nat #prev:hover {
+  background-color: rgba(182, 243, 182, 0.5);
+}
+.nat #next h2, .nat #prev h2 {
+  color: #009500;
+}
+.nat #icon-back, .nat #icon-next {
+  fill: #009500;
+  opacity: 1;
+}
+.nat .shadow {
+  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), inset rgba(0, 0, 0, 0.12) 0 0px 0, rgba(0, 0, 0, 0.3) 0 1px 2px, #009500 0 1px 10px;
+}
+.nat .lesson-logo img {
+  background-image: url("../resources/common/icononat.png");
+}
+.nat .farewell-modal {
+  background: white url("..");
+}
+.nat .block {
+  background: #009500;
+}
+.nat .block-content {
+  border-color: #009500;
+}
+.nat .btn-primary, .nat .btn-primary-farewell {
+  background: #009500;
+}
+.nat .btn-primary:hover, .nat .btn-primary:active, .nat .btn-primary.active, .nat .btn-primary-farewell:hover, .nat .btn-primary-farewell:active, .nat .btn-primary-farewell.active {
+  background: #005300;
+}
+.nat .input-primary {
+  border-color: #009500;
+}
+.nat h3 strong, .nat h2 strong, .nat h1 strong {
+  color: #009500;
+}
+.nat strong {
+  color: #009500;
+}
+.nat .bd-1, .nat table.table-primary th, .nat table.table-primary td, .esp table.table-primary .nat th, .esp table.table-primary .nat td, .soc table.table-primary .nat th, .soc table.table-primary .nat td, .mat table.table-primary .nat th, .mat table.table-primary .nat td {
+  border-color: #009500 !important;
+}
+.nat .bd-2 {
+  border-color: #005300 !important;
+}
+.nat .bd-3 {
+  border-color: rgba(182, 243, 182, 0.5) !important;
+}
+.nat .bd-disabled {
+  border-color: #B3B3B3 !important;
+}
+.nat .bc-bottom-1 {
+  border-bottom-color: #009500 !important;
+}
+.nat .bg-1, .nat table.table-primary th, .esp table.table-primary .nat th, .soc table.table-primary .nat th, .mat table.table-primary .nat th {
+  background-color: #009500 !important;
+}
+.nat .bg-2 {
+  background-color: #005300 !important;
+}
+.nat .bg-3 {
+  background-color: rgba(182, 243, 182, 0.5) !important;
+}
+.nat .bg-4 {
+  background-color: rgba(182, 243, 182, 0.2) !important;
+}
+.nat .bs-3 {
+  box-shadow: rgba(182, 243, 182, 0.5) !important;
+}
+.nat .fc-1 {
+  color: #009500 !important;
+}
+.nat .border-color-R {
+  border-color: transparent transparent transparent #009500;
+}
+.nat .border-color-L {
+  border-color: transparent #009500 transparent transparent;
+}
+.nat .border-color-B {
+  border-color: #009500 transparent transparent transparent;
+}
+.nat .border-color-T {
+  border-color: transparent transparent #009500 transparent;
+}
+.nat .hover-bg-1:hover {
+  background-color: #009500 !important;
+}
+.nat .item-selectable.is-selected {
+  box-shadow: 0px 0px 0px 5px #005300 !important;
+  background-color: rgba(182, 243, 182, 0.5) !important;
+}
+.nat .center-v-h {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nat .item-is-selected {
+  box-shadow: 0px 0px 0px 5px #005300 !important;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+.nat .item-is-selected-1 {
+  box-shadow: 0px 0px 0px 5px #009500 !important;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+.nat .course-modal-title {
+  background: #009500;
+}
+.nat .course-modal-content {
+  color: #009500;
+}
+.nat #farewell-box {
+  background-image: url("../resources/common/boxnat.png");
+}
+.nat #farewell-kid {
+  background-image: url("../resources/common/kidnat.png");
+}
+.nat .liz-images-and-text .item div {
+  border-color: #005300;
+  background-color: #009500;
+}
+.nat .liz-images-and-text .item div:after {
+  border-color: transparent transparent #009500 transparent;
+}
+.nat .liz-letter-soup .letter-soup-table {
+  float: left;
+}
+.nat .liz-letter-soup .letter-soup-table * {
+  border: 2px solid #000;
+}
+.nat .liz-letter-soup .letter-soup-table td.completed {
+  background: #009500;
+}
+.nat .liz-letter-soup .letter-soup-group .group-title {
+  background: #009500;
+}
+.nat .liz-group-complete-yes-not .item-name {
+  color: #009500 !important;
+  background-color: transparent !important;
+}
+.nat .liz-group-select-words .input-container {
+  border-color: #009500 !important;
+}
+.nat .liz-group-select-words .complete-words-container2 .input-container {
+  border-color: #005300 !important;
+  background-color: #009500 !important;
+}
+.nat .liz-group-select-words input[type=button]:focus {
+  border-color: #005300 !important;
+  color: #009500 !important;
+}
+.nat .liz-group-complete-letters input[type=text]:focus {
+  background: #005300;
+}
+.nat .liz-complete-inputs-position input[type=text] {
+  border-color: #009500;
+  color: #009500;
+}
+.nat .liz-complete-inputs-position input[type=text]:focus {
+  border-color: #005300;
+  background: #005300;
+}
+.nat .liz-select-options-positions select option:hover:hover {
+  color: #009500 !important;
+}
+.nat .liz-click-to-select-position .item.is-selected, .nat .liz-click-to-complete-input .item.is-selected {
+  background: #005300 !important;
+}
+.nat .liz-click-to-select-position .item.is-selected .item-inner, .nat .liz-click-to-complete-input .item.is-selected .item-inner {
+  border-color: #005300 !important;
+}
+.nat .liz-click-to-select-position .item.is-selected .item-text, .nat .liz-click-to-complete-input .item.is-selected .item-text {
+  background: #005300;
+}
+.nat .liz-click-to-select-position .item-inner, .nat .liz-click-to-complete-input .item-inner {
+  border-color: #009500 !important;
+}
+.nat .liz-click-to-select-position .item-text, .nat .liz-click-to-complete-input .item-text {
+  background: #009500;
+}
+.nat .liz-click-to-select-position .item-target, .nat .liz-click-to-complete-input .item-target {
+  background: #009500;
+}
+.nat .liz-click-to-select-position .item-target:hover, .nat .liz-click-to-complete-input .item-target:hover {
+  background: #005300;
+}
+.nat .liz-complete-letters .block-content,
+.nat .liz-complete-words .block-content,
+.nat .liz-complete-words-wi .block-content,
+.nat .liz-group-complete-words .block-content,
+.nat .liz-group-complete-letters .block-content,
+.nat .liz-group-complete-images .block-content,
+.nat .liz-group-classify-table .block-content,
+.nat .liz-concepts-table .block-content,
+.nat .liz-group-select-words .block-content,
+.nat .liz-group-complete-sound .block-content,
+.nat .liz-group-complete-text .block-content,
+.nat .liz-group-complete-text-free .block-content,
+.nat .liz-group-table-text-free .block-content,
+.nat .liz-group-table-text-conditions .block-content,
+.nat .liz-group-table-text-conditions-options .block-content,
+.nat .liz-group-table-text-options .block-content,
+.nat .liz-group-complete-free-conditions .block-content,
+.nat .liz-group-complete-yes-not .block-content,
+.nat .liz-complete-inputs-free .block-content {
+  border-color: #009500 !important;
+}
+.nat .liz-complete-letters .item input[type=text],
+.nat .liz-complete-words .item input[type=text],
+.nat .liz-complete-words-wi .item input[type=text],
+.nat .liz-group-complete-words .item input[type=text],
+.nat .liz-group-complete-letters .item input[type=text],
+.nat .liz-group-complete-images .item input[type=text],
+.nat .liz-group-classify-table .item input[type=text],
+.nat .liz-concepts-table .item input[type=text],
+.nat .liz-group-select-words .item input[type=text],
+.nat .liz-group-complete-sound .item input[type=text],
+.nat .liz-group-complete-text .item input[type=text],
+.nat .liz-group-complete-text-free .item input[type=text],
+.nat .liz-group-table-text-free .item input[type=text],
+.nat .liz-group-table-text-conditions .item input[type=text],
+.nat .liz-group-table-text-conditions-options .item input[type=text],
+.nat .liz-group-table-text-options .item input[type=text],
+.nat .liz-group-complete-free-conditions .item input[type=text],
+.nat .liz-group-complete-yes-not .item input[type=text],
+.nat .liz-complete-inputs-free .item input[type=text] {
+  border-bottom-color: #009500;
+}
+.nat .liz-complete-letters .item input[type=text]:focus,
+.nat .liz-complete-words .item input[type=text]:focus,
+.nat .liz-complete-words-wi .item input[type=text]:focus,
+.nat .liz-group-complete-words .item input[type=text]:focus,
+.nat .liz-group-complete-letters .item input[type=text]:focus,
+.nat .liz-group-complete-images .item input[type=text]:focus,
+.nat .liz-group-classify-table .item input[type=text]:focus,
+.nat .liz-concepts-table .item input[type=text]:focus,
+.nat .liz-group-select-words .item input[type=text]:focus,
+.nat .liz-group-complete-sound .item input[type=text]:focus,
+.nat .liz-group-complete-text .item input[type=text]:focus,
+.nat .liz-group-complete-text-free .item input[type=text]:focus,
+.nat .liz-group-table-text-free .item input[type=text]:focus,
+.nat .liz-group-table-text-conditions .item input[type=text]:focus,
+.nat .liz-group-table-text-conditions-options .item input[type=text]:focus,
+.nat .liz-group-table-text-options .item input[type=text]:focus,
+.nat .liz-group-complete-free-conditions .item input[type=text]:focus,
+.nat .liz-group-complete-yes-not .item input[type=text]:focus,
+.nat .liz-complete-inputs-free .item input[type=text]:focus {
+  border-bottom-color: #005300;
+  background: #005300;
+}
+.nat .liz-complete-letters .item-name, .nat .liz-complete-letters .item-number, .nat .liz-complete-letters .item-caption, .nat .liz-complete-letters .item-title,
+.nat .liz-complete-words .item-name,
+.nat .liz-complete-words .item-number,
+.nat .liz-complete-words .item-caption,
+.nat .liz-complete-words .item-title,
+.nat .liz-complete-words-wi .item-name,
+.nat .liz-complete-words-wi .item-number,
+.nat .liz-complete-words-wi .item-caption,
+.nat .liz-complete-words-wi .item-title,
+.nat .liz-group-complete-words .item-name,
+.nat .liz-group-complete-words .item-number,
+.nat .liz-group-complete-words .item-caption,
+.nat .liz-group-complete-words .item-title,
+.nat .liz-group-complete-letters .item-name,
+.nat .liz-group-complete-letters .item-number,
+.nat .liz-group-complete-letters .item-caption,
+.nat .liz-group-complete-letters .item-title,
+.nat .liz-group-complete-images .item-name,
+.nat .liz-group-complete-images .item-number,
+.nat .liz-group-complete-images .item-caption,
+.nat .liz-group-complete-images .item-title,
+.nat .liz-group-classify-table .item-name,
+.nat .liz-group-classify-table .item-number,
+.nat .liz-group-classify-table .item-caption,
+.nat .liz-group-classify-table .item-title,
+.nat .liz-concepts-table .item-name,
+.nat .liz-concepts-table .item-number,
+.nat .liz-concepts-table .item-caption,
+.nat .liz-concepts-table .item-title,
+.nat .liz-group-select-words .item-name,
+.nat .liz-group-select-words .item-number,
+.nat .liz-group-select-words .item-caption,
+.nat .liz-group-select-words .item-title,
+.nat .liz-group-complete-sound .item-name,
+.nat .liz-group-complete-sound .item-number,
+.nat .liz-group-complete-sound .item-caption,
+.nat .liz-group-complete-sound .item-title,
+.nat .liz-group-complete-text .item-name,
+.nat .liz-group-complete-text .item-number,
+.nat .liz-group-complete-text .item-caption,
+.nat .liz-group-complete-text .item-title,
+.nat .liz-group-complete-text-free .item-name,
+.nat .liz-group-complete-text-free .item-number,
+.nat .liz-group-complete-text-free .item-caption,
+.nat .liz-group-complete-text-free .item-title,
+.nat .liz-group-table-text-free .item-name,
+.nat .liz-group-table-text-free .item-number,
+.nat .liz-group-table-text-free .item-caption,
+.nat .liz-group-table-text-free .item-title,
+.nat .liz-group-table-text-conditions .item-name,
+.nat .liz-group-table-text-conditions .item-number,
+.nat .liz-group-table-text-conditions .item-caption,
+.nat .liz-group-table-text-conditions .item-title,
+.nat .liz-group-table-text-conditions-options .item-name,
+.nat .liz-group-table-text-conditions-options .item-number,
+.nat .liz-group-table-text-conditions-options .item-caption,
+.nat .liz-group-table-text-conditions-options .item-title,
+.nat .liz-group-table-text-options .item-name,
+.nat .liz-group-table-text-options .item-number,
+.nat .liz-group-table-text-options .item-caption,
+.nat .liz-group-table-text-options .item-title,
+.nat .liz-group-complete-free-conditions .item-name,
+.nat .liz-group-complete-free-conditions .item-number,
+.nat .liz-group-complete-free-conditions .item-caption,
+.nat .liz-group-complete-free-conditions .item-title,
+.nat .liz-group-complete-yes-not .item-name,
+.nat .liz-group-complete-yes-not .item-number,
+.nat .liz-group-complete-yes-not .item-caption,
+.nat .liz-group-complete-yes-not .item-title,
+.nat .liz-complete-inputs-free .item-name,
+.nat .liz-complete-inputs-free .item-number,
+.nat .liz-complete-inputs-free .item-caption,
+.nat .liz-complete-inputs-free .item-title {
+  background-color: #009500;
+}
+.nat .liz-complete-letters .complete-container,
+.nat .liz-complete-words .complete-container,
+.nat .liz-complete-words-wi .complete-container,
+.nat .liz-group-complete-words .complete-container,
+.nat .liz-group-complete-letters .complete-container,
+.nat .liz-group-complete-images .complete-container,
+.nat .liz-group-classify-table .complete-container,
+.nat .liz-concepts-table .complete-container,
+.nat .liz-group-select-words .complete-container,
+.nat .liz-group-complete-sound .complete-container,
+.nat .liz-group-complete-text .complete-container,
+.nat .liz-group-complete-text-free .complete-container,
+.nat .liz-group-table-text-free .complete-container,
+.nat .liz-group-table-text-conditions .complete-container,
+.nat .liz-group-table-text-conditions-options .complete-container,
+.nat .liz-group-table-text-options .complete-container,
+.nat .liz-group-complete-free-conditions .complete-container,
+.nat .liz-group-complete-yes-not .complete-container,
+.nat .liz-complete-inputs-free .complete-container {
+  border-color: #009500 !important;
+}
+.nat .liz-complete-letters .complete-container .input-container,
+.nat .liz-complete-words .complete-container .input-container,
+.nat .liz-complete-words-wi .complete-container .input-container,
+.nat .liz-group-complete-words .complete-container .input-container,
+.nat .liz-group-complete-letters .complete-container .input-container,
+.nat .liz-group-complete-images .complete-container .input-container,
+.nat .liz-group-classify-table .complete-container .input-container,
+.nat .liz-concepts-table .complete-container .input-container,
+.nat .liz-group-select-words .complete-container .input-container,
+.nat .liz-group-complete-sound .complete-container .input-container,
+.nat .liz-group-complete-text .complete-container .input-container,
+.nat .liz-group-complete-text-free .complete-container .input-container,
+.nat .liz-group-table-text-free .complete-container .input-container,
+.nat .liz-group-table-text-conditions .complete-container .input-container,
+.nat .liz-group-table-text-conditions-options .complete-container .input-container,
+.nat .liz-group-table-text-options .complete-container .input-container,
+.nat .liz-group-complete-free-conditions .complete-container .input-container,
+.nat .liz-group-complete-yes-not .complete-container .input-container,
+.nat .liz-complete-inputs-free .complete-container .input-container {
+  border-bottom-color: #009500;
+}
+.nat .liz-complete-letters .complete-container span .item-placeholder,
+.nat .liz-complete-words .complete-container span .item-placeholder,
+.nat .liz-complete-words-wi .complete-container span .item-placeholder,
+.nat .liz-group-complete-words .complete-container span .item-placeholder,
+.nat .liz-group-complete-letters .complete-container span .item-placeholder,
+.nat .liz-group-complete-images .complete-container span .item-placeholder,
+.nat .liz-group-classify-table .complete-container span .item-placeholder,
+.nat .liz-concepts-table .complete-container span .item-placeholder,
+.nat .liz-group-select-words .complete-container span .item-placeholder,
+.nat .liz-group-complete-sound .complete-container span .item-placeholder,
+.nat .liz-group-complete-text .complete-container span .item-placeholder,
+.nat .liz-group-complete-text-free .complete-container span .item-placeholder,
+.nat .liz-group-table-text-free .complete-container span .item-placeholder,
+.nat .liz-group-table-text-conditions .complete-container span .item-placeholder,
+.nat .liz-group-table-text-conditions-options .complete-container span .item-placeholder,
+.nat .liz-group-table-text-options .complete-container span .item-placeholder,
+.nat .liz-group-complete-free-conditions .complete-container span .item-placeholder,
+.nat .liz-group-complete-yes-not .complete-container span .item-placeholder,
+.nat .liz-complete-inputs-free .complete-container span .item-placeholder {
+  background: #009500;
+}
+.nat .liz-complete-letters .complete-container span textarea[type=text],
+.nat .liz-complete-words .complete-container span textarea[type=text],
+.nat .liz-complete-words-wi .complete-container span textarea[type=text],
+.nat .liz-group-complete-words .complete-container span textarea[type=text],
+.nat .liz-group-complete-letters .complete-container span textarea[type=text],
+.nat .liz-group-complete-images .complete-container span textarea[type=text],
+.nat .liz-group-classify-table .complete-container span textarea[type=text],
+.nat .liz-concepts-table .complete-container span textarea[type=text],
+.nat .liz-group-select-words .complete-container span textarea[type=text],
+.nat .liz-group-complete-sound .complete-container span textarea[type=text],
+.nat .liz-group-complete-text .complete-container span textarea[type=text],
+.nat .liz-group-complete-text-free .complete-container span textarea[type=text],
+.nat .liz-group-table-text-free .complete-container span textarea[type=text],
+.nat .liz-group-table-text-conditions .complete-container span textarea[type=text],
+.nat .liz-group-table-text-conditions-options .complete-container span textarea[type=text],
+.nat .liz-group-table-text-options .complete-container span textarea[type=text],
+.nat .liz-group-complete-free-conditions .complete-container span textarea[type=text],
+.nat .liz-group-complete-yes-not .complete-container span textarea[type=text],
+.nat .liz-complete-inputs-free .complete-container span textarea[type=text] {
+  border-color: #009500 !important;
+}
+.nat .liz-complete-letters .complete-container span input:focus,
+.nat .liz-complete-letters .complete-container span textarea[type=text]:focus,
+.nat .liz-complete-words .complete-container span input:focus,
+.nat .liz-complete-words .complete-container span textarea[type=text]:focus,
+.nat .liz-complete-words-wi .complete-container span input:focus,
+.nat .liz-complete-words-wi .complete-container span textarea[type=text]:focus,
+.nat .liz-group-complete-words .complete-container span input:focus,
+.nat .liz-group-complete-words .complete-container span textarea[type=text]:focus,
+.nat .liz-group-complete-letters .complete-container span input:focus,
+.nat .liz-group-complete-letters .complete-container span textarea[type=text]:focus,
+.nat .liz-group-complete-images .complete-container span input:focus,
+.nat .liz-group-complete-images .complete-container span textarea[type=text]:focus,
+.nat .liz-group-classify-table .complete-container span input:focus,
+.nat .liz-group-classify-table .complete-container span textarea[type=text]:focus,
+.nat .liz-concepts-table .complete-container span input:focus,
+.nat .liz-concepts-table .complete-container span textarea[type=text]:focus,
+.nat .liz-group-select-words .complete-container span input:focus,
+.nat .liz-group-select-words .complete-container span textarea[type=text]:focus,
+.nat .liz-group-complete-sound .complete-container span input:focus,
+.nat .liz-group-complete-sound .complete-container span textarea[type=text]:focus,
+.nat .liz-group-complete-text .complete-container span input:focus,
+.nat .liz-group-complete-text .complete-container span textarea[type=text]:focus,
+.nat .liz-group-complete-text-free .complete-container span input:focus,
+.nat .liz-group-complete-text-free .complete-container span textarea[type=text]:focus,
+.nat .liz-group-table-text-free .complete-container span input:focus,
+.nat .liz-group-table-text-free .complete-container span textarea[type=text]:focus,
+.nat .liz-group-table-text-conditions .complete-container span input:focus,
+.nat .liz-group-table-text-conditions .complete-container span textarea[type=text]:focus,
+.nat .liz-group-table-text-conditions-options .complete-container span input:focus,
+.nat .liz-group-table-text-conditions-options .complete-container span textarea[type=text]:focus,
+.nat .liz-group-table-text-options .complete-container span input:focus,
+.nat .liz-group-table-text-options .complete-container span textarea[type=text]:focus,
+.nat .liz-group-complete-free-conditions .complete-container span input:focus,
+.nat .liz-group-complete-free-conditions .complete-container span textarea[type=text]:focus,
+.nat .liz-group-complete-yes-not .complete-container span input:focus,
+.nat .liz-group-complete-yes-not .complete-container span textarea[type=text]:focus,
+.nat .liz-complete-inputs-free .complete-container span input:focus,
+.nat .liz-complete-inputs-free .complete-container span textarea[type=text]:focus {
+  border-color: #009500 !important;
+  color: #009500;
+}
+.nat .liz-complete-letters .complete-container textarea[type=text]:focus,
+.nat .liz-complete-words .complete-container textarea[type=text]:focus,
+.nat .liz-complete-words-wi .complete-container textarea[type=text]:focus,
+.nat .liz-group-complete-words .complete-container textarea[type=text]:focus,
+.nat .liz-group-complete-letters .complete-container textarea[type=text]:focus,
+.nat .liz-group-complete-images .complete-container textarea[type=text]:focus,
+.nat .liz-group-classify-table .complete-container textarea[type=text]:focus,
+.nat .liz-concepts-table .complete-container textarea[type=text]:focus,
+.nat .liz-group-select-words .complete-container textarea[type=text]:focus,
+.nat .liz-group-complete-sound .complete-container textarea[type=text]:focus,
+.nat .liz-group-complete-text .complete-container textarea[type=text]:focus,
+.nat .liz-group-complete-text-free .complete-container textarea[type=text]:focus,
+.nat .liz-group-table-text-free .complete-container textarea[type=text]:focus,
+.nat .liz-group-table-text-conditions .complete-container textarea[type=text]:focus,
+.nat .liz-group-table-text-conditions-options .complete-container textarea[type=text]:focus,
+.nat .liz-group-table-text-options .complete-container textarea[type=text]:focus,
+.nat .liz-group-complete-free-conditions .complete-container textarea[type=text]:focus,
+.nat .liz-group-complete-yes-not .complete-container textarea[type=text]:focus,
+.nat .liz-complete-inputs-free .complete-container textarea[type=text]:focus {
+  border-color: #009500 !important;
+  color: #009500;
+}
+.nat .liz-complete-letters .letters .syllable strong,
+.nat .liz-complete-words .letters .syllable strong,
+.nat .liz-complete-words-wi .letters .syllable strong,
+.nat .liz-group-complete-words .letters .syllable strong,
+.nat .liz-group-complete-letters .letters .syllable strong,
+.nat .liz-group-complete-images .letters .syllable strong,
+.nat .liz-group-classify-table .letters .syllable strong,
+.nat .liz-concepts-table .letters .syllable strong,
+.nat .liz-group-select-words .letters .syllable strong,
+.nat .liz-group-complete-sound .letters .syllable strong,
+.nat .liz-group-complete-text .letters .syllable strong,
+.nat .liz-group-complete-text-free .letters .syllable strong,
+.nat .liz-group-table-text-free .letters .syllable strong,
+.nat .liz-group-table-text-conditions .letters .syllable strong,
+.nat .liz-group-table-text-conditions-options .letters .syllable strong,
+.nat .liz-group-table-text-options .letters .syllable strong,
+.nat .liz-group-complete-free-conditions .letters .syllable strong,
+.nat .liz-group-complete-yes-not .letters .syllable strong,
+.nat .liz-complete-inputs-free .letters .syllable strong {
+  color: #009500;
+}
+.nat .liz-choose-items .letter {
+  color: #009500;
+}
+.nat .liz-choose-items .letter:hover {
+  background: #009500;
+}
+.nat .liz-pairs * {
+  border-color: #009500 !important;
+}
+.nat .liz-pairs strong {
+  color: #009500;
+}
+.nat .liz-complete-inputs .item,
+.nat .liz-complete-inputs input,
+.nat .liz-complete-inputs-description .item,
+.nat .liz-complete-inputs-description input {
+  border-color: #009500 !important;
+  color: #009500 !important;
+}
+.nat .liz-complete-inputs .inner-example,
+.nat .liz-complete-inputs-description .inner-example {
+  background: #009500;
+}
+.nat .liz-complete-inputs strong,
+.nat .liz-complete-inputs strong2,
+.nat .liz-complete-inputs-description strong,
+.nat .liz-complete-inputs-description strong2 {
+  color: #009500 !important;
+}
+.nat .liz-complete-inputs .block-content,
+.nat .liz-complete-inputs-description .block-content {
+  border-color: #009500 !important;
+}
+.nat .liz-complete-inputs .input-group,
+.nat .liz-complete-inputs-description .input-group {
+  border-color: #009500 !important;
+}
+.nat .liz-complete-inputs .input-group .input-group-addon,
+.nat .liz-complete-inputs-description .input-group .input-group-addon {
+  background: #009500 !important;
+}
+.nat .liz-complete-inputs .input-group input[type=text],
+.nat .liz-complete-inputs-description .input-group input[type=text] {
+  color: #009500 !important;
+}
+.nat .liz-one-group .item p {
+  background: #009500;
+}
+.nat .liz-one-group .target {
+  border-color: #009500 !important;
+}
+.nat .liz-drag-drop-mark .target {
+  border-color: #009500 !important;
+}
+.nat .liz-drag-drop-mark .items.text .item {
+  background: #009500;
+}
+.nat .liz-multiple-mark .target {
+  border-color: #009500 !important;
+}
+.nat .liz-puzzle1 .puzzle1-canvas {
+  border-color: #009500;
+}
+.nat .liz-puzzle2 .puzzle2-canvas, .nat .liz-puzzle2 .item {
+  border-color: #009500 !important;
+}
+.nat .liz-puzzle2 .item {
+  background: rgba(182, 243, 182, 0.5);
+}
+.nat .liz-puzzle4 .target {
+  box-shadow: 0px 0px 0px 3px #009500;
+}
+.nat .liz-puzzle4 .target-item {
+  background-color: rgba(182, 243, 182, 0.5);
+}
+.nat .liz-multiple-selection .item {
+  border-color: #009500;
+}
+.nat .liz-sound-group .group {
+  border-color: #009500;
+}
+.nat .liz-drop-out .group {
+  border-color: #009500;
+}
+.nat .liz-drag-drop-multiples .inner-group .items .item div,
+.nat .liz-drag-drop-multiples .stack.items .item div, .nat .liz-drag-drop-multiples-positions .inner-group .items .item div,
+.nat .liz-drag-drop-multiples-positions .stack.items .item div {
+  background: #009500;
+}
+.nat .liz-compare-sample .group {
+  border-color: #009500;
+}
+.nat .liz-compare-sample .sample {
+  background: rgba(182, 243, 182, 0.5);
+}
+.nat .liz-count-elements .number {
+  background: #009500;
+}
+.nat .liz-count-elements .sortable {
+  border-color: #009500;
+}
+.nat .liz-count-elements2 .item input[type=text] {
+  border-color: #009500 !important;
+}
+.nat .liz-sequences .sequence, .nat .liz-sequences .sequence-item {
+  border-color: #009500;
+}
+.nat .liz-group-inputs input[type="text"] {
+  border-color: #009500;
+}
+.nat .liz-pairs-inputs * {
+  border-color: #009500 !important;
+}
+.nat .liz-pairs-inputs *:focus {
+  background: #009500;
+}
+.nat .liz-crossword .clue.actived {
+  background: #009500;
+}
+.nat .liz-crossword td.actived input[type="text"] {
+  background: #009500;
+}
+.nat .liz-crossword td.main-actived input[type="text"] {
+  background: #005300;
+}
+.nat .liz-complete-text-boxes .textBoxesContainer .textBoxesTitleRow .blockNumber > span {
+  background-color: #009500;
+  border: 3px solid #005300;
+}
+.nat .liz-complete-text-boxes .textBoxesContainer .textBoxesTitleRow .textBoxesTitle {
+  color: #000;
+}
+.nat .liz-complete-text-boxes .textBoxesContainer .textBoxesInputRow textarea {
+  border: 3px solid #009500;
+}
+.nat .liz-complete-table-image-inputs .table-text-options .table-text-option > div {
+  background-color: #009500;
+  border: 3px solid #005300;
+}
+.nat .liz-complete-table-image-inputs .tableImageInputs thead tr th {
+  background-color: #009500;
+}
+.nat .liz-complete-table-image-inputs .tableImageInputs .tableImageInputsRow td:first-child {
+  background-color: #009500;
+}
+.nat .liz-complete-table-image-inputs .tableImageInputs .tableImageInputsRow td input {
+  color: #009500;
+  border: 2px solid #009500;
+}
+.nat .liz-complete-table-with-text .table-with-text-prefix {
+  background-color: #009500;
+}
+.nat .liz-complete-table-inputs .tableInputs thead > tr th {
+  background-color: #009500;
+}
+.nat .liz-complete-table-inputs .tableInputs .tableInputsRow td:first-child {
+  background-color: #009500;
+}
+.nat .liz-complete-table-inputs .tableInputs .tableInputsRow td textarea {
+  color: #009500;
+  border: 2px solid #009500;
+}
+.nat .liz-images-block-description .images-block-row .images-block-col > div .image-block-title {
+  background-color: #009500;
+}
+.nat .liz-complete-inputs-true-false .aOptionsRow .aOptionsCol > span {
+  background-color: #009500;
+  border: 4px solid rgba(182, 243, 182, 0.5);
+}
+.nat .liz-complete-inputs-true-false .inputsFalseTrueContainer td.blockNumber > span {
+  background-color: #009500;
+  border: 3px solid #005300;
+}
+.nat .liz-complete-inputs-true-false .inputsFalseTrueContainer td.blockInput > input {
+  border: 3px solid #009500;
+  color: #009500;
+}
+.nat .click-images .item p strong {
+  color: #009500;
+}
+.nat .click-images .item .number {
+  background-color: #009500;
+  box-shadow: 0px 0px 0px 5px #009500 !important;
+}
+.nat .click-images .item .number:hover {
+  background-color: #005300;
+  box-shadow: 0px 0px 0px 5px #005300 !important;
+}
+.nat .liz-show-parts .item-title {
+  background: #009500;
+}
+.nat .liz-change-style-click .inner-title.is-selected {
+  box-shadow: 0px 0px 0px 5px #005300 !important;
+}
+.nat .liz-change-style-click .inner-item.is-selected {
+  box-shadow: 0px 0px 0px 5px #005300 !important;
+}
+.nat .liz-change-style-select .inner-title.is-selected {
+  box-shadow: 0px 0px 0px 5px #005300 !important;
+}
+.nat .liz-change-style-select .inner-item {
+  color: #009500;
+  border-color: #009500;
+}
+.nat .liz-change-style-select .inner-item.is-selected {
+  box-shadow: 0px 0px 0px 5px #005300 !important;
+}
+.nat .liz-change-style-select .inner-item .inner-item-inner {
+  background-color: #009500;
+}
+.nat .liz-show-name .items {
+  border-color: #009500;
+}
+.nat .liz-show-name .inner-text {
+  color: #005300 !important;
+  background-color: #009500;
+}
+.nat .liz-show-text-character .slidesjs-navigation,
+.nat .liz-show-concepts-character .slidesjs-navigation,
+.nat .liz-slideshow-character .slidesjs-navigation,
+.nat .liz-show-concepts-text .slidesjs-navigation {
+  background-color: #009500;
+}
+.nat .liz-show-text-character .slidesjs-navigation:hover,
+.nat .liz-show-concepts-character .slidesjs-navigation:hover,
+.nat .liz-slideshow-character .slidesjs-navigation:hover,
+.nat .liz-show-concepts-text .slidesjs-navigation:hover {
+  background-color: #005300;
+}
+.nat .liz-show-text-character .inner-text,
+.nat .liz-show-concepts-character .inner-text,
+.nat .liz-slideshow-character .inner-text,
+.nat .liz-show-concepts-text .inner-text {
+  color: #009500;
+}
+.nat .liz-show-text-character .inner-title, .nat .liz-show-text-character .inner-example,
+.nat .liz-show-concepts-character .inner-title,
+.nat .liz-show-concepts-character .inner-example,
+.nat .liz-slideshow-character .inner-title,
+.nat .liz-slideshow-character .inner-example,
+.nat .liz-show-concepts-text .inner-title,
+.nat .liz-show-concepts-text .inner-example {
+  background-color: #009500;
+}
+.nat .liz-show-text-character .inner-title.is-selected, .nat .liz-show-text-character .inner-example.is-selected,
+.nat .liz-show-concepts-character .inner-title.is-selected,
+.nat .liz-show-concepts-character .inner-example.is-selected,
+.nat .liz-slideshow-character .inner-title.is-selected,
+.nat .liz-slideshow-character .inner-example.is-selected,
+.nat .liz-show-concepts-text .inner-title.is-selected,
+.nat .liz-show-concepts-text .inner-example.is-selected {
+  box-shadow: 0px 0px 0px 5px #005300 !important;
+}
+.nat .liz-show-text-character .inner-item,
+.nat .liz-show-concepts-character .inner-item,
+.nat .liz-slideshow-character .inner-item,
+.nat .liz-show-concepts-text .inner-item {
+  color: #009500;
+  border-color: #009500;
+}
+.nat .liz-show-text-character .inner-item.is-selected,
+.nat .liz-show-concepts-character .inner-item.is-selected,
+.nat .liz-slideshow-character .inner-item.is-selected,
+.nat .liz-show-concepts-text .inner-item.is-selected {
+  box-shadow: 0px 0px 0px 5px #005300 !important;
+}
+.nat .liz-show-text-character .inner-item .inner-item-inner,
+.nat .liz-show-concepts-character .inner-item .inner-item-inner,
+.nat .liz-slideshow-character .inner-item .inner-item-inner,
+.nat .liz-show-concepts-text .inner-item .inner-item-inner {
+  background-color: #009500;
+}
+.nat .liz-hover-show-text .popover-input, .nat .liz-click-to-complete-input .popover-input {
+  color: #009500;
+}
+.nat .liz-hover-show-text .popover, .nat .liz-click-to-complete-input .popover {
+  background: #009500;
+  color: white;
+}
+.nat .liz-hover-show-text .popover.top :after, .nat .liz-click-to-complete-input .popover.top :after {
+  border-top-color: #009500;
+}
+.nat .liz-hover-show-text .popover.left :after, .nat .liz-click-to-complete-input .popover.left :after {
+  border-left-color: #009500;
+}
+.nat .liz-hover-show-text .popover.right :after, .nat .liz-click-to-complete-input .popover.right :after {
+  border-right-color: #009500;
+}
+.nat .liz-hover-show-text .popover.bottom :after, .nat .liz-click-to-complete-input .popover.bottom :after {
+  border-bottom-color: #009500;
+}
+.nat .liz-show-concepts .inner-item {
+  background: #009500;
+}
+.nat .liz-show-concepts .inner-item.is-selected {
+  box-shadow: 0px 0px 0px 5px #005300 !important;
+}
+.nat .liz-show-description .item-title {
+  background: #009500;
+}
+.nat .liz-show-description .item-title.is-selected {
+  box-shadow: 0px 0px 0px 5px #005300 !important;
+}
+.nat .liz-table table * {
+  border-color: #009500;
+}
+.nat .liz-table table th {
+  background: #005300;
+}
+.nat .liz-show-multiple-hover-phrase .block-content .hover-words-row .hover-phrase-image > img {
+  border: 3px solid #009500;
+}
+.nat .big-letters {
+  background: #009500;
+}
+
+.esp .header {
+  background: #d44a27;
+}
+.esp #next:hover, .esp #prev:hover {
+  background-color: rgba(249, 223, 217, 0.5);
+}
+.esp #next h2, .esp #prev h2 {
+  color: #d44a27;
+}
+.esp #icon-back, .esp #icon-next {
+  fill: #d44a27;
+  opacity: 1;
+}
+.esp .shadow {
+  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), inset rgba(0, 0, 0, 0.12) 0 0px 0, rgba(0, 0, 0, 0.3) 0 1px 2px, #d44a27 0 1px 10px;
+}
+.esp .lesson-logo img {
+  background-image: url("../resources/common/iconoes.png");
+}
+.esp .farewell-modal {
+  background: white url("..");
+}
+.esp .block {
+  background: #d44a27;
+}
+.esp .block-content {
+  border-color: #d44a27;
+}
+.esp .btn-primary, .esp .btn-primary-farewell {
+  background: #d44a27;
+}
+.esp .btn-primary:hover, .esp .btn-primary:active, .esp .btn-primary.active, .esp .btn-primary-farewell:hover, .esp .btn-primary-farewell:active, .esp .btn-primary-farewell.active {
+  background: #7a2b16;
+}
+.esp .input-primary {
+  border-color: #d44a27;
+}
+.esp h3 strong, .esp h2 strong, .esp h1 strong {
+  color: #d44a27;
+}
+.esp strong {
+  color: #d44a27;
+}
+.esp .bd-1, .nat table.table-primary .esp th, .nat table.table-primary .esp td, .esp table.table-primary th, .esp table.table-primary td, .soc table.table-primary .esp th, .soc table.table-primary .esp td, .mat table.table-primary .esp th, .mat table.table-primary .esp td {
+  border-color: #d44a27 !important;
+}
+.esp .bd-2 {
+  border-color: #7a2b16 !important;
+}
+.esp .bd-3 {
+  border-color: rgba(249, 223, 217, 0.5) !important;
+}
+.esp .bd-disabled {
+  border-color: #B3B3B3 !important;
+}
+.esp .bc-bottom-1 {
+  border-bottom-color: #d44a27 !important;
+}
+.esp .bg-1, .nat table.table-primary .esp th, .esp table.table-primary th, .soc table.table-primary .esp th, .mat table.table-primary .esp th {
+  background-color: #d44a27 !important;
+}
+.esp .bg-2 {
+  background-color: #7a2b16 !important;
+}
+.esp .bg-3 {
+  background-color: rgba(249, 223, 217, 0.5) !important;
+}
+.esp .bg-4 {
+  background-color: rgba(249, 223, 217, 0.2) !important;
+}
+.esp .bs-3 {
+  box-shadow: rgba(249, 223, 217, 0.5) !important;
+}
+.esp .fc-1 {
+  color: #d44a27 !important;
+}
+.esp .border-color-R {
+  border-color: transparent transparent transparent #d44a27;
+}
+.esp .border-color-L {
+  border-color: transparent #d44a27 transparent transparent;
+}
+.esp .border-color-B {
+  border-color: #d44a27 transparent transparent transparent;
+}
+.esp .border-color-T {
+  border-color: transparent transparent #d44a27 transparent;
+}
+.esp .hover-bg-1:hover {
+  background-color: #d44a27 !important;
+}
+.esp .item-selectable.is-selected {
+  box-shadow: 0px 0px 0px 5px #7a2b16 !important;
+  background-color: rgba(249, 223, 217, 0.5) !important;
+}
+.esp .center-v-h {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.esp .item-is-selected {
+  box-shadow: 0px 0px 0px 5px #7a2b16 !important;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+.esp .item-is-selected-1 {
+  box-shadow: 0px 0px 0px 5px #d44a27 !important;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+.esp .course-modal-title {
+  background: #d44a27;
+}
+.esp .course-modal-content {
+  color: #d44a27;
+}
+.esp #farewell-box {
+  background-image: url("../resources/common/boxes.png");
+}
+.esp #farewell-kid {
+  background-image: url("../resources/common/kides.png");
+}
+.esp .liz-images-and-text .item div {
+  border-color: #7a2b16;
+  background-color: #d44a27;
+}
+.esp .liz-images-and-text .item div:after {
+  border-color: transparent transparent #d44a27 transparent;
+}
+.esp .liz-letter-soup .letter-soup-table {
+  float: left;
+}
+.esp .liz-letter-soup .letter-soup-table * {
+  border: 2px solid #000;
+}
+.esp .liz-letter-soup .letter-soup-table td.completed {
+  background: #d44a27;
+}
+.esp .liz-letter-soup .letter-soup-group .group-title {
+  background: #d44a27;
+}
+.esp .liz-group-complete-yes-not .item-name {
+  color: #d44a27 !important;
+  background-color: transparent !important;
+}
+.esp .liz-group-select-words .input-container {
+  border-color: #d44a27 !important;
+}
+.esp .liz-group-select-words .complete-words-container2 .input-container {
+  border-color: #7a2b16 !important;
+  background-color: #d44a27 !important;
+}
+.esp .liz-group-select-words input[type=button]:focus {
+  border-color: #7a2b16 !important;
+  color: #d44a27 !important;
+}
+.esp .liz-group-complete-letters input[type=text]:focus {
+  background: #7a2b16;
+}
+.esp .liz-complete-inputs-position input[type=text] {
+  border-color: #d44a27;
+  color: #d44a27;
+}
+.esp .liz-complete-inputs-position input[type=text]:focus {
+  border-color: #7a2b16;
+  background: #7a2b16;
+}
+.esp .liz-select-options-positions select option:hover:hover {
+  color: #d44a27 !important;
+}
+.esp .liz-click-to-select-position .item.is-selected, .esp .liz-click-to-complete-input .item.is-selected {
+  background: #7a2b16 !important;
+}
+.esp .liz-click-to-select-position .item.is-selected .item-inner, .esp .liz-click-to-complete-input .item.is-selected .item-inner {
+  border-color: #7a2b16 !important;
+}
+.esp .liz-click-to-select-position .item.is-selected .item-text, .esp .liz-click-to-complete-input .item.is-selected .item-text {
+  background: #7a2b16;
+}
+.esp .liz-click-to-select-position .item-inner, .esp .liz-click-to-complete-input .item-inner {
+  border-color: #d44a27 !important;
+}
+.esp .liz-click-to-select-position .item-text, .esp .liz-click-to-complete-input .item-text {
+  background: #d44a27;
+}
+.esp .liz-click-to-select-position .item-target, .esp .liz-click-to-complete-input .item-target {
+  background: #d44a27;
+}
+.esp .liz-click-to-select-position .item-target:hover, .esp .liz-click-to-complete-input .item-target:hover {
+  background: #7a2b16;
+}
+.esp .liz-complete-letters .block-content,
+.esp .liz-complete-words .block-content,
+.esp .liz-complete-words-wi .block-content,
+.esp .liz-group-complete-words .block-content,
+.esp .liz-group-complete-letters .block-content,
+.esp .liz-group-complete-images .block-content,
+.esp .liz-group-classify-table .block-content,
+.esp .liz-concepts-table .block-content,
+.esp .liz-group-select-words .block-content,
+.esp .liz-group-complete-sound .block-content,
+.esp .liz-group-complete-text .block-content,
+.esp .liz-group-complete-text-free .block-content,
+.esp .liz-group-table-text-free .block-content,
+.esp .liz-group-table-text-conditions .block-content,
+.esp .liz-group-table-text-conditions-options .block-content,
+.esp .liz-group-table-text-options .block-content,
+.esp .liz-group-complete-free-conditions .block-content,
+.esp .liz-group-complete-yes-not .block-content,
+.esp .liz-complete-inputs-free .block-content {
+  border-color: #d44a27 !important;
+}
+.esp .liz-complete-letters .item input[type=text],
+.esp .liz-complete-words .item input[type=text],
+.esp .liz-complete-words-wi .item input[type=text],
+.esp .liz-group-complete-words .item input[type=text],
+.esp .liz-group-complete-letters .item input[type=text],
+.esp .liz-group-complete-images .item input[type=text],
+.esp .liz-group-classify-table .item input[type=text],
+.esp .liz-concepts-table .item input[type=text],
+.esp .liz-group-select-words .item input[type=text],
+.esp .liz-group-complete-sound .item input[type=text],
+.esp .liz-group-complete-text .item input[type=text],
+.esp .liz-group-complete-text-free .item input[type=text],
+.esp .liz-group-table-text-free .item input[type=text],
+.esp .liz-group-table-text-conditions .item input[type=text],
+.esp .liz-group-table-text-conditions-options .item input[type=text],
+.esp .liz-group-table-text-options .item input[type=text],
+.esp .liz-group-complete-free-conditions .item input[type=text],
+.esp .liz-group-complete-yes-not .item input[type=text],
+.esp .liz-complete-inputs-free .item input[type=text] {
+  border-bottom-color: #d44a27;
+}
+.esp .liz-complete-letters .item input[type=text]:focus,
+.esp .liz-complete-words .item input[type=text]:focus,
+.esp .liz-complete-words-wi .item input[type=text]:focus,
+.esp .liz-group-complete-words .item input[type=text]:focus,
+.esp .liz-group-complete-letters .item input[type=text]:focus,
+.esp .liz-group-complete-images .item input[type=text]:focus,
+.esp .liz-group-classify-table .item input[type=text]:focus,
+.esp .liz-concepts-table .item input[type=text]:focus,
+.esp .liz-group-select-words .item input[type=text]:focus,
+.esp .liz-group-complete-sound .item input[type=text]:focus,
+.esp .liz-group-complete-text .item input[type=text]:focus,
+.esp .liz-group-complete-text-free .item input[type=text]:focus,
+.esp .liz-group-table-text-free .item input[type=text]:focus,
+.esp .liz-group-table-text-conditions .item input[type=text]:focus,
+.esp .liz-group-table-text-conditions-options .item input[type=text]:focus,
+.esp .liz-group-table-text-options .item input[type=text]:focus,
+.esp .liz-group-complete-free-conditions .item input[type=text]:focus,
+.esp .liz-group-complete-yes-not .item input[type=text]:focus,
+.esp .liz-complete-inputs-free .item input[type=text]:focus {
+  border-bottom-color: #7a2b16;
+  background: #7a2b16;
+}
+.esp .liz-complete-letters .item-name, .esp .liz-complete-letters .item-number, .esp .liz-complete-letters .item-caption, .esp .liz-complete-letters .item-title,
+.esp .liz-complete-words .item-name,
+.esp .liz-complete-words .item-number,
+.esp .liz-complete-words .item-caption,
+.esp .liz-complete-words .item-title,
+.esp .liz-complete-words-wi .item-name,
+.esp .liz-complete-words-wi .item-number,
+.esp .liz-complete-words-wi .item-caption,
+.esp .liz-complete-words-wi .item-title,
+.esp .liz-group-complete-words .item-name,
+.esp .liz-group-complete-words .item-number,
+.esp .liz-group-complete-words .item-caption,
+.esp .liz-group-complete-words .item-title,
+.esp .liz-group-complete-letters .item-name,
+.esp .liz-group-complete-letters .item-number,
+.esp .liz-group-complete-letters .item-caption,
+.esp .liz-group-complete-letters .item-title,
+.esp .liz-group-complete-images .item-name,
+.esp .liz-group-complete-images .item-number,
+.esp .liz-group-complete-images .item-caption,
+.esp .liz-group-complete-images .item-title,
+.esp .liz-group-classify-table .item-name,
+.esp .liz-group-classify-table .item-number,
+.esp .liz-group-classify-table .item-caption,
+.esp .liz-group-classify-table .item-title,
+.esp .liz-concepts-table .item-name,
+.esp .liz-concepts-table .item-number,
+.esp .liz-concepts-table .item-caption,
+.esp .liz-concepts-table .item-title,
+.esp .liz-group-select-words .item-name,
+.esp .liz-group-select-words .item-number,
+.esp .liz-group-select-words .item-caption,
+.esp .liz-group-select-words .item-title,
+.esp .liz-group-complete-sound .item-name,
+.esp .liz-group-complete-sound .item-number,
+.esp .liz-group-complete-sound .item-caption,
+.esp .liz-group-complete-sound .item-title,
+.esp .liz-group-complete-text .item-name,
+.esp .liz-group-complete-text .item-number,
+.esp .liz-group-complete-text .item-caption,
+.esp .liz-group-complete-text .item-title,
+.esp .liz-group-complete-text-free .item-name,
+.esp .liz-group-complete-text-free .item-number,
+.esp .liz-group-complete-text-free .item-caption,
+.esp .liz-group-complete-text-free .item-title,
+.esp .liz-group-table-text-free .item-name,
+.esp .liz-group-table-text-free .item-number,
+.esp .liz-group-table-text-free .item-caption,
+.esp .liz-group-table-text-free .item-title,
+.esp .liz-group-table-text-conditions .item-name,
+.esp .liz-group-table-text-conditions .item-number,
+.esp .liz-group-table-text-conditions .item-caption,
+.esp .liz-group-table-text-conditions .item-title,
+.esp .liz-group-table-text-conditions-options .item-name,
+.esp .liz-group-table-text-conditions-options .item-number,
+.esp .liz-group-table-text-conditions-options .item-caption,
+.esp .liz-group-table-text-conditions-options .item-title,
+.esp .liz-group-table-text-options .item-name,
+.esp .liz-group-table-text-options .item-number,
+.esp .liz-group-table-text-options .item-caption,
+.esp .liz-group-table-text-options .item-title,
+.esp .liz-group-complete-free-conditions .item-name,
+.esp .liz-group-complete-free-conditions .item-number,
+.esp .liz-group-complete-free-conditions .item-caption,
+.esp .liz-group-complete-free-conditions .item-title,
+.esp .liz-group-complete-yes-not .item-name,
+.esp .liz-group-complete-yes-not .item-number,
+.esp .liz-group-complete-yes-not .item-caption,
+.esp .liz-group-complete-yes-not .item-title,
+.esp .liz-complete-inputs-free .item-name,
+.esp .liz-complete-inputs-free .item-number,
+.esp .liz-complete-inputs-free .item-caption,
+.esp .liz-complete-inputs-free .item-title {
+  background-color: #d44a27;
+}
+.esp .liz-complete-letters .complete-container,
+.esp .liz-complete-words .complete-container,
+.esp .liz-complete-words-wi .complete-container,
+.esp .liz-group-complete-words .complete-container,
+.esp .liz-group-complete-letters .complete-container,
+.esp .liz-group-complete-images .complete-container,
+.esp .liz-group-classify-table .complete-container,
+.esp .liz-concepts-table .complete-container,
+.esp .liz-group-select-words .complete-container,
+.esp .liz-group-complete-sound .complete-container,
+.esp .liz-group-complete-text .complete-container,
+.esp .liz-group-complete-text-free .complete-container,
+.esp .liz-group-table-text-free .complete-container,
+.esp .liz-group-table-text-conditions .complete-container,
+.esp .liz-group-table-text-conditions-options .complete-container,
+.esp .liz-group-table-text-options .complete-container,
+.esp .liz-group-complete-free-conditions .complete-container,
+.esp .liz-group-complete-yes-not .complete-container,
+.esp .liz-complete-inputs-free .complete-container {
+  border-color: #d44a27 !important;
+}
+.esp .liz-complete-letters .complete-container .input-container,
+.esp .liz-complete-words .complete-container .input-container,
+.esp .liz-complete-words-wi .complete-container .input-container,
+.esp .liz-group-complete-words .complete-container .input-container,
+.esp .liz-group-complete-letters .complete-container .input-container,
+.esp .liz-group-complete-images .complete-container .input-container,
+.esp .liz-group-classify-table .complete-container .input-container,
+.esp .liz-concepts-table .complete-container .input-container,
+.esp .liz-group-select-words .complete-container .input-container,
+.esp .liz-group-complete-sound .complete-container .input-container,
+.esp .liz-group-complete-text .complete-container .input-container,
+.esp .liz-group-complete-text-free .complete-container .input-container,
+.esp .liz-group-table-text-free .complete-container .input-container,
+.esp .liz-group-table-text-conditions .complete-container .input-container,
+.esp .liz-group-table-text-conditions-options .complete-container .input-container,
+.esp .liz-group-table-text-options .complete-container .input-container,
+.esp .liz-group-complete-free-conditions .complete-container .input-container,
+.esp .liz-group-complete-yes-not .complete-container .input-container,
+.esp .liz-complete-inputs-free .complete-container .input-container {
+  border-bottom-color: #d44a27;
+}
+.esp .liz-complete-letters .complete-container span .item-placeholder,
+.esp .liz-complete-words .complete-container span .item-placeholder,
+.esp .liz-complete-words-wi .complete-container span .item-placeholder,
+.esp .liz-group-complete-words .complete-container span .item-placeholder,
+.esp .liz-group-complete-letters .complete-container span .item-placeholder,
+.esp .liz-group-complete-images .complete-container span .item-placeholder,
+.esp .liz-group-classify-table .complete-container span .item-placeholder,
+.esp .liz-concepts-table .complete-container span .item-placeholder,
+.esp .liz-group-select-words .complete-container span .item-placeholder,
+.esp .liz-group-complete-sound .complete-container span .item-placeholder,
+.esp .liz-group-complete-text .complete-container span .item-placeholder,
+.esp .liz-group-complete-text-free .complete-container span .item-placeholder,
+.esp .liz-group-table-text-free .complete-container span .item-placeholder,
+.esp .liz-group-table-text-conditions .complete-container span .item-placeholder,
+.esp .liz-group-table-text-conditions-options .complete-container span .item-placeholder,
+.esp .liz-group-table-text-options .complete-container span .item-placeholder,
+.esp .liz-group-complete-free-conditions .complete-container span .item-placeholder,
+.esp .liz-group-complete-yes-not .complete-container span .item-placeholder,
+.esp .liz-complete-inputs-free .complete-container span .item-placeholder {
+  background: #d44a27;
+}
+.esp .liz-complete-letters .complete-container span textarea[type=text],
+.esp .liz-complete-words .complete-container span textarea[type=text],
+.esp .liz-complete-words-wi .complete-container span textarea[type=text],
+.esp .liz-group-complete-words .complete-container span textarea[type=text],
+.esp .liz-group-complete-letters .complete-container span textarea[type=text],
+.esp .liz-group-complete-images .complete-container span textarea[type=text],
+.esp .liz-group-classify-table .complete-container span textarea[type=text],
+.esp .liz-concepts-table .complete-container span textarea[type=text],
+.esp .liz-group-select-words .complete-container span textarea[type=text],
+.esp .liz-group-complete-sound .complete-container span textarea[type=text],
+.esp .liz-group-complete-text .complete-container span textarea[type=text],
+.esp .liz-group-complete-text-free .complete-container span textarea[type=text],
+.esp .liz-group-table-text-free .complete-container span textarea[type=text],
+.esp .liz-group-table-text-conditions .complete-container span textarea[type=text],
+.esp .liz-group-table-text-conditions-options .complete-container span textarea[type=text],
+.esp .liz-group-table-text-options .complete-container span textarea[type=text],
+.esp .liz-group-complete-free-conditions .complete-container span textarea[type=text],
+.esp .liz-group-complete-yes-not .complete-container span textarea[type=text],
+.esp .liz-complete-inputs-free .complete-container span textarea[type=text] {
+  border-color: #d44a27 !important;
+}
+.esp .liz-complete-letters .complete-container span input:focus,
+.esp .liz-complete-letters .complete-container span textarea[type=text]:focus,
+.esp .liz-complete-words .complete-container span input:focus,
+.esp .liz-complete-words .complete-container span textarea[type=text]:focus,
+.esp .liz-complete-words-wi .complete-container span input:focus,
+.esp .liz-complete-words-wi .complete-container span textarea[type=text]:focus,
+.esp .liz-group-complete-words .complete-container span input:focus,
+.esp .liz-group-complete-words .complete-container span textarea[type=text]:focus,
+.esp .liz-group-complete-letters .complete-container span input:focus,
+.esp .liz-group-complete-letters .complete-container span textarea[type=text]:focus,
+.esp .liz-group-complete-images .complete-container span input:focus,
+.esp .liz-group-complete-images .complete-container span textarea[type=text]:focus,
+.esp .liz-group-classify-table .complete-container span input:focus,
+.esp .liz-group-classify-table .complete-container span textarea[type=text]:focus,
+.esp .liz-concepts-table .complete-container span input:focus,
+.esp .liz-concepts-table .complete-container span textarea[type=text]:focus,
+.esp .liz-group-select-words .complete-container span input:focus,
+.esp .liz-group-select-words .complete-container span textarea[type=text]:focus,
+.esp .liz-group-complete-sound .complete-container span input:focus,
+.esp .liz-group-complete-sound .complete-container span textarea[type=text]:focus,
+.esp .liz-group-complete-text .complete-container span input:focus,
+.esp .liz-group-complete-text .complete-container span textarea[type=text]:focus,
+.esp .liz-group-complete-text-free .complete-container span input:focus,
+.esp .liz-group-complete-text-free .complete-container span textarea[type=text]:focus,
+.esp .liz-group-table-text-free .complete-container span input:focus,
+.esp .liz-group-table-text-free .complete-container span textarea[type=text]:focus,
+.esp .liz-group-table-text-conditions .complete-container span input:focus,
+.esp .liz-group-table-text-conditions .complete-container span textarea[type=text]:focus,
+.esp .liz-group-table-text-conditions-options .complete-container span input:focus,
+.esp .liz-group-table-text-conditions-options .complete-container span textarea[type=text]:focus,
+.esp .liz-group-table-text-options .complete-container span input:focus,
+.esp .liz-group-table-text-options .complete-container span textarea[type=text]:focus,
+.esp .liz-group-complete-free-conditions .complete-container span input:focus,
+.esp .liz-group-complete-free-conditions .complete-container span textarea[type=text]:focus,
+.esp .liz-group-complete-yes-not .complete-container span input:focus,
+.esp .liz-group-complete-yes-not .complete-container span textarea[type=text]:focus,
+.esp .liz-complete-inputs-free .complete-container span input:focus,
+.esp .liz-complete-inputs-free .complete-container span textarea[type=text]:focus {
+  border-color: #d44a27 !important;
+  color: #d44a27;
+}
+.esp .liz-complete-letters .complete-container textarea[type=text]:focus,
+.esp .liz-complete-words .complete-container textarea[type=text]:focus,
+.esp .liz-complete-words-wi .complete-container textarea[type=text]:focus,
+.esp .liz-group-complete-words .complete-container textarea[type=text]:focus,
+.esp .liz-group-complete-letters .complete-container textarea[type=text]:focus,
+.esp .liz-group-complete-images .complete-container textarea[type=text]:focus,
+.esp .liz-group-classify-table .complete-container textarea[type=text]:focus,
+.esp .liz-concepts-table .complete-container textarea[type=text]:focus,
+.esp .liz-group-select-words .complete-container textarea[type=text]:focus,
+.esp .liz-group-complete-sound .complete-container textarea[type=text]:focus,
+.esp .liz-group-complete-text .complete-container textarea[type=text]:focus,
+.esp .liz-group-complete-text-free .complete-container textarea[type=text]:focus,
+.esp .liz-group-table-text-free .complete-container textarea[type=text]:focus,
+.esp .liz-group-table-text-conditions .complete-container textarea[type=text]:focus,
+.esp .liz-group-table-text-conditions-options .complete-container textarea[type=text]:focus,
+.esp .liz-group-table-text-options .complete-container textarea[type=text]:focus,
+.esp .liz-group-complete-free-conditions .complete-container textarea[type=text]:focus,
+.esp .liz-group-complete-yes-not .complete-container textarea[type=text]:focus,
+.esp .liz-complete-inputs-free .complete-container textarea[type=text]:focus {
+  border-color: #d44a27 !important;
+  color: #d44a27;
+}
+.esp .liz-complete-letters .letters .syllable strong,
+.esp .liz-complete-words .letters .syllable strong,
+.esp .liz-complete-words-wi .letters .syllable strong,
+.esp .liz-group-complete-words .letters .syllable strong,
+.esp .liz-group-complete-letters .letters .syllable strong,
+.esp .liz-group-complete-images .letters .syllable strong,
+.esp .liz-group-classify-table .letters .syllable strong,
+.esp .liz-concepts-table .letters .syllable strong,
+.esp .liz-group-select-words .letters .syllable strong,
+.esp .liz-group-complete-sound .letters .syllable strong,
+.esp .liz-group-complete-text .letters .syllable strong,
+.esp .liz-group-complete-text-free .letters .syllable strong,
+.esp .liz-group-table-text-free .letters .syllable strong,
+.esp .liz-group-table-text-conditions .letters .syllable strong,
+.esp .liz-group-table-text-conditions-options .letters .syllable strong,
+.esp .liz-group-table-text-options .letters .syllable strong,
+.esp .liz-group-complete-free-conditions .letters .syllable strong,
+.esp .liz-group-complete-yes-not .letters .syllable strong,
+.esp .liz-complete-inputs-free .letters .syllable strong {
+  color: #d44a27;
+}
+.esp .liz-choose-items .letter {
+  color: #d44a27;
+}
+.esp .liz-choose-items .letter:hover {
+  background: #d44a27;
+}
+.esp .liz-pairs * {
+  border-color: #d44a27 !important;
+}
+.esp .liz-pairs strong {
+  color: #d44a27;
+}
+.esp .liz-complete-inputs .item,
+.esp .liz-complete-inputs input,
+.esp .liz-complete-inputs-description .item,
+.esp .liz-complete-inputs-description input {
+  border-color: #d44a27 !important;
+  color: #d44a27 !important;
+}
+.esp .liz-complete-inputs .inner-example,
+.esp .liz-complete-inputs-description .inner-example {
+  background: #d44a27;
+}
+.esp .liz-complete-inputs strong,
+.esp .liz-complete-inputs strong2,
+.esp .liz-complete-inputs-description strong,
+.esp .liz-complete-inputs-description strong2 {
+  color: #d44a27 !important;
+}
+.esp .liz-complete-inputs .block-content,
+.esp .liz-complete-inputs-description .block-content {
+  border-color: #d44a27 !important;
+}
+.esp .liz-complete-inputs .input-group,
+.esp .liz-complete-inputs-description .input-group {
+  border-color: #d44a27 !important;
+}
+.esp .liz-complete-inputs .input-group .input-group-addon,
+.esp .liz-complete-inputs-description .input-group .input-group-addon {
+  background: #d44a27 !important;
+}
+.esp .liz-complete-inputs .input-group input[type=text],
+.esp .liz-complete-inputs-description .input-group input[type=text] {
+  color: #d44a27 !important;
+}
+.esp .liz-one-group .item p {
+  background: #d44a27;
+}
+.esp .liz-one-group .target {
+  border-color: #d44a27 !important;
+}
+.esp .liz-drag-drop-mark .target {
+  border-color: #d44a27 !important;
+}
+.esp .liz-drag-drop-mark .items.text .item {
+  background: #d44a27;
+}
+.esp .liz-multiple-mark .target {
+  border-color: #d44a27 !important;
+}
+.esp .liz-puzzle1 .puzzle1-canvas {
+  border-color: #d44a27;
+}
+.esp .liz-puzzle2 .puzzle2-canvas, .esp .liz-puzzle2 .item {
+  border-color: #d44a27 !important;
+}
+.esp .liz-puzzle2 .item {
+  background: rgba(249, 223, 217, 0.5);
+}
+.esp .liz-puzzle4 .target {
+  box-shadow: 0px 0px 0px 3px #d44a27;
+}
+.esp .liz-puzzle4 .target-item {
+  background-color: rgba(249, 223, 217, 0.5);
+}
+.esp .liz-multiple-selection .item {
+  border-color: #d44a27;
+}
+.esp .liz-sound-group .group {
+  border-color: #d44a27;
+}
+.esp .liz-drop-out .group {
+  border-color: #d44a27;
+}
+.esp .liz-drag-drop-multiples .inner-group .items .item div,
+.esp .liz-drag-drop-multiples .stack.items .item div, .esp .liz-drag-drop-multiples-positions .inner-group .items .item div,
+.esp .liz-drag-drop-multiples-positions .stack.items .item div {
+  background: #d44a27;
+}
+.esp .liz-compare-sample .group {
+  border-color: #d44a27;
+}
+.esp .liz-compare-sample .sample {
+  background: rgba(249, 223, 217, 0.5);
+}
+.esp .liz-count-elements .number {
+  background: #d44a27;
+}
+.esp .liz-count-elements .sortable {
+  border-color: #d44a27;
+}
+.esp .liz-count-elements2 .item input[type=text] {
+  border-color: #d44a27 !important;
+}
+.esp .liz-sequences .sequence, .esp .liz-sequences .sequence-item {
+  border-color: #d44a27;
+}
+.esp .liz-group-inputs input[type="text"] {
+  border-color: #d44a27;
+}
+.esp .liz-pairs-inputs * {
+  border-color: #d44a27 !important;
+}
+.esp .liz-pairs-inputs *:focus {
+  background: #d44a27;
+}
+.esp .liz-crossword .clue.actived {
+  background: #d44a27;
+}
+.esp .liz-crossword td.actived input[type="text"] {
+  background: #d44a27;
+}
+.esp .liz-crossword td.main-actived input[type="text"] {
+  background: #7a2b16;
+}
+.esp .liz-complete-text-boxes .textBoxesContainer .textBoxesTitleRow .blockNumber > span {
+  background-color: #d44a27;
+  border: 3px solid #7a2b16;
+}
+.esp .liz-complete-text-boxes .textBoxesContainer .textBoxesTitleRow .textBoxesTitle {
+  color: #000;
+}
+.esp .liz-complete-text-boxes .textBoxesContainer .textBoxesInputRow textarea {
+  border: 3px solid #d44a27;
+}
+.esp .liz-complete-table-image-inputs .table-text-options .table-text-option > div {
+  background-color: #d44a27;
+  border: 3px solid #7a2b16;
+}
+.esp .liz-complete-table-image-inputs .tableImageInputs thead tr th {
+  background-color: #d44a27;
+}
+.esp .liz-complete-table-image-inputs .tableImageInputs .tableImageInputsRow td:first-child {
+  background-color: #d44a27;
+}
+.esp .liz-complete-table-image-inputs .tableImageInputs .tableImageInputsRow td input {
+  color: #d44a27;
+  border: 2px solid #d44a27;
+}
+.esp .liz-complete-table-with-text .table-with-text-prefix {
+  background-color: #d44a27;
+}
+.esp .liz-complete-table-inputs .tableInputs thead > tr th {
+  background-color: #d44a27;
+}
+.esp .liz-complete-table-inputs .tableInputs .tableInputsRow td:first-child {
+  background-color: #d44a27;
+}
+.esp .liz-complete-table-inputs .tableInputs .tableInputsRow td textarea {
+  color: #d44a27;
+  border: 2px solid #d44a27;
+}
+.esp .liz-images-block-description .images-block-row .images-block-col > div .image-block-title {
+  background-color: #d44a27;
+}
+.esp .liz-complete-inputs-true-false .aOptionsRow .aOptionsCol > span {
+  background-color: #d44a27;
+  border: 4px solid rgba(249, 223, 217, 0.5);
+}
+.esp .liz-complete-inputs-true-false .inputsFalseTrueContainer td.blockNumber > span {
+  background-color: #d44a27;
+  border: 3px solid #7a2b16;
+}
+.esp .liz-complete-inputs-true-false .inputsFalseTrueContainer td.blockInput > input {
+  border: 3px solid #d44a27;
+  color: #d44a27;
+}
+.esp .click-images .item p strong {
+  color: #d44a27;
+}
+.esp .click-images .item .number {
+  background-color: #d44a27;
+  box-shadow: 0px 0px 0px 5px #d44a27 !important;
+}
+.esp .click-images .item .number:hover {
+  background-color: #7a2b16;
+  box-shadow: 0px 0px 0px 5px #7a2b16 !important;
+}
+.esp .liz-show-parts .item-title {
+  background: #d44a27;
+}
+.esp .liz-change-style-click .inner-title.is-selected {
+  box-shadow: 0px 0px 0px 5px #7a2b16 !important;
+}
+.esp .liz-change-style-click .inner-item.is-selected {
+  box-shadow: 0px 0px 0px 5px #7a2b16 !important;
+}
+.esp .liz-change-style-select .inner-title.is-selected {
+  box-shadow: 0px 0px 0px 5px #7a2b16 !important;
+}
+.esp .liz-change-style-select .inner-item {
+  color: #d44a27;
+  border-color: #d44a27;
+}
+.esp .liz-change-style-select .inner-item.is-selected {
+  box-shadow: 0px 0px 0px 5px #7a2b16 !important;
+}
+.esp .liz-change-style-select .inner-item .inner-item-inner {
+  background-color: #d44a27;
+}
+.esp .liz-show-name .items {
+  border-color: #d44a27;
+}
+.esp .liz-show-name .inner-text {
+  color: #7a2b16 !important;
+  background-color: #d44a27;
+}
+.esp .liz-show-text-character .slidesjs-navigation,
+.esp .liz-show-concepts-character .slidesjs-navigation,
+.esp .liz-slideshow-character .slidesjs-navigation,
+.esp .liz-show-concepts-text .slidesjs-navigation {
+  background-color: #d44a27;
+}
+.esp .liz-show-text-character .slidesjs-navigation:hover,
+.esp .liz-show-concepts-character .slidesjs-navigation:hover,
+.esp .liz-slideshow-character .slidesjs-navigation:hover,
+.esp .liz-show-concepts-text .slidesjs-navigation:hover {
+  background-color: #7a2b16;
+}
+.esp .liz-show-text-character .inner-text,
+.esp .liz-show-concepts-character .inner-text,
+.esp .liz-slideshow-character .inner-text,
+.esp .liz-show-concepts-text .inner-text {
+  color: #d44a27;
+}
+.esp .liz-show-text-character .inner-title, .esp .liz-show-text-character .inner-example,
+.esp .liz-show-concepts-character .inner-title,
+.esp .liz-show-concepts-character .inner-example,
+.esp .liz-slideshow-character .inner-title,
+.esp .liz-slideshow-character .inner-example,
+.esp .liz-show-concepts-text .inner-title,
+.esp .liz-show-concepts-text .inner-example {
+  background-color: #d44a27;
+}
+.esp .liz-show-text-character .inner-title.is-selected, .esp .liz-show-text-character .inner-example.is-selected,
+.esp .liz-show-concepts-character .inner-title.is-selected,
+.esp .liz-show-concepts-character .inner-example.is-selected,
+.esp .liz-slideshow-character .inner-title.is-selected,
+.esp .liz-slideshow-character .inner-example.is-selected,
+.esp .liz-show-concepts-text .inner-title.is-selected,
+.esp .liz-show-concepts-text .inner-example.is-selected {
+  box-shadow: 0px 0px 0px 5px #7a2b16 !important;
+}
+.esp .liz-show-text-character .inner-item,
+.esp .liz-show-concepts-character .inner-item,
+.esp .liz-slideshow-character .inner-item,
+.esp .liz-show-concepts-text .inner-item {
+  color: #d44a27;
+  border-color: #d44a27;
+}
+.esp .liz-show-text-character .inner-item.is-selected,
+.esp .liz-show-concepts-character .inner-item.is-selected,
+.esp .liz-slideshow-character .inner-item.is-selected,
+.esp .liz-show-concepts-text .inner-item.is-selected {
+  box-shadow: 0px 0px 0px 5px #7a2b16 !important;
+}
+.esp .liz-show-text-character .inner-item .inner-item-inner,
+.esp .liz-show-concepts-character .inner-item .inner-item-inner,
+.esp .liz-slideshow-character .inner-item .inner-item-inner,
+.esp .liz-show-concepts-text .inner-item .inner-item-inner {
+  background-color: #d44a27;
+}
+.esp .liz-hover-show-text .popover-input, .esp .liz-click-to-complete-input .popover-input {
+  color: #d44a27;
+}
+.esp .liz-hover-show-text .popover, .esp .liz-click-to-complete-input .popover {
+  background: #d44a27;
+  color: white;
+}
+.esp .liz-hover-show-text .popover.top :after, .esp .liz-click-to-complete-input .popover.top :after {
+  border-top-color: #d44a27;
+}
+.esp .liz-hover-show-text .popover.left :after, .esp .liz-click-to-complete-input .popover.left :after {
+  border-left-color: #d44a27;
+}
+.esp .liz-hover-show-text .popover.right :after, .esp .liz-click-to-complete-input .popover.right :after {
+  border-right-color: #d44a27;
+}
+.esp .liz-hover-show-text .popover.bottom :after, .esp .liz-click-to-complete-input .popover.bottom :after {
+  border-bottom-color: #d44a27;
+}
+.esp .liz-show-concepts .inner-item {
+  background: #d44a27;
+}
+.esp .liz-show-concepts .inner-item.is-selected {
+  box-shadow: 0px 0px 0px 5px #7a2b16 !important;
+}
+.esp .liz-show-description .item-title {
+  background: #d44a27;
+}
+.esp .liz-show-description .item-title.is-selected {
+  box-shadow: 0px 0px 0px 5px #7a2b16 !important;
+}
+.esp .liz-table table * {
+  border-color: #d44a27;
+}
+.esp .liz-table table th {
+  background: #7a2b16;
+}
+.esp .liz-show-multiple-hover-phrase .block-content .hover-words-row .hover-phrase-image > img {
+  border: 3px solid #d44a27;
+}
+.esp .big-letters {
+  background: #d44a27;
+}
+
+.soc .header {
+  background: #0c64e9;
+}
+.soc #next:hover, .soc #prev:hover {
+  background-color: rgba(105, 158, 238, 0.5);
+}
+.soc #next h2, .soc #prev h2 {
+  color: #0c64e9;
+}
+.soc #icon-back, .soc #icon-next {
+  fill: #0c64e9;
+  opacity: 1;
+}
+.soc .shadow {
+  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), inset rgba(0, 0, 0, 0.12) 0 0px 0, rgba(0, 0, 0, 0.3) 0 1px 2px, #0c64e9 0 1px 10px;
+}
+.soc .lesson-logo img {
+  background-image: url("../resources/common/iconosoc.png");
+}
+.soc .farewell-modal {
+  background: white url("..");
+}
+.soc .block {
+  background: #0c64e9;
+}
+.soc .block-content {
+  border-color: #0c64e9;
+}
+.soc .btn-primary, .soc .btn-primary-farewell {
+  background: #0c64e9;
+}
+.soc .btn-primary:hover, .soc .btn-primary:active, .soc .btn-primary.active, .soc .btn-primary-farewell:hover, .soc .btn-primary-farewell:active, .soc .btn-primary-farewell.active {
+  background: #063782;
+}
+.soc .input-primary {
+  border-color: #0c64e9;
+}
+.soc h3 strong, .soc h2 strong, .soc h1 strong {
+  color: #0c64e9;
+}
+.soc strong {
+  color: #0c64e9;
+}
+.soc .bd-1, .nat table.table-primary .soc th, .nat table.table-primary .soc td, .esp table.table-primary .soc th, .esp table.table-primary .soc td, .soc table.table-primary th, .soc table.table-primary td, .mat table.table-primary .soc th, .mat table.table-primary .soc td {
+  border-color: #0c64e9 !important;
+}
+.soc .bd-2 {
+  border-color: #063782 !important;
+}
+.soc .bd-3 {
+  border-color: rgba(105, 158, 238, 0.5) !important;
+}
+.soc .bd-disabled {
+  border-color: #B3B3B3 !important;
+}
+.soc .bc-bottom-1 {
+  border-bottom-color: #0c64e9 !important;
+}
+.soc .bg-1, .nat table.table-primary .soc th, .esp table.table-primary .soc th, .soc table.table-primary th, .mat table.table-primary .soc th {
+  background-color: #0c64e9 !important;
+}
+.soc .bg-2 {
+  background-color: #063782 !important;
+}
+.soc .bg-3 {
+  background-color: rgba(105, 158, 238, 0.5) !important;
+}
+.soc .bg-4 {
+  background-color: rgba(105, 158, 238, 0.2) !important;
+}
+.soc .bs-3 {
+  box-shadow: rgba(105, 158, 238, 0.5) !important;
+}
+.soc .fc-1 {
+  color: #0c64e9 !important;
+}
+.soc .border-color-R {
+  border-color: transparent transparent transparent #0c64e9;
+}
+.soc .border-color-L {
+  border-color: transparent #0c64e9 transparent transparent;
+}
+.soc .border-color-B {
+  border-color: #0c64e9 transparent transparent transparent;
+}
+.soc .border-color-T {
+  border-color: transparent transparent #0c64e9 transparent;
+}
+.soc .hover-bg-1:hover {
+  background-color: #0c64e9 !important;
+}
+.soc .item-selectable.is-selected {
+  box-shadow: 0px 0px 0px 5px #063782 !important;
+  background-color: rgba(105, 158, 238, 0.5) !important;
+}
+.soc .center-v-h {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.soc .item-is-selected {
+  box-shadow: 0px 0px 0px 5px #063782 !important;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+.soc .item-is-selected-1 {
+  box-shadow: 0px 0px 0px 5px #0c64e9 !important;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+.soc .course-modal-title {
+  background: #0c64e9;
+}
+.soc .course-modal-content {
+  color: #0c64e9;
+}
+.soc #farewell-box {
+  background-image: url("../resources/common/boxsoc.png");
+}
+.soc #farewell-kid {
+  background-image: url("../resources/common/kidsoc.png");
+}
+.soc .liz-images-and-text .item div {
+  border-color: #063782;
+  background-color: #0c64e9;
+}
+.soc .liz-images-and-text .item div:after {
+  border-color: transparent transparent #0c64e9 transparent;
+}
+.soc .liz-letter-soup .letter-soup-table {
+  float: left;
+}
+.soc .liz-letter-soup .letter-soup-table * {
+  border: 2px solid #000;
+}
+.soc .liz-letter-soup .letter-soup-table td.completed {
+  background: #0c64e9;
+}
+.soc .liz-letter-soup .letter-soup-group .group-title {
+  background: #0c64e9;
+}
+.soc .liz-group-complete-yes-not .item-name {
+  color: #0c64e9 !important;
+  background-color: transparent !important;
+}
+.soc .liz-group-select-words .input-container {
+  border-color: #0c64e9 !important;
+}
+.soc .liz-group-select-words .complete-words-container2 .input-container {
+  border-color: #063782 !important;
+  background-color: #0c64e9 !important;
+}
+.soc .liz-group-select-words input[type=button]:focus {
+  border-color: #063782 !important;
+  color: #0c64e9 !important;
+}
+.soc .liz-group-complete-letters input[type=text]:focus {
+  background: #063782;
+}
+.soc .liz-complete-inputs-position input[type=text] {
+  border-color: #0c64e9;
+  color: #0c64e9;
+}
+.soc .liz-complete-inputs-position input[type=text]:focus {
+  border-color: #063782;
+  background: #063782;
+}
+.soc .liz-select-options-positions select option:hover:hover {
+  color: #0c64e9 !important;
+}
+.soc .liz-click-to-select-position .item.is-selected, .soc .liz-click-to-complete-input .item.is-selected {
+  background: #063782 !important;
+}
+.soc .liz-click-to-select-position .item.is-selected .item-inner, .soc .liz-click-to-complete-input .item.is-selected .item-inner {
+  border-color: #063782 !important;
+}
+.soc .liz-click-to-select-position .item.is-selected .item-text, .soc .liz-click-to-complete-input .item.is-selected .item-text {
+  background: #063782;
+}
+.soc .liz-click-to-select-position .item-inner, .soc .liz-click-to-complete-input .item-inner {
+  border-color: #0c64e9 !important;
+}
+.soc .liz-click-to-select-position .item-text, .soc .liz-click-to-complete-input .item-text {
+  background: #0c64e9;
+}
+.soc .liz-click-to-select-position .item-target, .soc .liz-click-to-complete-input .item-target {
+  background: #0c64e9;
+}
+.soc .liz-click-to-select-position .item-target:hover, .soc .liz-click-to-complete-input .item-target:hover {
+  background: #063782;
+}
+.soc .liz-complete-letters .block-content,
+.soc .liz-complete-words .block-content,
+.soc .liz-complete-words-wi .block-content,
+.soc .liz-group-complete-words .block-content,
+.soc .liz-group-complete-letters .block-content,
+.soc .liz-group-complete-images .block-content,
+.soc .liz-group-classify-table .block-content,
+.soc .liz-concepts-table .block-content,
+.soc .liz-group-select-words .block-content,
+.soc .liz-group-complete-sound .block-content,
+.soc .liz-group-complete-text .block-content,
+.soc .liz-group-complete-text-free .block-content,
+.soc .liz-group-table-text-free .block-content,
+.soc .liz-group-table-text-conditions .block-content,
+.soc .liz-group-table-text-conditions-options .block-content,
+.soc .liz-group-table-text-options .block-content,
+.soc .liz-group-complete-free-conditions .block-content,
+.soc .liz-group-complete-yes-not .block-content,
+.soc .liz-complete-inputs-free .block-content {
+  border-color: #0c64e9 !important;
+}
+.soc .liz-complete-letters .item input[type=text],
+.soc .liz-complete-words .item input[type=text],
+.soc .liz-complete-words-wi .item input[type=text],
+.soc .liz-group-complete-words .item input[type=text],
+.soc .liz-group-complete-letters .item input[type=text],
+.soc .liz-group-complete-images .item input[type=text],
+.soc .liz-group-classify-table .item input[type=text],
+.soc .liz-concepts-table .item input[type=text],
+.soc .liz-group-select-words .item input[type=text],
+.soc .liz-group-complete-sound .item input[type=text],
+.soc .liz-group-complete-text .item input[type=text],
+.soc .liz-group-complete-text-free .item input[type=text],
+.soc .liz-group-table-text-free .item input[type=text],
+.soc .liz-group-table-text-conditions .item input[type=text],
+.soc .liz-group-table-text-conditions-options .item input[type=text],
+.soc .liz-group-table-text-options .item input[type=text],
+.soc .liz-group-complete-free-conditions .item input[type=text],
+.soc .liz-group-complete-yes-not .item input[type=text],
+.soc .liz-complete-inputs-free .item input[type=text] {
+  border-bottom-color: #0c64e9;
+}
+.soc .liz-complete-letters .item input[type=text]:focus,
+.soc .liz-complete-words .item input[type=text]:focus,
+.soc .liz-complete-words-wi .item input[type=text]:focus,
+.soc .liz-group-complete-words .item input[type=text]:focus,
+.soc .liz-group-complete-letters .item input[type=text]:focus,
+.soc .liz-group-complete-images .item input[type=text]:focus,
+.soc .liz-group-classify-table .item input[type=text]:focus,
+.soc .liz-concepts-table .item input[type=text]:focus,
+.soc .liz-group-select-words .item input[type=text]:focus,
+.soc .liz-group-complete-sound .item input[type=text]:focus,
+.soc .liz-group-complete-text .item input[type=text]:focus,
+.soc .liz-group-complete-text-free .item input[type=text]:focus,
+.soc .liz-group-table-text-free .item input[type=text]:focus,
+.soc .liz-group-table-text-conditions .item input[type=text]:focus,
+.soc .liz-group-table-text-conditions-options .item input[type=text]:focus,
+.soc .liz-group-table-text-options .item input[type=text]:focus,
+.soc .liz-group-complete-free-conditions .item input[type=text]:focus,
+.soc .liz-group-complete-yes-not .item input[type=text]:focus,
+.soc .liz-complete-inputs-free .item input[type=text]:focus {
+  border-bottom-color: #063782;
+  background: #063782;
+}
+.soc .liz-complete-letters .item-name, .soc .liz-complete-letters .item-number, .soc .liz-complete-letters .item-caption, .soc .liz-complete-letters .item-title,
+.soc .liz-complete-words .item-name,
+.soc .liz-complete-words .item-number,
+.soc .liz-complete-words .item-caption,
+.soc .liz-complete-words .item-title,
+.soc .liz-complete-words-wi .item-name,
+.soc .liz-complete-words-wi .item-number,
+.soc .liz-complete-words-wi .item-caption,
+.soc .liz-complete-words-wi .item-title,
+.soc .liz-group-complete-words .item-name,
+.soc .liz-group-complete-words .item-number,
+.soc .liz-group-complete-words .item-caption,
+.soc .liz-group-complete-words .item-title,
+.soc .liz-group-complete-letters .item-name,
+.soc .liz-group-complete-letters .item-number,
+.soc .liz-group-complete-letters .item-caption,
+.soc .liz-group-complete-letters .item-title,
+.soc .liz-group-complete-images .item-name,
+.soc .liz-group-complete-images .item-number,
+.soc .liz-group-complete-images .item-caption,
+.soc .liz-group-complete-images .item-title,
+.soc .liz-group-classify-table .item-name,
+.soc .liz-group-classify-table .item-number,
+.soc .liz-group-classify-table .item-caption,
+.soc .liz-group-classify-table .item-title,
+.soc .liz-concepts-table .item-name,
+.soc .liz-concepts-table .item-number,
+.soc .liz-concepts-table .item-caption,
+.soc .liz-concepts-table .item-title,
+.soc .liz-group-select-words .item-name,
+.soc .liz-group-select-words .item-number,
+.soc .liz-group-select-words .item-caption,
+.soc .liz-group-select-words .item-title,
+.soc .liz-group-complete-sound .item-name,
+.soc .liz-group-complete-sound .item-number,
+.soc .liz-group-complete-sound .item-caption,
+.soc .liz-group-complete-sound .item-title,
+.soc .liz-group-complete-text .item-name,
+.soc .liz-group-complete-text .item-number,
+.soc .liz-group-complete-text .item-caption,
+.soc .liz-group-complete-text .item-title,
+.soc .liz-group-complete-text-free .item-name,
+.soc .liz-group-complete-text-free .item-number,
+.soc .liz-group-complete-text-free .item-caption,
+.soc .liz-group-complete-text-free .item-title,
+.soc .liz-group-table-text-free .item-name,
+.soc .liz-group-table-text-free .item-number,
+.soc .liz-group-table-text-free .item-caption,
+.soc .liz-group-table-text-free .item-title,
+.soc .liz-group-table-text-conditions .item-name,
+.soc .liz-group-table-text-conditions .item-number,
+.soc .liz-group-table-text-conditions .item-caption,
+.soc .liz-group-table-text-conditions .item-title,
+.soc .liz-group-table-text-conditions-options .item-name,
+.soc .liz-group-table-text-conditions-options .item-number,
+.soc .liz-group-table-text-conditions-options .item-caption,
+.soc .liz-group-table-text-conditions-options .item-title,
+.soc .liz-group-table-text-options .item-name,
+.soc .liz-group-table-text-options .item-number,
+.soc .liz-group-table-text-options .item-caption,
+.soc .liz-group-table-text-options .item-title,
+.soc .liz-group-complete-free-conditions .item-name,
+.soc .liz-group-complete-free-conditions .item-number,
+.soc .liz-group-complete-free-conditions .item-caption,
+.soc .liz-group-complete-free-conditions .item-title,
+.soc .liz-group-complete-yes-not .item-name,
+.soc .liz-group-complete-yes-not .item-number,
+.soc .liz-group-complete-yes-not .item-caption,
+.soc .liz-group-complete-yes-not .item-title,
+.soc .liz-complete-inputs-free .item-name,
+.soc .liz-complete-inputs-free .item-number,
+.soc .liz-complete-inputs-free .item-caption,
+.soc .liz-complete-inputs-free .item-title {
+  background-color: #0c64e9;
+}
+.soc .liz-complete-letters .complete-container,
+.soc .liz-complete-words .complete-container,
+.soc .liz-complete-words-wi .complete-container,
+.soc .liz-group-complete-words .complete-container,
+.soc .liz-group-complete-letters .complete-container,
+.soc .liz-group-complete-images .complete-container,
+.soc .liz-group-classify-table .complete-container,
+.soc .liz-concepts-table .complete-container,
+.soc .liz-group-select-words .complete-container,
+.soc .liz-group-complete-sound .complete-container,
+.soc .liz-group-complete-text .complete-container,
+.soc .liz-group-complete-text-free .complete-container,
+.soc .liz-group-table-text-free .complete-container,
+.soc .liz-group-table-text-conditions .complete-container,
+.soc .liz-group-table-text-conditions-options .complete-container,
+.soc .liz-group-table-text-options .complete-container,
+.soc .liz-group-complete-free-conditions .complete-container,
+.soc .liz-group-complete-yes-not .complete-container,
+.soc .liz-complete-inputs-free .complete-container {
+  border-color: #0c64e9 !important;
+}
+.soc .liz-complete-letters .complete-container .input-container,
+.soc .liz-complete-words .complete-container .input-container,
+.soc .liz-complete-words-wi .complete-container .input-container,
+.soc .liz-group-complete-words .complete-container .input-container,
+.soc .liz-group-complete-letters .complete-container .input-container,
+.soc .liz-group-complete-images .complete-container .input-container,
+.soc .liz-group-classify-table .complete-container .input-container,
+.soc .liz-concepts-table .complete-container .input-container,
+.soc .liz-group-select-words .complete-container .input-container,
+.soc .liz-group-complete-sound .complete-container .input-container,
+.soc .liz-group-complete-text .complete-container .input-container,
+.soc .liz-group-complete-text-free .complete-container .input-container,
+.soc .liz-group-table-text-free .complete-container .input-container,
+.soc .liz-group-table-text-conditions .complete-container .input-container,
+.soc .liz-group-table-text-conditions-options .complete-container .input-container,
+.soc .liz-group-table-text-options .complete-container .input-container,
+.soc .liz-group-complete-free-conditions .complete-container .input-container,
+.soc .liz-group-complete-yes-not .complete-container .input-container,
+.soc .liz-complete-inputs-free .complete-container .input-container {
+  border-bottom-color: #0c64e9;
+}
+.soc .liz-complete-letters .complete-container span .item-placeholder,
+.soc .liz-complete-words .complete-container span .item-placeholder,
+.soc .liz-complete-words-wi .complete-container span .item-placeholder,
+.soc .liz-group-complete-words .complete-container span .item-placeholder,
+.soc .liz-group-complete-letters .complete-container span .item-placeholder,
+.soc .liz-group-complete-images .complete-container span .item-placeholder,
+.soc .liz-group-classify-table .complete-container span .item-placeholder,
+.soc .liz-concepts-table .complete-container span .item-placeholder,
+.soc .liz-group-select-words .complete-container span .item-placeholder,
+.soc .liz-group-complete-sound .complete-container span .item-placeholder,
+.soc .liz-group-complete-text .complete-container span .item-placeholder,
+.soc .liz-group-complete-text-free .complete-container span .item-placeholder,
+.soc .liz-group-table-text-free .complete-container span .item-placeholder,
+.soc .liz-group-table-text-conditions .complete-container span .item-placeholder,
+.soc .liz-group-table-text-conditions-options .complete-container span .item-placeholder,
+.soc .liz-group-table-text-options .complete-container span .item-placeholder,
+.soc .liz-group-complete-free-conditions .complete-container span .item-placeholder,
+.soc .liz-group-complete-yes-not .complete-container span .item-placeholder,
+.soc .liz-complete-inputs-free .complete-container span .item-placeholder {
+  background: #0c64e9;
+}
+.soc .liz-complete-letters .complete-container span textarea[type=text],
+.soc .liz-complete-words .complete-container span textarea[type=text],
+.soc .liz-complete-words-wi .complete-container span textarea[type=text],
+.soc .liz-group-complete-words .complete-container span textarea[type=text],
+.soc .liz-group-complete-letters .complete-container span textarea[type=text],
+.soc .liz-group-complete-images .complete-container span textarea[type=text],
+.soc .liz-group-classify-table .complete-container span textarea[type=text],
+.soc .liz-concepts-table .complete-container span textarea[type=text],
+.soc .liz-group-select-words .complete-container span textarea[type=text],
+.soc .liz-group-complete-sound .complete-container span textarea[type=text],
+.soc .liz-group-complete-text .complete-container span textarea[type=text],
+.soc .liz-group-complete-text-free .complete-container span textarea[type=text],
+.soc .liz-group-table-text-free .complete-container span textarea[type=text],
+.soc .liz-group-table-text-conditions .complete-container span textarea[type=text],
+.soc .liz-group-table-text-conditions-options .complete-container span textarea[type=text],
+.soc .liz-group-table-text-options .complete-container span textarea[type=text],
+.soc .liz-group-complete-free-conditions .complete-container span textarea[type=text],
+.soc .liz-group-complete-yes-not .complete-container span textarea[type=text],
+.soc .liz-complete-inputs-free .complete-container span textarea[type=text] {
+  border-color: #0c64e9 !important;
+}
+.soc .liz-complete-letters .complete-container span input:focus,
+.soc .liz-complete-letters .complete-container span textarea[type=text]:focus,
+.soc .liz-complete-words .complete-container span input:focus,
+.soc .liz-complete-words .complete-container span textarea[type=text]:focus,
+.soc .liz-complete-words-wi .complete-container span input:focus,
+.soc .liz-complete-words-wi .complete-container span textarea[type=text]:focus,
+.soc .liz-group-complete-words .complete-container span input:focus,
+.soc .liz-group-complete-words .complete-container span textarea[type=text]:focus,
+.soc .liz-group-complete-letters .complete-container span input:focus,
+.soc .liz-group-complete-letters .complete-container span textarea[type=text]:focus,
+.soc .liz-group-complete-images .complete-container span input:focus,
+.soc .liz-group-complete-images .complete-container span textarea[type=text]:focus,
+.soc .liz-group-classify-table .complete-container span input:focus,
+.soc .liz-group-classify-table .complete-container span textarea[type=text]:focus,
+.soc .liz-concepts-table .complete-container span input:focus,
+.soc .liz-concepts-table .complete-container span textarea[type=text]:focus,
+.soc .liz-group-select-words .complete-container span input:focus,
+.soc .liz-group-select-words .complete-container span textarea[type=text]:focus,
+.soc .liz-group-complete-sound .complete-container span input:focus,
+.soc .liz-group-complete-sound .complete-container span textarea[type=text]:focus,
+.soc .liz-group-complete-text .complete-container span input:focus,
+.soc .liz-group-complete-text .complete-container span textarea[type=text]:focus,
+.soc .liz-group-complete-text-free .complete-container span input:focus,
+.soc .liz-group-complete-text-free .complete-container span textarea[type=text]:focus,
+.soc .liz-group-table-text-free .complete-container span input:focus,
+.soc .liz-group-table-text-free .complete-container span textarea[type=text]:focus,
+.soc .liz-group-table-text-conditions .complete-container span input:focus,
+.soc .liz-group-table-text-conditions .complete-container span textarea[type=text]:focus,
+.soc .liz-group-table-text-conditions-options .complete-container span input:focus,
+.soc .liz-group-table-text-conditions-options .complete-container span textarea[type=text]:focus,
+.soc .liz-group-table-text-options .complete-container span input:focus,
+.soc .liz-group-table-text-options .complete-container span textarea[type=text]:focus,
+.soc .liz-group-complete-free-conditions .complete-container span input:focus,
+.soc .liz-group-complete-free-conditions .complete-container span textarea[type=text]:focus,
+.soc .liz-group-complete-yes-not .complete-container span input:focus,
+.soc .liz-group-complete-yes-not .complete-container span textarea[type=text]:focus,
+.soc .liz-complete-inputs-free .complete-container span input:focus,
+.soc .liz-complete-inputs-free .complete-container span textarea[type=text]:focus {
+  border-color: #0c64e9 !important;
+  color: #0c64e9;
+}
+.soc .liz-complete-letters .complete-container textarea[type=text]:focus,
+.soc .liz-complete-words .complete-container textarea[type=text]:focus,
+.soc .liz-complete-words-wi .complete-container textarea[type=text]:focus,
+.soc .liz-group-complete-words .complete-container textarea[type=text]:focus,
+.soc .liz-group-complete-letters .complete-container textarea[type=text]:focus,
+.soc .liz-group-complete-images .complete-container textarea[type=text]:focus,
+.soc .liz-group-classify-table .complete-container textarea[type=text]:focus,
+.soc .liz-concepts-table .complete-container textarea[type=text]:focus,
+.soc .liz-group-select-words .complete-container textarea[type=text]:focus,
+.soc .liz-group-complete-sound .complete-container textarea[type=text]:focus,
+.soc .liz-group-complete-text .complete-container textarea[type=text]:focus,
+.soc .liz-group-complete-text-free .complete-container textarea[type=text]:focus,
+.soc .liz-group-table-text-free .complete-container textarea[type=text]:focus,
+.soc .liz-group-table-text-conditions .complete-container textarea[type=text]:focus,
+.soc .liz-group-table-text-conditions-options .complete-container textarea[type=text]:focus,
+.soc .liz-group-table-text-options .complete-container textarea[type=text]:focus,
+.soc .liz-group-complete-free-conditions .complete-container textarea[type=text]:focus,
+.soc .liz-group-complete-yes-not .complete-container textarea[type=text]:focus,
+.soc .liz-complete-inputs-free .complete-container textarea[type=text]:focus {
+  border-color: #0c64e9 !important;
+  color: #0c64e9;
+}
+.soc .liz-complete-letters .letters .syllable strong,
+.soc .liz-complete-words .letters .syllable strong,
+.soc .liz-complete-words-wi .letters .syllable strong,
+.soc .liz-group-complete-words .letters .syllable strong,
+.soc .liz-group-complete-letters .letters .syllable strong,
+.soc .liz-group-complete-images .letters .syllable strong,
+.soc .liz-group-classify-table .letters .syllable strong,
+.soc .liz-concepts-table .letters .syllable strong,
+.soc .liz-group-select-words .letters .syllable strong,
+.soc .liz-group-complete-sound .letters .syllable strong,
+.soc .liz-group-complete-text .letters .syllable strong,
+.soc .liz-group-complete-text-free .letters .syllable strong,
+.soc .liz-group-table-text-free .letters .syllable strong,
+.soc .liz-group-table-text-conditions .letters .syllable strong,
+.soc .liz-group-table-text-conditions-options .letters .syllable strong,
+.soc .liz-group-table-text-options .letters .syllable strong,
+.soc .liz-group-complete-free-conditions .letters .syllable strong,
+.soc .liz-group-complete-yes-not .letters .syllable strong,
+.soc .liz-complete-inputs-free .letters .syllable strong {
+  color: #0c64e9;
+}
+.soc .liz-choose-items .letter {
+  color: #0c64e9;
+}
+.soc .liz-choose-items .letter:hover {
+  background: #0c64e9;
+}
+.soc .liz-pairs * {
+  border-color: #0c64e9 !important;
+}
+.soc .liz-pairs strong {
+  color: #0c64e9;
+}
+.soc .liz-complete-inputs .item,
+.soc .liz-complete-inputs input,
+.soc .liz-complete-inputs-description .item,
+.soc .liz-complete-inputs-description input {
+  border-color: #0c64e9 !important;
+  color: #0c64e9 !important;
+}
+.soc .liz-complete-inputs .inner-example,
+.soc .liz-complete-inputs-description .inner-example {
+  background: #0c64e9;
+}
+.soc .liz-complete-inputs strong,
+.soc .liz-complete-inputs strong2,
+.soc .liz-complete-inputs-description strong,
+.soc .liz-complete-inputs-description strong2 {
+  color: #0c64e9 !important;
+}
+.soc .liz-complete-inputs .block-content,
+.soc .liz-complete-inputs-description .block-content {
+  border-color: #0c64e9 !important;
+}
+.soc .liz-complete-inputs .input-group,
+.soc .liz-complete-inputs-description .input-group {
+  border-color: #0c64e9 !important;
+}
+.soc .liz-complete-inputs .input-group .input-group-addon,
+.soc .liz-complete-inputs-description .input-group .input-group-addon {
+  background: #0c64e9 !important;
+}
+.soc .liz-complete-inputs .input-group input[type=text],
+.soc .liz-complete-inputs-description .input-group input[type=text] {
+  color: #0c64e9 !important;
+}
+.soc .liz-one-group .item p {
+  background: #0c64e9;
+}
+.soc .liz-one-group .target {
+  border-color: #0c64e9 !important;
+}
+.soc .liz-drag-drop-mark .target {
+  border-color: #0c64e9 !important;
+}
+.soc .liz-drag-drop-mark .items.text .item {
+  background: #0c64e9;
+}
+.soc .liz-multiple-mark .target {
+  border-color: #0c64e9 !important;
+}
+.soc .liz-puzzle1 .puzzle1-canvas {
+  border-color: #0c64e9;
+}
+.soc .liz-puzzle2 .puzzle2-canvas, .soc .liz-puzzle2 .item {
+  border-color: #0c64e9 !important;
+}
+.soc .liz-puzzle2 .item {
+  background: rgba(105, 158, 238, 0.5);
+}
+.soc .liz-puzzle4 .target {
+  box-shadow: 0px 0px 0px 3px #0c64e9;
+}
+.soc .liz-puzzle4 .target-item {
+  background-color: rgba(105, 158, 238, 0.5);
+}
+.soc .liz-multiple-selection .item {
+  border-color: #0c64e9;
+}
+.soc .liz-sound-group .group {
+  border-color: #0c64e9;
+}
+.soc .liz-drop-out .group {
+  border-color: #0c64e9;
+}
+.soc .liz-drag-drop-multiples .inner-group .items .item div,
+.soc .liz-drag-drop-multiples .stack.items .item div, .soc .liz-drag-drop-multiples-positions .inner-group .items .item div,
+.soc .liz-drag-drop-multiples-positions .stack.items .item div {
+  background: #0c64e9;
+}
+.soc .liz-compare-sample .group {
+  border-color: #0c64e9;
+}
+.soc .liz-compare-sample .sample {
+  background: rgba(105, 158, 238, 0.5);
+}
+.soc .liz-count-elements .number {
+  background: #0c64e9;
+}
+.soc .liz-count-elements .sortable {
+  border-color: #0c64e9;
+}
+.soc .liz-count-elements2 .item input[type=text] {
+  border-color: #0c64e9 !important;
+}
+.soc .liz-sequences .sequence, .soc .liz-sequences .sequence-item {
+  border-color: #0c64e9;
+}
+.soc .liz-group-inputs input[type="text"] {
+  border-color: #0c64e9;
+}
+.soc .liz-pairs-inputs * {
+  border-color: #0c64e9 !important;
+}
+.soc .liz-pairs-inputs *:focus {
+  background: #0c64e9;
+}
+.soc .liz-crossword .clue.actived {
+  background: #0c64e9;
+}
+.soc .liz-crossword td.actived input[type="text"] {
+  background: #0c64e9;
+}
+.soc .liz-crossword td.main-actived input[type="text"] {
+  background: #063782;
+}
+.soc .liz-complete-text-boxes .textBoxesContainer .textBoxesTitleRow .blockNumber > span {
+  background-color: #0c64e9;
+  border: 3px solid #063782;
+}
+.soc .liz-complete-text-boxes .textBoxesContainer .textBoxesTitleRow .textBoxesTitle {
+  color: #000;
+}
+.soc .liz-complete-text-boxes .textBoxesContainer .textBoxesInputRow textarea {
+  border: 3px solid #0c64e9;
+}
+.soc .liz-complete-table-image-inputs .table-text-options .table-text-option > div {
+  background-color: #0c64e9;
+  border: 3px solid #063782;
+}
+.soc .liz-complete-table-image-inputs .tableImageInputs thead tr th {
+  background-color: #0c64e9;
+}
+.soc .liz-complete-table-image-inputs .tableImageInputs .tableImageInputsRow td:first-child {
+  background-color: #0c64e9;
+}
+.soc .liz-complete-table-image-inputs .tableImageInputs .tableImageInputsRow td input {
+  color: #0c64e9;
+  border: 2px solid #0c64e9;
+}
+.soc .liz-complete-table-with-text .table-with-text-prefix {
+  background-color: #0c64e9;
+}
+.soc .liz-complete-table-inputs .tableInputs thead > tr th {
+  background-color: #0c64e9;
+}
+.soc .liz-complete-table-inputs .tableInputs .tableInputsRow td:first-child {
+  background-color: #0c64e9;
+}
+.soc .liz-complete-table-inputs .tableInputs .tableInputsRow td textarea {
+  color: #0c64e9;
+  border: 2px solid #0c64e9;
+}
+.soc .liz-images-block-description .images-block-row .images-block-col > div .image-block-title {
+  background-color: #0c64e9;
+}
+.soc .liz-complete-inputs-true-false .aOptionsRow .aOptionsCol > span {
+  background-color: #0c64e9;
+  border: 4px solid rgba(105, 158, 238, 0.5);
+}
+.soc .liz-complete-inputs-true-false .inputsFalseTrueContainer td.blockNumber > span {
+  background-color: #0c64e9;
+  border: 3px solid #063782;
+}
+.soc .liz-complete-inputs-true-false .inputsFalseTrueContainer td.blockInput > input {
+  border: 3px solid #0c64e9;
+  color: #0c64e9;
+}
+.soc .click-images .item p strong {
+  color: #0c64e9;
+}
+.soc .click-images .item .number {
+  background-color: #0c64e9;
+  box-shadow: 0px 0px 0px 5px #0c64e9 !important;
+}
+.soc .click-images .item .number:hover {
+  background-color: #063782;
+  box-shadow: 0px 0px 0px 5px #063782 !important;
+}
+.soc .liz-show-parts .item-title {
+  background: #0c64e9;
+}
+.soc .liz-change-style-click .inner-title.is-selected {
+  box-shadow: 0px 0px 0px 5px #063782 !important;
+}
+.soc .liz-change-style-click .inner-item.is-selected {
+  box-shadow: 0px 0px 0px 5px #063782 !important;
+}
+.soc .liz-change-style-select .inner-title.is-selected {
+  box-shadow: 0px 0px 0px 5px #063782 !important;
+}
+.soc .liz-change-style-select .inner-item {
+  color: #0c64e9;
+  border-color: #0c64e9;
+}
+.soc .liz-change-style-select .inner-item.is-selected {
+  box-shadow: 0px 0px 0px 5px #063782 !important;
+}
+.soc .liz-change-style-select .inner-item .inner-item-inner {
+  background-color: #0c64e9;
+}
+.soc .liz-show-name .items {
+  border-color: #0c64e9;
+}
+.soc .liz-show-name .inner-text {
+  color: #063782 !important;
+  background-color: #0c64e9;
+}
+.soc .liz-show-text-character .slidesjs-navigation,
+.soc .liz-show-concepts-character .slidesjs-navigation,
+.soc .liz-slideshow-character .slidesjs-navigation,
+.soc .liz-show-concepts-text .slidesjs-navigation {
+  background-color: #0c64e9;
+}
+.soc .liz-show-text-character .slidesjs-navigation:hover,
+.soc .liz-show-concepts-character .slidesjs-navigation:hover,
+.soc .liz-slideshow-character .slidesjs-navigation:hover,
+.soc .liz-show-concepts-text .slidesjs-navigation:hover {
+  background-color: #063782;
+}
+.soc .liz-show-text-character .inner-text,
+.soc .liz-show-concepts-character .inner-text,
+.soc .liz-slideshow-character .inner-text,
+.soc .liz-show-concepts-text .inner-text {
+  color: #0c64e9;
+}
+.soc .liz-show-text-character .inner-title, .soc .liz-show-text-character .inner-example,
+.soc .liz-show-concepts-character .inner-title,
+.soc .liz-show-concepts-character .inner-example,
+.soc .liz-slideshow-character .inner-title,
+.soc .liz-slideshow-character .inner-example,
+.soc .liz-show-concepts-text .inner-title,
+.soc .liz-show-concepts-text .inner-example {
+  background-color: #0c64e9;
+}
+.soc .liz-show-text-character .inner-title.is-selected, .soc .liz-show-text-character .inner-example.is-selected,
+.soc .liz-show-concepts-character .inner-title.is-selected,
+.soc .liz-show-concepts-character .inner-example.is-selected,
+.soc .liz-slideshow-character .inner-title.is-selected,
+.soc .liz-slideshow-character .inner-example.is-selected,
+.soc .liz-show-concepts-text .inner-title.is-selected,
+.soc .liz-show-concepts-text .inner-example.is-selected {
+  box-shadow: 0px 0px 0px 5px #063782 !important;
+}
+.soc .liz-show-text-character .inner-item,
+.soc .liz-show-concepts-character .inner-item,
+.soc .liz-slideshow-character .inner-item,
+.soc .liz-show-concepts-text .inner-item {
+  color: #0c64e9;
+  border-color: #0c64e9;
+}
+.soc .liz-show-text-character .inner-item.is-selected,
+.soc .liz-show-concepts-character .inner-item.is-selected,
+.soc .liz-slideshow-character .inner-item.is-selected,
+.soc .liz-show-concepts-text .inner-item.is-selected {
+  box-shadow: 0px 0px 0px 5px #063782 !important;
+}
+.soc .liz-show-text-character .inner-item .inner-item-inner,
+.soc .liz-show-concepts-character .inner-item .inner-item-inner,
+.soc .liz-slideshow-character .inner-item .inner-item-inner,
+.soc .liz-show-concepts-text .inner-item .inner-item-inner {
+  background-color: #0c64e9;
+}
+.soc .liz-hover-show-text .popover-input, .soc .liz-click-to-complete-input .popover-input {
+  color: #0c64e9;
+}
+.soc .liz-hover-show-text .popover, .soc .liz-click-to-complete-input .popover {
+  background: #0c64e9;
+  color: white;
+}
+.soc .liz-hover-show-text .popover.top :after, .soc .liz-click-to-complete-input .popover.top :after {
+  border-top-color: #0c64e9;
+}
+.soc .liz-hover-show-text .popover.left :after, .soc .liz-click-to-complete-input .popover.left :after {
+  border-left-color: #0c64e9;
+}
+.soc .liz-hover-show-text .popover.right :after, .soc .liz-click-to-complete-input .popover.right :after {
+  border-right-color: #0c64e9;
+}
+.soc .liz-hover-show-text .popover.bottom :after, .soc .liz-click-to-complete-input .popover.bottom :after {
+  border-bottom-color: #0c64e9;
+}
+.soc .liz-show-concepts .inner-item {
+  background: #0c64e9;
+}
+.soc .liz-show-concepts .inner-item.is-selected {
+  box-shadow: 0px 0px 0px 5px #063782 !important;
+}
+.soc .liz-show-description .item-title {
+  background: #0c64e9;
+}
+.soc .liz-show-description .item-title.is-selected {
+  box-shadow: 0px 0px 0px 5px #063782 !important;
+}
+.soc .liz-table table * {
+  border-color: #0c64e9;
+}
+.soc .liz-table table th {
+  background: #063782;
+}
+.soc .liz-show-multiple-hover-phrase .block-content .hover-words-row .hover-phrase-image > img {
+  border: 3px solid #0c64e9;
+}
+.soc .big-letters {
+  background: #0c64e9;
+}
+
+.mat .header {
+  background: #bd0926;
+}
+.mat #next:hover, .mat #prev:hover {
+  background-color: rgba(241, 153, 166, 0.5);
+}
+.mat #next h2, .mat #prev h2 {
+  color: #bd0926;
+}
+.mat #icon-back, .mat #icon-next {
+  fill: #bd0926;
+  opacity: 1;
+}
+.mat .shadow {
+  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), inset rgba(0, 0, 0, 0.12) 0 0px 0, rgba(0, 0, 0, 0.3) 0 1px 2px, #bd0926 0 1px 10px;
+}
+.mat .lesson-logo img {
+  background-image: url("../resources/common/iconomat.png");
+}
+.mat .farewell-modal {
+  background: white url("../resources/common/bg_mat.png");
+}
+.mat .block {
+  background: #bd0926;
+}
+.mat .block-content {
+  border-color: #bd0926;
+}
+.mat .btn-primary, .mat .btn-primary-farewell {
+  background: #bd0926;
+}
+.mat .btn-primary:hover, .mat .btn-primary:active, .mat .btn-primary.active, .mat .btn-primary-farewell:hover, .mat .btn-primary-farewell:active, .mat .btn-primary-farewell.active {
+  background: #620412;
+}
+.mat .input-primary {
+  border-color: #bd0926;
+}
+.mat h3 strong, .mat h2 strong, .mat h1 strong {
+  color: #bd0926;
+}
+.mat strong {
+  color: #bd0926;
+}
+.mat .bd-1, .nat table.table-primary .mat th, .nat table.table-primary .mat td, .esp table.table-primary .mat th, .esp table.table-primary .mat td, .soc table.table-primary .mat th, .soc table.table-primary .mat td, .mat table.table-primary th, .mat table.table-primary td {
+  border-color: #bd0926 !important;
+}
+.mat .bd-2 {
+  border-color: #620412 !important;
+}
+.mat .bd-3 {
+  border-color: rgba(241, 153, 166, 0.5) !important;
+}
+.mat .bd-disabled {
+  border-color: #B3B3B3 !important;
+}
+.mat .bc-bottom-1 {
+  border-bottom-color: #bd0926 !important;
+}
+.mat .bg-1, .nat table.table-primary .mat th, .esp table.table-primary .mat th, .soc table.table-primary .mat th, .mat table.table-primary th {
+  background-color: #bd0926 !important;
+}
+.mat .bg-2 {
+  background-color: #620412 !important;
+}
+.mat .bg-3 {
+  background-color: rgba(241, 153, 166, 0.5) !important;
+}
+.mat .bg-4 {
+  background-color: rgba(241, 153, 166, 0.2) !important;
+}
+.mat .bs-3 {
+  box-shadow: rgba(241, 153, 166, 0.5) !important;
+}
+.mat .fc-1 {
+  color: #bd0926 !important;
+}
+.mat .border-color-R {
+  border-color: transparent transparent transparent #bd0926;
+}
+.mat .border-color-L {
+  border-color: transparent #bd0926 transparent transparent;
+}
+.mat .border-color-B {
+  border-color: #bd0926 transparent transparent transparent;
+}
+.mat .border-color-T {
+  border-color: transparent transparent #bd0926 transparent;
+}
+.mat .hover-bg-1:hover {
+  background-color: #bd0926 !important;
+}
+.mat .item-selectable.is-selected {
+  box-shadow: 0px 0px 0px 5px #620412 !important;
+  background-color: rgba(241, 153, 166, 0.5) !important;
+}
+.mat .center-v-h {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mat .item-is-selected {
+  box-shadow: 0px 0px 0px 5px #620412 !important;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+.mat .item-is-selected-1 {
+  box-shadow: 0px 0px 0px 5px #bd0926 !important;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+.mat .course-modal-title {
+  background: #bd0926;
+}
+.mat .course-modal-content {
+  color: #bd0926;
+}
+.mat #farewell-box {
+  background-image: url("../resources/common/boxmat.png");
+}
+.mat #farewell-kid {
+  background-image: url("../resources/common/kidmat.png");
+}
+.mat .liz-images-and-text .item div {
+  border-color: #620412;
+  background-color: #bd0926;
+}
+.mat .liz-images-and-text .item div:after {
+  border-color: transparent transparent #bd0926 transparent;
+}
+.mat .liz-letter-soup .letter-soup-table {
+  float: left;
+}
+.mat .liz-letter-soup .letter-soup-table * {
+  border: 2px solid #000;
+}
+.mat .liz-letter-soup .letter-soup-table td.completed {
+  background: #bd0926;
+}
+.mat .liz-letter-soup .letter-soup-group .group-title {
+  background: #bd0926;
+}
+.mat .liz-group-complete-yes-not .item-name {
+  color: #bd0926 !important;
+  background-color: transparent !important;
+}
+.mat .liz-group-select-words .input-container {
+  border-color: #bd0926 !important;
+}
+.mat .liz-group-select-words .complete-words-container2 .input-container {
+  border-color: #620412 !important;
+  background-color: #bd0926 !important;
+}
+.mat .liz-group-select-words input[type=button]:focus {
+  border-color: #620412 !important;
+  color: #bd0926 !important;
+}
+.mat .liz-group-complete-letters input[type=text]:focus {
+  background: #620412;
+}
+.mat .liz-complete-inputs-position input[type=text] {
+  border-color: #bd0926;
+  color: #bd0926;
+}
+.mat .liz-complete-inputs-position input[type=text]:focus {
+  border-color: #620412;
+  background: #620412;
+}
+.mat .liz-select-options-positions select option:hover:hover {
+  color: #bd0926 !important;
+}
+.mat .liz-click-to-select-position .item.is-selected, .mat .liz-click-to-complete-input .item.is-selected {
+  background: #620412 !important;
+}
+.mat .liz-click-to-select-position .item.is-selected .item-inner, .mat .liz-click-to-complete-input .item.is-selected .item-inner {
+  border-color: #620412 !important;
+}
+.mat .liz-click-to-select-position .item.is-selected .item-text, .mat .liz-click-to-complete-input .item.is-selected .item-text {
+  background: #620412;
+}
+.mat .liz-click-to-select-position .item-inner, .mat .liz-click-to-complete-input .item-inner {
+  border-color: #bd0926 !important;
+}
+.mat .liz-click-to-select-position .item-text, .mat .liz-click-to-complete-input .item-text {
+  background: #bd0926;
+}
+.mat .liz-click-to-select-position .item-target, .mat .liz-click-to-complete-input .item-target {
+  background: #bd0926;
+}
+.mat .liz-click-to-select-position .item-target:hover, .mat .liz-click-to-complete-input .item-target:hover {
+  background: #620412;
+}
+.mat .liz-complete-letters .block-content,
+.mat .liz-complete-words .block-content,
+.mat .liz-complete-words-wi .block-content,
+.mat .liz-group-complete-words .block-content,
+.mat .liz-group-complete-letters .block-content,
+.mat .liz-group-complete-images .block-content,
+.mat .liz-group-classify-table .block-content,
+.mat .liz-concepts-table .block-content,
+.mat .liz-group-select-words .block-content,
+.mat .liz-group-complete-sound .block-content,
+.mat .liz-group-complete-text .block-content,
+.mat .liz-group-complete-text-free .block-content,
+.mat .liz-group-table-text-free .block-content,
+.mat .liz-group-table-text-conditions .block-content,
+.mat .liz-group-table-text-conditions-options .block-content,
+.mat .liz-group-table-text-options .block-content,
+.mat .liz-group-complete-free-conditions .block-content,
+.mat .liz-group-complete-yes-not .block-content,
+.mat .liz-complete-inputs-free .block-content {
+  border-color: #bd0926 !important;
+}
+.mat .liz-complete-letters .item input[type=text],
+.mat .liz-complete-words .item input[type=text],
+.mat .liz-complete-words-wi .item input[type=text],
+.mat .liz-group-complete-words .item input[type=text],
+.mat .liz-group-complete-letters .item input[type=text],
+.mat .liz-group-complete-images .item input[type=text],
+.mat .liz-group-classify-table .item input[type=text],
+.mat .liz-concepts-table .item input[type=text],
+.mat .liz-group-select-words .item input[type=text],
+.mat .liz-group-complete-sound .item input[type=text],
+.mat .liz-group-complete-text .item input[type=text],
+.mat .liz-group-complete-text-free .item input[type=text],
+.mat .liz-group-table-text-free .item input[type=text],
+.mat .liz-group-table-text-conditions .item input[type=text],
+.mat .liz-group-table-text-conditions-options .item input[type=text],
+.mat .liz-group-table-text-options .item input[type=text],
+.mat .liz-group-complete-free-conditions .item input[type=text],
+.mat .liz-group-complete-yes-not .item input[type=text],
+.mat .liz-complete-inputs-free .item input[type=text] {
+  border-bottom-color: #bd0926;
+}
+.mat .liz-complete-letters .item input[type=text]:focus,
+.mat .liz-complete-words .item input[type=text]:focus,
+.mat .liz-complete-words-wi .item input[type=text]:focus,
+.mat .liz-group-complete-words .item input[type=text]:focus,
+.mat .liz-group-complete-letters .item input[type=text]:focus,
+.mat .liz-group-complete-images .item input[type=text]:focus,
+.mat .liz-group-classify-table .item input[type=text]:focus,
+.mat .liz-concepts-table .item input[type=text]:focus,
+.mat .liz-group-select-words .item input[type=text]:focus,
+.mat .liz-group-complete-sound .item input[type=text]:focus,
+.mat .liz-group-complete-text .item input[type=text]:focus,
+.mat .liz-group-complete-text-free .item input[type=text]:focus,
+.mat .liz-group-table-text-free .item input[type=text]:focus,
+.mat .liz-group-table-text-conditions .item input[type=text]:focus,
+.mat .liz-group-table-text-conditions-options .item input[type=text]:focus,
+.mat .liz-group-table-text-options .item input[type=text]:focus,
+.mat .liz-group-complete-free-conditions .item input[type=text]:focus,
+.mat .liz-group-complete-yes-not .item input[type=text]:focus,
+.mat .liz-complete-inputs-free .item input[type=text]:focus {
+  border-bottom-color: #620412;
+  background: #620412;
+}
+.mat .liz-complete-letters .item-name, .mat .liz-complete-letters .item-number, .mat .liz-complete-letters .item-caption, .mat .liz-complete-letters .item-title,
+.mat .liz-complete-words .item-name,
+.mat .liz-complete-words .item-number,
+.mat .liz-complete-words .item-caption,
+.mat .liz-complete-words .item-title,
+.mat .liz-complete-words-wi .item-name,
+.mat .liz-complete-words-wi .item-number,
+.mat .liz-complete-words-wi .item-caption,
+.mat .liz-complete-words-wi .item-title,
+.mat .liz-group-complete-words .item-name,
+.mat .liz-group-complete-words .item-number,
+.mat .liz-group-complete-words .item-caption,
+.mat .liz-group-complete-words .item-title,
+.mat .liz-group-complete-letters .item-name,
+.mat .liz-group-complete-letters .item-number,
+.mat .liz-group-complete-letters .item-caption,
+.mat .liz-group-complete-letters .item-title,
+.mat .liz-group-complete-images .item-name,
+.mat .liz-group-complete-images .item-number,
+.mat .liz-group-complete-images .item-caption,
+.mat .liz-group-complete-images .item-title,
+.mat .liz-group-classify-table .item-name,
+.mat .liz-group-classify-table .item-number,
+.mat .liz-group-classify-table .item-caption,
+.mat .liz-group-classify-table .item-title,
+.mat .liz-concepts-table .item-name,
+.mat .liz-concepts-table .item-number,
+.mat .liz-concepts-table .item-caption,
+.mat .liz-concepts-table .item-title,
+.mat .liz-group-select-words .item-name,
+.mat .liz-group-select-words .item-number,
+.mat .liz-group-select-words .item-caption,
+.mat .liz-group-select-words .item-title,
+.mat .liz-group-complete-sound .item-name,
+.mat .liz-group-complete-sound .item-number,
+.mat .liz-group-complete-sound .item-caption,
+.mat .liz-group-complete-sound .item-title,
+.mat .liz-group-complete-text .item-name,
+.mat .liz-group-complete-text .item-number,
+.mat .liz-group-complete-text .item-caption,
+.mat .liz-group-complete-text .item-title,
+.mat .liz-group-complete-text-free .item-name,
+.mat .liz-group-complete-text-free .item-number,
+.mat .liz-group-complete-text-free .item-caption,
+.mat .liz-group-complete-text-free .item-title,
+.mat .liz-group-table-text-free .item-name,
+.mat .liz-group-table-text-free .item-number,
+.mat .liz-group-table-text-free .item-caption,
+.mat .liz-group-table-text-free .item-title,
+.mat .liz-group-table-text-conditions .item-name,
+.mat .liz-group-table-text-conditions .item-number,
+.mat .liz-group-table-text-conditions .item-caption,
+.mat .liz-group-table-text-conditions .item-title,
+.mat .liz-group-table-text-conditions-options .item-name,
+.mat .liz-group-table-text-conditions-options .item-number,
+.mat .liz-group-table-text-conditions-options .item-caption,
+.mat .liz-group-table-text-conditions-options .item-title,
+.mat .liz-group-table-text-options .item-name,
+.mat .liz-group-table-text-options .item-number,
+.mat .liz-group-table-text-options .item-caption,
+.mat .liz-group-table-text-options .item-title,
+.mat .liz-group-complete-free-conditions .item-name,
+.mat .liz-group-complete-free-conditions .item-number,
+.mat .liz-group-complete-free-conditions .item-caption,
+.mat .liz-group-complete-free-conditions .item-title,
+.mat .liz-group-complete-yes-not .item-name,
+.mat .liz-group-complete-yes-not .item-number,
+.mat .liz-group-complete-yes-not .item-caption,
+.mat .liz-group-complete-yes-not .item-title,
+.mat .liz-complete-inputs-free .item-name,
+.mat .liz-complete-inputs-free .item-number,
+.mat .liz-complete-inputs-free .item-caption,
+.mat .liz-complete-inputs-free .item-title {
+  background-color: #bd0926;
+}
+.mat .liz-complete-letters .complete-container,
+.mat .liz-complete-words .complete-container,
+.mat .liz-complete-words-wi .complete-container,
+.mat .liz-group-complete-words .complete-container,
+.mat .liz-group-complete-letters .complete-container,
+.mat .liz-group-complete-images .complete-container,
+.mat .liz-group-classify-table .complete-container,
+.mat .liz-concepts-table .complete-container,
+.mat .liz-group-select-words .complete-container,
+.mat .liz-group-complete-sound .complete-container,
+.mat .liz-group-complete-text .complete-container,
+.mat .liz-group-complete-text-free .complete-container,
+.mat .liz-group-table-text-free .complete-container,
+.mat .liz-group-table-text-conditions .complete-container,
+.mat .liz-group-table-text-conditions-options .complete-container,
+.mat .liz-group-table-text-options .complete-container,
+.mat .liz-group-complete-free-conditions .complete-container,
+.mat .liz-group-complete-yes-not .complete-container,
+.mat .liz-complete-inputs-free .complete-container {
+  border-color: #bd0926 !important;
+}
+.mat .liz-complete-letters .complete-container .input-container,
+.mat .liz-complete-words .complete-container .input-container,
+.mat .liz-complete-words-wi .complete-container .input-container,
+.mat .liz-group-complete-words .complete-container .input-container,
+.mat .liz-group-complete-letters .complete-container .input-container,
+.mat .liz-group-complete-images .complete-container .input-container,
+.mat .liz-group-classify-table .complete-container .input-container,
+.mat .liz-concepts-table .complete-container .input-container,
+.mat .liz-group-select-words .complete-container .input-container,
+.mat .liz-group-complete-sound .complete-container .input-container,
+.mat .liz-group-complete-text .complete-container .input-container,
+.mat .liz-group-complete-text-free .complete-container .input-container,
+.mat .liz-group-table-text-free .complete-container .input-container,
+.mat .liz-group-table-text-conditions .complete-container .input-container,
+.mat .liz-group-table-text-conditions-options .complete-container .input-container,
+.mat .liz-group-table-text-options .complete-container .input-container,
+.mat .liz-group-complete-free-conditions .complete-container .input-container,
+.mat .liz-group-complete-yes-not .complete-container .input-container,
+.mat .liz-complete-inputs-free .complete-container .input-container {
+  border-bottom-color: #bd0926;
+}
+.mat .liz-complete-letters .complete-container span .item-placeholder,
+.mat .liz-complete-words .complete-container span .item-placeholder,
+.mat .liz-complete-words-wi .complete-container span .item-placeholder,
+.mat .liz-group-complete-words .complete-container span .item-placeholder,
+.mat .liz-group-complete-letters .complete-container span .item-placeholder,
+.mat .liz-group-complete-images .complete-container span .item-placeholder,
+.mat .liz-group-classify-table .complete-container span .item-placeholder,
+.mat .liz-concepts-table .complete-container span .item-placeholder,
+.mat .liz-group-select-words .complete-container span .item-placeholder,
+.mat .liz-group-complete-sound .complete-container span .item-placeholder,
+.mat .liz-group-complete-text .complete-container span .item-placeholder,
+.mat .liz-group-complete-text-free .complete-container span .item-placeholder,
+.mat .liz-group-table-text-free .complete-container span .item-placeholder,
+.mat .liz-group-table-text-conditions .complete-container span .item-placeholder,
+.mat .liz-group-table-text-conditions-options .complete-container span .item-placeholder,
+.mat .liz-group-table-text-options .complete-container span .item-placeholder,
+.mat .liz-group-complete-free-conditions .complete-container span .item-placeholder,
+.mat .liz-group-complete-yes-not .complete-container span .item-placeholder,
+.mat .liz-complete-inputs-free .complete-container span .item-placeholder {
+  background: #bd0926;
+}
+.mat .liz-complete-letters .complete-container span textarea[type=text],
+.mat .liz-complete-words .complete-container span textarea[type=text],
+.mat .liz-complete-words-wi .complete-container span textarea[type=text],
+.mat .liz-group-complete-words .complete-container span textarea[type=text],
+.mat .liz-group-complete-letters .complete-container span textarea[type=text],
+.mat .liz-group-complete-images .complete-container span textarea[type=text],
+.mat .liz-group-classify-table .complete-container span textarea[type=text],
+.mat .liz-concepts-table .complete-container span textarea[type=text],
+.mat .liz-group-select-words .complete-container span textarea[type=text],
+.mat .liz-group-complete-sound .complete-container span textarea[type=text],
+.mat .liz-group-complete-text .complete-container span textarea[type=text],
+.mat .liz-group-complete-text-free .complete-container span textarea[type=text],
+.mat .liz-group-table-text-free .complete-container span textarea[type=text],
+.mat .liz-group-table-text-conditions .complete-container span textarea[type=text],
+.mat .liz-group-table-text-conditions-options .complete-container span textarea[type=text],
+.mat .liz-group-table-text-options .complete-container span textarea[type=text],
+.mat .liz-group-complete-free-conditions .complete-container span textarea[type=text],
+.mat .liz-group-complete-yes-not .complete-container span textarea[type=text],
+.mat .liz-complete-inputs-free .complete-container span textarea[type=text] {
+  border-color: #bd0926 !important;
+}
+.mat .liz-complete-letters .complete-container span input:focus,
+.mat .liz-complete-letters .complete-container span textarea[type=text]:focus,
+.mat .liz-complete-words .complete-container span input:focus,
+.mat .liz-complete-words .complete-container span textarea[type=text]:focus,
+.mat .liz-complete-words-wi .complete-container span input:focus,
+.mat .liz-complete-words-wi .complete-container span textarea[type=text]:focus,
+.mat .liz-group-complete-words .complete-container span input:focus,
+.mat .liz-group-complete-words .complete-container span textarea[type=text]:focus,
+.mat .liz-group-complete-letters .complete-container span input:focus,
+.mat .liz-group-complete-letters .complete-container span textarea[type=text]:focus,
+.mat .liz-group-complete-images .complete-container span input:focus,
+.mat .liz-group-complete-images .complete-container span textarea[type=text]:focus,
+.mat .liz-group-classify-table .complete-container span input:focus,
+.mat .liz-group-classify-table .complete-container span textarea[type=text]:focus,
+.mat .liz-concepts-table .complete-container span input:focus,
+.mat .liz-concepts-table .complete-container span textarea[type=text]:focus,
+.mat .liz-group-select-words .complete-container span input:focus,
+.mat .liz-group-select-words .complete-container span textarea[type=text]:focus,
+.mat .liz-group-complete-sound .complete-container span input:focus,
+.mat .liz-group-complete-sound .complete-container span textarea[type=text]:focus,
+.mat .liz-group-complete-text .complete-container span input:focus,
+.mat .liz-group-complete-text .complete-container span textarea[type=text]:focus,
+.mat .liz-group-complete-text-free .complete-container span input:focus,
+.mat .liz-group-complete-text-free .complete-container span textarea[type=text]:focus,
+.mat .liz-group-table-text-free .complete-container span input:focus,
+.mat .liz-group-table-text-free .complete-container span textarea[type=text]:focus,
+.mat .liz-group-table-text-conditions .complete-container span input:focus,
+.mat .liz-group-table-text-conditions .complete-container span textarea[type=text]:focus,
+.mat .liz-group-table-text-conditions-options .complete-container span input:focus,
+.mat .liz-group-table-text-conditions-options .complete-container span textarea[type=text]:focus,
+.mat .liz-group-table-text-options .complete-container span input:focus,
+.mat .liz-group-table-text-options .complete-container span textarea[type=text]:focus,
+.mat .liz-group-complete-free-conditions .complete-container span input:focus,
+.mat .liz-group-complete-free-conditions .complete-container span textarea[type=text]:focus,
+.mat .liz-group-complete-yes-not .complete-container span input:focus,
+.mat .liz-group-complete-yes-not .complete-container span textarea[type=text]:focus,
+.mat .liz-complete-inputs-free .complete-container span input:focus,
+.mat .liz-complete-inputs-free .complete-container span textarea[type=text]:focus {
+  border-color: #bd0926 !important;
+  color: #bd0926;
+}
+.mat .liz-complete-letters .complete-container textarea[type=text]:focus,
+.mat .liz-complete-words .complete-container textarea[type=text]:focus,
+.mat .liz-complete-words-wi .complete-container textarea[type=text]:focus,
+.mat .liz-group-complete-words .complete-container textarea[type=text]:focus,
+.mat .liz-group-complete-letters .complete-container textarea[type=text]:focus,
+.mat .liz-group-complete-images .complete-container textarea[type=text]:focus,
+.mat .liz-group-classify-table .complete-container textarea[type=text]:focus,
+.mat .liz-concepts-table .complete-container textarea[type=text]:focus,
+.mat .liz-group-select-words .complete-container textarea[type=text]:focus,
+.mat .liz-group-complete-sound .complete-container textarea[type=text]:focus,
+.mat .liz-group-complete-text .complete-container textarea[type=text]:focus,
+.mat .liz-group-complete-text-free .complete-container textarea[type=text]:focus,
+.mat .liz-group-table-text-free .complete-container textarea[type=text]:focus,
+.mat .liz-group-table-text-conditions .complete-container textarea[type=text]:focus,
+.mat .liz-group-table-text-conditions-options .complete-container textarea[type=text]:focus,
+.mat .liz-group-table-text-options .complete-container textarea[type=text]:focus,
+.mat .liz-group-complete-free-conditions .complete-container textarea[type=text]:focus,
+.mat .liz-group-complete-yes-not .complete-container textarea[type=text]:focus,
+.mat .liz-complete-inputs-free .complete-container textarea[type=text]:focus {
+  border-color: #bd0926 !important;
+  color: #bd0926;
+}
+.mat .liz-complete-letters .letters .syllable strong,
+.mat .liz-complete-words .letters .syllable strong,
+.mat .liz-complete-words-wi .letters .syllable strong,
+.mat .liz-group-complete-words .letters .syllable strong,
+.mat .liz-group-complete-letters .letters .syllable strong,
+.mat .liz-group-complete-images .letters .syllable strong,
+.mat .liz-group-classify-table .letters .syllable strong,
+.mat .liz-concepts-table .letters .syllable strong,
+.mat .liz-group-select-words .letters .syllable strong,
+.mat .liz-group-complete-sound .letters .syllable strong,
+.mat .liz-group-complete-text .letters .syllable strong,
+.mat .liz-group-complete-text-free .letters .syllable strong,
+.mat .liz-group-table-text-free .letters .syllable strong,
+.mat .liz-group-table-text-conditions .letters .syllable strong,
+.mat .liz-group-table-text-conditions-options .letters .syllable strong,
+.mat .liz-group-table-text-options .letters .syllable strong,
+.mat .liz-group-complete-free-conditions .letters .syllable strong,
+.mat .liz-group-complete-yes-not .letters .syllable strong,
+.mat .liz-complete-inputs-free .letters .syllable strong {
+  color: #bd0926;
+}
+.mat .liz-choose-items .letter {
+  color: #bd0926;
+}
+.mat .liz-choose-items .letter:hover {
+  background: #bd0926;
+}
+.mat .liz-pairs * {
+  border-color: #bd0926 !important;
+}
+.mat .liz-pairs strong {
+  color: #bd0926;
+}
+.mat .liz-complete-inputs .item,
+.mat .liz-complete-inputs input,
+.mat .liz-complete-inputs-description .item,
+.mat .liz-complete-inputs-description input {
+  border-color: #bd0926 !important;
+  color: #bd0926 !important;
+}
+.mat .liz-complete-inputs .inner-example,
+.mat .liz-complete-inputs-description .inner-example {
+  background: #bd0926;
+}
+.mat .liz-complete-inputs strong,
+.mat .liz-complete-inputs strong2,
+.mat .liz-complete-inputs-description strong,
+.mat .liz-complete-inputs-description strong2 {
+  color: #bd0926 !important;
+}
+.mat .liz-complete-inputs .block-content,
+.mat .liz-complete-inputs-description .block-content {
+  border-color: #bd0926 !important;
+}
+.mat .liz-complete-inputs .input-group,
+.mat .liz-complete-inputs-description .input-group {
+  border-color: #bd0926 !important;
+}
+.mat .liz-complete-inputs .input-group .input-group-addon,
+.mat .liz-complete-inputs-description .input-group .input-group-addon {
+  background: #bd0926 !important;
+}
+.mat .liz-complete-inputs .input-group input[type=text],
+.mat .liz-complete-inputs-description .input-group input[type=text] {
+  color: #bd0926 !important;
+}
+.mat .liz-one-group .item p {
+  background: #bd0926;
+}
+.mat .liz-one-group .target {
+  border-color: #bd0926 !important;
+}
+.mat .liz-drag-drop-mark .target {
+  border-color: #bd0926 !important;
+}
+.mat .liz-drag-drop-mark .items.text .item {
+  background: #bd0926;
+}
+.mat .liz-multiple-mark .target {
+  border-color: #bd0926 !important;
+}
+.mat .liz-puzzle1 .puzzle1-canvas {
+  border-color: #bd0926;
+}
+.mat .liz-puzzle2 .puzzle2-canvas, .mat .liz-puzzle2 .item {
+  border-color: #bd0926 !important;
+}
+.mat .liz-puzzle2 .item {
+  background: rgba(241, 153, 166, 0.5);
+}
+.mat .liz-puzzle4 .target {
+  box-shadow: 0px 0px 0px 3px #bd0926;
+}
+.mat .liz-puzzle4 .target-item {
+  background-color: rgba(241, 153, 166, 0.5);
+}
+.mat .liz-multiple-selection .item {
+  border-color: #bd0926;
+}
+.mat .liz-sound-group .group {
+  border-color: #bd0926;
+}
+.mat .liz-drop-out .group {
+  border-color: #bd0926;
+}
+.mat .liz-drag-drop-multiples .inner-group .items .item div,
+.mat .liz-drag-drop-multiples .stack.items .item div, .mat .liz-drag-drop-multiples-positions .inner-group .items .item div,
+.mat .liz-drag-drop-multiples-positions .stack.items .item div {
+  background: #bd0926;
+}
+.mat .liz-compare-sample .group {
+  border-color: #bd0926;
+}
+.mat .liz-compare-sample .sample {
+  background: rgba(241, 153, 166, 0.5);
+}
+.mat .liz-count-elements .number {
+  background: #bd0926;
+}
+.mat .liz-count-elements .sortable {
+  border-color: #bd0926;
+}
+.mat .liz-count-elements2 .item input[type=text] {
+  border-color: #bd0926 !important;
+}
+.mat .liz-sequences .sequence, .mat .liz-sequences .sequence-item {
+  border-color: #bd0926;
+}
+.mat .liz-group-inputs input[type="text"] {
+  border-color: #bd0926;
+}
+.mat .liz-pairs-inputs * {
+  border-color: #bd0926 !important;
+}
+.mat .liz-pairs-inputs *:focus {
+  background: #bd0926;
+}
+.mat .liz-crossword .clue.actived {
+  background: #bd0926;
+}
+.mat .liz-crossword td.actived input[type="text"] {
+  background: #bd0926;
+}
+.mat .liz-crossword td.main-actived input[type="text"] {
+  background: #620412;
+}
+.mat .liz-complete-text-boxes .textBoxesContainer .textBoxesTitleRow .blockNumber > span {
+  background-color: #bd0926;
+  border: 3px solid #620412;
+}
+.mat .liz-complete-text-boxes .textBoxesContainer .textBoxesTitleRow .textBoxesTitle {
+  color: #000;
+}
+.mat .liz-complete-text-boxes .textBoxesContainer .textBoxesInputRow textarea {
+  border: 3px solid #bd0926;
+}
+.mat .liz-complete-table-image-inputs .table-text-options .table-text-option > div {
+  background-color: #bd0926;
+  border: 3px solid #620412;
+}
+.mat .liz-complete-table-image-inputs .tableImageInputs thead tr th {
+  background-color: #bd0926;
+}
+.mat .liz-complete-table-image-inputs .tableImageInputs .tableImageInputsRow td:first-child {
+  background-color: #bd0926;
+}
+.mat .liz-complete-table-image-inputs .tableImageInputs .tableImageInputsRow td input {
+  color: #bd0926;
+  border: 2px solid #bd0926;
+}
+.mat .liz-complete-table-with-text .table-with-text-prefix {
+  background-color: #bd0926;
+}
+.mat .liz-complete-table-inputs .tableInputs thead > tr th {
+  background-color: #bd0926;
+}
+.mat .liz-complete-table-inputs .tableInputs .tableInputsRow td:first-child {
+  background-color: #bd0926;
+}
+.mat .liz-complete-table-inputs .tableInputs .tableInputsRow td textarea {
+  color: #bd0926;
+  border: 2px solid #bd0926;
+}
+.mat .liz-images-block-description .images-block-row .images-block-col > div .image-block-title {
+  background-color: #bd0926;
+}
+.mat .liz-complete-inputs-true-false .aOptionsRow .aOptionsCol > span {
+  background-color: #bd0926;
+  border: 4px solid rgba(241, 153, 166, 0.5);
+}
+.mat .liz-complete-inputs-true-false .inputsFalseTrueContainer td.blockNumber > span {
+  background-color: #bd0926;
+  border: 3px solid #620412;
+}
+.mat .liz-complete-inputs-true-false .inputsFalseTrueContainer td.blockInput > input {
+  border: 3px solid #bd0926;
+  color: #bd0926;
+}
+.mat .click-images .item p strong {
+  color: #bd0926;
+}
+.mat .click-images .item .number {
+  background-color: #bd0926;
+  box-shadow: 0px 0px 0px 5px #bd0926 !important;
+}
+.mat .click-images .item .number:hover {
+  background-color: #620412;
+  box-shadow: 0px 0px 0px 5px #620412 !important;
+}
+.mat .liz-show-parts .item-title {
+  background: #bd0926;
+}
+.mat .liz-change-style-click .inner-title.is-selected {
+  box-shadow: 0px 0px 0px 5px #620412 !important;
+}
+.mat .liz-change-style-click .inner-item.is-selected {
+  box-shadow: 0px 0px 0px 5px #620412 !important;
+}
+.mat .liz-change-style-select .inner-title.is-selected {
+  box-shadow: 0px 0px 0px 5px #620412 !important;
+}
+.mat .liz-change-style-select .inner-item {
+  color: #bd0926;
+  border-color: #bd0926;
+}
+.mat .liz-change-style-select .inner-item.is-selected {
+  box-shadow: 0px 0px 0px 5px #620412 !important;
+}
+.mat .liz-change-style-select .inner-item .inner-item-inner {
+  background-color: #bd0926;
+}
+.mat .liz-show-name .items {
+  border-color: #bd0926;
+}
+.mat .liz-show-name .inner-text {
+  color: #620412 !important;
+  background-color: #bd0926;
+}
+.mat .liz-show-text-character .slidesjs-navigation,
+.mat .liz-show-concepts-character .slidesjs-navigation,
+.mat .liz-slideshow-character .slidesjs-navigation,
+.mat .liz-show-concepts-text .slidesjs-navigation {
+  background-color: #bd0926;
+}
+.mat .liz-show-text-character .slidesjs-navigation:hover,
+.mat .liz-show-concepts-character .slidesjs-navigation:hover,
+.mat .liz-slideshow-character .slidesjs-navigation:hover,
+.mat .liz-show-concepts-text .slidesjs-navigation:hover {
+  background-color: #620412;
+}
+.mat .liz-show-text-character .inner-text,
+.mat .liz-show-concepts-character .inner-text,
+.mat .liz-slideshow-character .inner-text,
+.mat .liz-show-concepts-text .inner-text {
+  color: #bd0926;
+}
+.mat .liz-show-text-character .inner-title, .mat .liz-show-text-character .inner-example,
+.mat .liz-show-concepts-character .inner-title,
+.mat .liz-show-concepts-character .inner-example,
+.mat .liz-slideshow-character .inner-title,
+.mat .liz-slideshow-character .inner-example,
+.mat .liz-show-concepts-text .inner-title,
+.mat .liz-show-concepts-text .inner-example {
+  background-color: #bd0926;
+}
+.mat .liz-show-text-character .inner-title.is-selected, .mat .liz-show-text-character .inner-example.is-selected,
+.mat .liz-show-concepts-character .inner-title.is-selected,
+.mat .liz-show-concepts-character .inner-example.is-selected,
+.mat .liz-slideshow-character .inner-title.is-selected,
+.mat .liz-slideshow-character .inner-example.is-selected,
+.mat .liz-show-concepts-text .inner-title.is-selected,
+.mat .liz-show-concepts-text .inner-example.is-selected {
+  box-shadow: 0px 0px 0px 5px #620412 !important;
+}
+.mat .liz-show-text-character .inner-item,
+.mat .liz-show-concepts-character .inner-item,
+.mat .liz-slideshow-character .inner-item,
+.mat .liz-show-concepts-text .inner-item {
+  color: #bd0926;
+  border-color: #bd0926;
+}
+.mat .liz-show-text-character .inner-item.is-selected,
+.mat .liz-show-concepts-character .inner-item.is-selected,
+.mat .liz-slideshow-character .inner-item.is-selected,
+.mat .liz-show-concepts-text .inner-item.is-selected {
+  box-shadow: 0px 0px 0px 5px #620412 !important;
+}
+.mat .liz-show-text-character .inner-item .inner-item-inner,
+.mat .liz-show-concepts-character .inner-item .inner-item-inner,
+.mat .liz-slideshow-character .inner-item .inner-item-inner,
+.mat .liz-show-concepts-text .inner-item .inner-item-inner {
+  background-color: #bd0926;
+}
+.mat .liz-hover-show-text .popover-input, .mat .liz-click-to-complete-input .popover-input {
+  color: #bd0926;
+}
+.mat .liz-hover-show-text .popover, .mat .liz-click-to-complete-input .popover {
+  background: #bd0926;
+  color: white;
+}
+.mat .liz-hover-show-text .popover.top :after, .mat .liz-click-to-complete-input .popover.top :after {
+  border-top-color: #bd0926;
+}
+.mat .liz-hover-show-text .popover.left :after, .mat .liz-click-to-complete-input .popover.left :after {
+  border-left-color: #bd0926;
+}
+.mat .liz-hover-show-text .popover.right :after, .mat .liz-click-to-complete-input .popover.right :after {
+  border-right-color: #bd0926;
+}
+.mat .liz-hover-show-text .popover.bottom :after, .mat .liz-click-to-complete-input .popover.bottom :after {
+  border-bottom-color: #bd0926;
+}
+.mat .liz-show-concepts .inner-item {
+  background: #bd0926;
+}
+.mat .liz-show-concepts .inner-item.is-selected {
+  box-shadow: 0px 0px 0px 5px #620412 !important;
+}
+.mat .liz-show-description .item-title {
+  background: #bd0926;
+}
+.mat .liz-show-description .item-title.is-selected {
+  box-shadow: 0px 0px 0px 5px #620412 !important;
+}
+.mat .liz-table table * {
+  border-color: #bd0926;
+}
+.mat .liz-table table th {
+  background: #620412;
+}
+.mat .liz-show-multiple-hover-phrase .block-content .hover-words-row .hover-phrase-image > img {
+  border: 3px solid #bd0926;
+}
+.mat .big-letters {
+  background: #bd0926;
+}

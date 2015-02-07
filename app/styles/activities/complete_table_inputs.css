@@ -1,0 +1,30 @@
+.liz-complete-table-inputs .tableInputs {
+  margin-top: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.liz-complete-table-inputs .tableInputs thead > tr th {
+  color: #FFF;
+  padding: 10px;
+}
+.liz-complete-table-inputs .tableInputs .tableInputsRow td {
+  border: 2px solid #FFF;
+  position: relative;
+}
+.liz-complete-table-inputs .tableInputs .tableInputsRow td:first-child {
+  color: #FFF;
+  padding-left: 17px;
+}
+.liz-complete-table-inputs .tableInputs .tableInputsRow td textarea {
+  width: 100%;
+  float: left;
+}
+.liz-complete-table-inputs .tableInputs .tableInputsRow td div.right-answer, .liz-complete-table-inputs .tableInputs .tableInputsRow td div.wrong-answer {
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+  position: absolute;
+  right: 10px;
+  top: 6px;
+}

@@ -1,0 +1,40 @@
+.liz-complete-inputs-position .section2 {
+  width: 100%;
+  float: left; }
+  .liz-complete-inputs-position .section2 .examples-container {
+    position: absolute;
+    width: 300px;
+    height: 100px; }
+    .liz-complete-inputs-position .section2 .examples-container .examples {
+      padding: 10px;
+      margin: 10px;
+      float: left;
+      min-width: 70%;
+      color: white;
+      font-size: 20px;
+      text-align: center; }
+  .liz-complete-inputs-position .section2 .item-container {
+    position: absolute; }
+    .liz-complete-inputs-position .section2 .item-container .item-title {
+      background: white;
+      font-size: 24px;
+      text-align: center;
+      border: solid 3px;
+      color: white; }
+    .liz-complete-inputs-position .section2 .item-container .item-input {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      outline: none;
+      font-size: 24px;
+      background: white;
+      border: solid 3px; }
+      .liz-complete-inputs-position .section2 .item-container .item-input:focus {
+        color: white; }
+.liz-complete-inputs-position .right-answer, .liz-complete-inputs-position .wrong-answer {
+  position: absolute;
+  top: 0%;
+  left: 100%;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px; }

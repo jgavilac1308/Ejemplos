@@ -1,0 +1,902 @@
+@import "../bourbon/bourbon.scss";
+@mixin create-theme (
+	$color1, 
+	$color2: #000, 
+	$color3: #fff,
+	$color4: #fff, 
+	$farewellbox: "../resources/common/despedida_soc.svg",
+	$farewellkid: "../resources/common/despedida_soc.svg", 
+	$logo: "../resources/common/iconoes.svg",
+	$farewell-bg: ".."){
+
+	// *****************************************************************************
+	// Principales
+	// *****************************************************************************
+	.header{ background: $color1; }
+
+	#next, #prev{
+		&:hover{ background-color:$color3; }
+		h2{ color: $color1; }
+	}
+	
+	#icon-back, #icon-next{
+		fill: $color1;
+		opacity: 1;
+	}
+
+	.shadow{
+		box-shadow: inset 0px 1px 0px rgba(255,255,255,0.3),inset rgba(0,0,0,0.12) 0 -0px 0,rgba(0,0,0,0.3) 0 1px 2px,$color1 0 1px 10px;
+	}
+
+	.lesson-logo{ 
+		img{
+			background-image:url($logo);
+		}
+	}
+
+	.farewell-modal{
+		background: #fff url($farewell-bg);
+	}
+
+	// *****************************************************************************
+	// Otros elementos
+	// *****************************************************************************
+	.block{ background: $color1; }
+	.block-content{ border-color: $color1; }
+	
+	.btn-primary, .btn-primary-farewell{
+		background: $color1;
+		&:hover, &:active, &.active { background: $color2; }
+	}
+
+	.input-primary{ border-color: $color1; }
+	
+	h3,h2,h1{
+		strong{
+
+			color: $color1;
+		}
+	}
+	
+	strong{
+
+		color: $color1;
+	}
+	// *****************************************************************************
+	// Clases útiles
+	// *****************************************************************************
+	.bd-1 { border-color: $color1 !important; }
+	.bd-2 { border-color: $color2 !important; }
+	.bd-3 { border-color: $color3 !important; }
+	.bd-disabled { border-color: #B3B3B3 !important; }
+	.bc-bottom-1{ border-bottom-color: $color1 !important;}
+	.bg-1 { background-color: $color1 !important; }
+	.bg-2 { background-color: $color2 !important; }
+	.bg-3 { background-color: $color3 !important; }
+	.bg-4 { background-color: $color4 !important; }
+	.bs-3 { box-shadow: $color3 !important; }
+	.fc-1 { color: $color1 !important; }
+
+	.border-color-R{border-color: transparent transparent transparent $color1;}
+	.border-color-L{border-color: transparent $color1 transparent transparent;}
+	.border-color-B{border-color: $color1 transparent transparent transparent;}
+	.border-color-T{border-color: transparent transparent $color1 transparent;}
+
+	.hover-bg-1{
+
+		&:hover{
+			background-color: $color1 !important;
+		}
+	}
+
+	.item-selectable{
+		&.is-selected{ box-shadow: 0px 0px 0px 5px $color2!important;background-color: $color3 !important;}
+	}
+
+	.center-v-h{
+		display: flex;//centrar verticalmente
+		align-items: center;//centrar verticalmente
+		justify-content: center;//centrar verticalmente
+	}
+
+	.item-is-selected{
+		box-shadow: 0px 0px 0px 5px $color2!important;
+		@include transition(all 0.3s ease-in);
+
+	}
+
+	.item-is-selected-1{
+		box-shadow: 0px 0px 0px 5px $color1!important;
+		@include transition(all 0.3s ease-in);
+
+	}
+	// *****************************************************************************
+	// Tabla
+	// *****************************************************************************
+	table.table-primary {
+
+		th {
+			@extend .bg-1;
+		}
+
+		th, td {
+			@extend .bd-1;
+		}
+
+	}
+
+	// *****************************************************************************
+	// Modal - para despedidas, vuelve a intentarlo, etc
+	// *****************************************************************************
+	.course-modal-title{ background: $color1; }
+	.course-modal-content{ color: $color1; }
+	
+	#farewell-box{
+		background-image:url($farewellbox);
+	} 
+	#farewell-kid{
+		background-image:url($farewellkid);
+	} 
+	// *****************************************************************************
+	// Actividades
+	// *****************************************************************************
+	
+	.liz-images-and-text{
+		.item{
+			div{
+				border-color: $color2;
+				background-color: $color1;
+				&:after {
+					border-color: transparent transparent $color1 transparent;
+
+				}
+
+			}
+		}
+
+	}
+
+	.liz-letter-soup {
+
+		.letter-soup-table{
+		float: left;
+
+			& * {
+				border: 2px solid #000;
+			}
+
+			td{
+				
+				&.completed{
+					background: $color1;
+					
+				}
+
+			}
+		}
+	
+		.letter-soup-group {
+			.group-title {
+				background: $color1;
+			}
+		}
+	}
+
+.liz-group-complete-yes-not .item-name{color: $color1!important;background-color: transparent!important;}
+	
+	.liz-group-select-words{
+		
+
+		.input-container{border-color: $color1!important;}
+		.complete-words-container2{
+			.input-container{border-color: $color2!important;background-color: $color1!important;}
+		}
+
+		input[type=button]{
+			
+							
+
+							&:focus{
+								border-color: $color2 !important;
+								color: $color1!important;;
+							}
+						}
+	}
+	
+	.liz-group-complete-letters,{
+
+		input[type=text]{
+				
+				&:focus{
+					background: $color2;
+				}
+			}
+
+	}
+
+	.liz-complete-inputs-position{
+
+		input[type=text]{
+				border-color: $color1;
+				color: $color1;
+				&:focus{
+					border-color: $color2;
+					background: $color2;
+
+				}
+			}
+	}
+	
+	.liz-select-options-positions{
+
+		select{
+
+			option:hover{
+				
+				&:hover{
+					color: $color1!important;
+				}
+			}
+		}
+	}
+
+	.liz-click-to-select-position,.liz-click-to-complete-input{
+			.item{
+				&.is-selected{ background: $color2!important;
+					
+					.item-inner{border-color: $color2!important;}
+					.item-text{background: $color2}
+				}
+			}
+			.item-inner{border-color: $color1!important;}
+			.item-text{background: $color1}
+			.item-target{background: $color1;
+
+					&:hover{background: $color2;}
+			}
+	}
+
+	.liz-complete-letters,
+	.liz-complete-words,
+	.liz-complete-words-wi,
+	.liz-group-complete-words,
+	.liz-group-complete-letters,
+	.liz-group-complete-images,
+	.liz-group-classify-table,
+	.liz-concepts-table,
+	.liz-group-select-words,
+	.liz-group-complete-sound,
+	.liz-group-complete-text,
+	.liz-group-complete-text-free,
+	.liz-group-table-text-free,
+	.liz-group-table-text-conditions,
+	.liz-group-table-text-conditions-options,
+	.liz-group-table-text-options,
+	.liz-group-complete-free-conditions,
+	.liz-group-complete-yes-not,
+	.liz-complete-inputs-free{
+		
+		.block-content{
+			border-color: $color1 !important;
+		}
+		.item {
+
+			input[type=text]{
+				border-bottom-color: $color1;
+
+				&:focus{
+					border-bottom-color: $color2;
+					background: $color2;
+				}
+			}
+		}	
+			
+			.item-name,.item-number,.item-caption,.item-title{background-color: $color1;}
+
+			.complete-container{
+					border-color: $color1 !important;
+					
+					.input-container{border-bottom-color: $color1;}
+
+					span{
+						
+						.item-placeholder{
+							background: $color1;
+						}
+
+						textarea[type=text]{border-color: $color1 !important;}
+
+						input,
+						textarea[type=text],{
+							
+
+							&:focus{
+								border-color: $color1 !important;
+								color: $color1;
+								
+							}
+						}
+					}
+
+					textarea[type=text]{
+							
+
+							&:focus{
+								border-color: $color1 !important;
+								color: $color1;
+								
+							}
+						}	
+
+			}
+
+			
+
+		.letters .syllable strong{
+			color: $color1;
+		}
+
+	} 
+
+	.liz-choose-items .letter{
+		color: $color1;	
+
+		&:hover{
+			background: $color1;
+		}
+	}
+
+	.liz-pairs{
+		& *{
+			border-color: $color1 !important;
+		}
+
+		strong{
+			color: $color1;
+		}
+	}
+
+	.liz-complete-inputs,
+	.liz-complete-inputs-description{
+
+		.item,
+		input{
+			border-color: $color1 !important;
+			color: $color1 !important;
+		}
+
+		.inner-example{background: $color1;}
+
+		strong,
+		strong2{
+				color: $color1 !important;
+			}
+		.block-content{
+			border-color: $color1 !important;
+		}
+		.input-group{
+			border-color: $color1 !important;
+
+			.input-group-addon{
+				background: $color1 !important;
+			}
+	
+			input[type=text]{
+				color: $color1 !important;
+			}
+		}
+	}
+
+	.liz-one-group{
+		.item{
+			p{
+				background: $color1;
+			}
+		}
+
+		.target{
+			border-color: $color1 !important;
+		}
+	}
+
+	.liz-drag-drop-mark {
+
+		.target{
+			border-color: $color1 !important;
+		}
+
+		.items.text .item {
+			background: $color1;
+		}
+	}
+	
+	
+	.liz-multiple-mark .target{
+		border-color: $color1 !important;
+	}
+
+	.liz-puzzle1 .puzzle1-canvas{
+		border-color: $color1;	
+	}
+
+	.liz-puzzle2 {
+		.puzzle2-canvas, .item{
+			border-color: $color1 !important;	
+		}
+
+		.item{
+			background: $color3;
+		}
+	}
+
+	.liz-puzzle4 {
+		.target{
+			box-shadow: 0px 0px 0px 3px $color1;
+		}
+
+		.target-item{
+			background-color: $color3;
+		}
+	}
+
+	.liz-multiple-selection .item{
+		border-color: $color1;
+	}
+
+	.liz-sound-group .group{
+		border-color: $color1;
+	}
+
+	.liz-drop-out .group{
+		border-color: $color1;
+	}
+	
+	.liz-drag-drop-multiples,.liz-drag-drop-multiples-positions{
+		.inner-group .items .item,
+		.stack.items .item{
+			div{
+				background: $color1;
+			}
+		}
+	}
+
+	.liz-compare-sample{
+		.group{
+			border-color: $color1;
+		}
+
+		.sample{
+			background: $color3;
+		}
+	}
+
+	.liz-count-elements{
+		.number{
+			background: $color1;
+		}	
+
+		.sortable{
+			border-color: $color1;
+		}
+	}
+
+	.liz-count-elements2{
+		.item input[type=text]{
+			border-color: $color1 !important;
+		}
+	}
+
+	.liz-sequences{
+		.sequence, .sequence-item{
+			border-color: $color1;
+		}
+	}
+
+	.liz-group-inputs{
+		input[type="text"]{
+			border-color: $color1;
+		}
+	} 
+
+	.liz-pairs-inputs * {
+		border-color: $color1 !important;
+
+		&:focus{
+			background: $color1;
+		}
+	}
+
+	.liz-crossword{
+		.clue.actived{ background: $color1; }
+		td.actived { input[type="text"]{ background: $color1; } }
+		td.main-actived { input[type="text"]{ background: $color2; } }
+	}
+
+	.liz-complete-text-boxes {
+
+		.textBoxesContainer {
+
+			.textBoxesTitleRow {
+
+				.blockNumber {
+
+					& > span {
+						background-color: $color1;
+						border: 3px solid $color2;
+					}
+				}
+
+				.textBoxesTitle {
+					// color: $color1;
+					color: #000;
+				}
+			}
+
+			.textBoxesInputRow  {
+
+				textarea {
+					border: 3px solid $color1;
+				}
+			}
+		}
+	}
+
+	.liz-complete-table-image-inputs {
+		.table-text-options {
+
+			.table-text-option > div {
+				background-color: $color1;
+				border: 3px solid $color2;
+			}
+		}
+
+		.tableImageInputs {
+
+			thead {
+
+				tr {
+
+					th {
+						background-color: $color1;
+					}
+				}
+			}
+
+			.tableImageInputsRow {
+
+				td {
+					
+					&:first-child {
+						background-color: $color1;
+					}
+
+					input {
+						color: $color1;
+						border: 2px solid $color1;
+					}
+				}
+			}
+		}
+	}
+
+	.liz-complete-table-with-text {
+
+		.table-with-text-prefix {
+			background-color: $color1;
+		}
+	}
+
+	.liz-complete-table-inputs {
+
+		.tableInputs{
+
+			thead > tr {
+
+				th {
+					background-color: $color1;
+				}
+			}
+
+			.tableInputsRow {
+				td {
+
+					&:first-child {
+						background-color: $color1;
+					}
+
+					textarea {
+						color: $color1;
+						border: 2px solid $color1;
+					}
+				}
+
+			}
+		}
+
+	}
+
+	.liz-images-block-description {
+		.images-block-row {
+
+			.images-block-col  {
+
+				& > div {
+
+					.image-block-title {
+						background-color: $color1;
+					}
+				}
+			}
+		}
+	}
+
+	.liz-complete-inputs-true-false {
+
+		.aOptionsRow {
+			.aOptionsCol > span {
+				background-color: $color1;
+				border: 4px solid $color3;
+			}
+		}
+		
+		.inputsFalseTrueContainer {
+
+			td {
+
+				&.blockNumber {
+
+					> span {
+						background-color: $color1;
+						border: 3px solid $color2;
+					}
+				}
+
+				&.blockInput {
+
+					> input {
+						border: 3px solid $color1;
+						color: $color1;
+					}
+				}
+			}
+		}
+			
+	}
+
+	// *****************************************************************************
+	// Conceptualización
+	// *****************************************************************************
+	.click-images .item p strong{
+		color: $color1;
+	}
+
+	.click-images .item .number{
+		background-color: $color1;
+		box-shadow: 0px 0px 0px 5px $color1!important;
+
+		&:hover{background-color: $color2;
+		box-shadow: 0px 0px 0px 5px $color2!important;
+
+		}
+	}
+
+	.liz-show-parts .item-title{ background: $color1; }
+	
+	.liz-change-style-click{
+		
+		
+		.inner-title{
+			
+
+			&.is-selected{ box-shadow: 0px 0px 0px 5px $color2!important;}
+		}
+
+		.inner-item{
+			
+
+			&.is-selected{ box-shadow: 0px 0px 0px 5px $color2!important;}
+
+					
+
+			
+
+		}
+
+	}
+
+	.liz-change-style-select{
+		
+		
+		.inner-title{
+			
+
+			&.is-selected{ box-shadow: 0px 0px 0px 5px $color2!important;}
+		}
+
+		.inner-item{
+			color: $color1;
+			border-color: $color1;
+
+			&.is-selected{ box-shadow: 0px 0px 0px 5px $color2!important;}
+
+			.inner-item-inner{
+			background-color: $color1;
+			
+
+			}
+
+		}
+
+	}
+	
+	.liz-show-name{
+		.items{border-color: $color1;}
+		.inner-text{color: $color2!important;background-color: $color1}
+	}
+
+	.liz-show-text-character,
+	.liz-show-concepts-character,
+	.liz-slideshow-character,
+	.liz-show-concepts-text{
+
+		.slidesjs-navigation{
+			background-color: $color1;
+			&:hover{
+			background-color: $color2;	
+			}
+		}
+		.inner-text{
+			color: $color1;
+
+		}
+		.inner-title,.inner-example{
+			background-color: $color1;
+
+			&.is-selected{ box-shadow: 0px 0px 0px 5px $color2!important;}
+		}
+
+		.inner-item{
+			color: $color1;
+			border-color: $color1;
+
+			&.is-selected{ box-shadow: 0px 0px 0px 5px $color2!important;}
+
+			.inner-item-inner{
+			background-color: $color1;
+			
+
+			}
+
+		}
+
+	}
+	
+	.liz-hover-show-text,.liz-click-to-complete-input{
+
+		.popover-input{
+			color: $color1;
+		}
+
+		.popover {
+			background: $color1;
+			color: white;			
+
+			&.top{
+				:after{
+					border-top-color: $color1;
+				}
+			}
+
+			&.left{
+				:after{
+					border-left-color: $color1;
+				}
+			}
+
+			&.right{
+				:after{
+					border-right-color: $color1;
+				}
+			}
+
+			&.bottom{
+				:after{
+					border-bottom-color: $color1;
+				}
+			}
+		}
+	}
+
+	.liz-show-concepts{
+		.inner-item{
+			background: $color1;
+
+		}
+
+		.inner-item.is-selected{ box-shadow: 0px 0px 0px 5px $color2!important;}
+	 
+	}
+
+	
+	.liz-show-description .item-title{
+	 background: $color1;
+	 &.is-selected{ box-shadow: 0px 0px 0px 5px $color2!important;}	 
+	}
+	
+	.liz-table {
+		table *{ border-color: $color1; }
+		table th { background: $color2; }
+	}
+
+    .liz-show-multiple-hover-phrase {
+
+      .block-content {
+
+        .hover-words-row {
+
+          .hover-phrase-image > img {
+            border: 3px solid $color1;
+          }
+        }
+      }
+    }
+	
+	// *****************************************************************************
+	// Español
+	// *****************************************************************************
+	.big-letters{
+		background: $color1;
+	}
+	
+}
+
+// -------------------------------------------------------------------------
+// clases 
+// -------------------------------------------------------------------------
+.nat{	
+	@include create-theme(
+		#009500,
+		#005300, 
+		rgba(182, 243, 182, 0.5),
+		rgba(182, 243, 182, 0.2),
+		"../resources/common/boxnat.png","../resources/common/kidnat.png",
+		"../resources/common/icononat.png"
+	); 
+}
+
+.esp{	
+	@include create-theme(
+		#D44A27,
+		#7A2B16,
+		rgba(249, 223, 217, 0.5),
+		rgba(249, 223, 217, 0.2),
+		"../resources/common/boxes.png",
+		"../resources/common/kides.png",
+		"../resources/common/iconoes.png"
+	); 
+}
+
+.soc{	
+	@include create-theme(
+		#0C64E9,
+		#063782, 
+		rgba(105, 158, 238, 0.5),
+		rgba(105, 158, 238, 0.2),
+		"../resources/common/boxsoc.png",
+		"../resources/common/kidsoc.png",
+		"../resources/common/iconosoc.png"
+	); 
+}
+
+.mat{	
+	@include create-theme(
+		#BD0926,
+		#620412, 
+		rgba(241, 153, 166, 0.5),
+		rgba(241, 153, 166, 0.2),
+		"../resources/common/boxmat.png",
+		"../resources/common/kidmat.png",
+		"../resources/common/iconomat.png",
+		"../resources/common/bg_mat.png"
+	); 
+}

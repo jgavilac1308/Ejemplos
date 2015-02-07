@@ -1,0 +1,126 @@
+@import "../bourbon/bourbon.scss";
+@import "../common/_mixins.scss";
+
+$main-color: #BD0926;
+$main-ball-margin: 5px;
+
+.liz-abacus{
+
+	& > .block-content{
+		padding: 13px;
+	}
+
+	h2{
+		margin-top: 13px;
+		margin-bottom: 6px;
+	}
+
+	.controls{
+		width: 25%;
+		height: 100%;
+		float: left;
+
+		.btn-primary{
+			margin: 10px 0;
+			font-size: 20px;
+		}
+
+		.input-primary{
+			outline: none;
+			padding: 3px 6px;
+			font-size: 26px;
+			text-align: center;
+		}
+	}
+
+	.modes{
+		height: 240px;
+		@include align-children;
+	}
+
+	.btn-primary{
+		margin: 10px;
+	}
+
+	// ===============================================================
+	// Estilos del ábaco
+	// ===============================================================
+	.abacus{
+		width: 75%;
+		height: 330px; // IMPORTANTE para el tamaño de las barras
+		float: left;
+	}
+
+	.abcol{
+		float: left;
+		height: 100%;
+		position: relative;
+
+		&:first-child .abcol-name{ border-left: 3px solid $main-color; }
+		&:last-child .abcol-name{ border-right: 3px solid $main-color; }
+	}
+
+	.abcol-ball-container{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+	}
+
+	.abcol-ball{
+		width: 6em;
+		padding: 6px 12px;
+		background: $main-color;
+		color: #fff;
+		border-radius: 9px;
+		text-align: center;
+		margin: auto;
+		cursor: pointer;
+		@include no-select;
+
+		&.abcol-sample{
+			position: absolute;
+			top: -999999em;
+			left: auto;
+		}
+	}
+
+	.abcol-ball-main{
+		margin-bottom: $main-ball-margin;
+	}
+
+	.abcol-container{
+		height: calc(100% - #{$main-ball-margin});
+		position: relative;
+	}
+
+	.abcol-bar{
+		width: 8px;
+		height: 100%;
+		background: $main-color;
+		margin: auto;
+	}
+
+	.abcol-name{
+		width: 100%;
+		text-align: center;
+		font-size: 22px;
+		background: #fff;
+		font-family: "century_gothicbold";
+		border-top: 3px solid $main-color;
+		border-bottom: 3px solid $main-color;
+		padding: 10px 12px;
+	}
+
+	.abacus-number{
+		font-size: 35px;
+		text-align: center;
+	}
+
+	// Caras 
+	.face{
+		margin-left: -72px;
+		width: 124px;
+		left: 50%;
+		z-index: 6;
+	}
+}

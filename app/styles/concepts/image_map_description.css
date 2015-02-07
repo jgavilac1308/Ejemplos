@@ -1,0 +1,19 @@
+.liz-image-map-description > .block-content {
+  *zoom: 1; }
+  .liz-image-map-description > .block-content:before, .liz-image-map-description > .block-content:after {
+    content: " ";
+    display: table; }
+  .liz-image-map-description > .block-content:after {
+    clear: both; }
+.liz-image-map-description .canvas {
+  width: 65%;
+  float: left;
+  position: relative; }
+.liz-image-map-description .items .item {
+  position: absolute; }
+.liz-image-map-description .items .item.btn-primary {
+  font-size: 18px;
+  width: auto; }
+.liz-image-map-description .text-box {
+  width: 34%;
+  float: right; }

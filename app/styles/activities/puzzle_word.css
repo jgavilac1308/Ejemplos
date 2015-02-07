@@ -1,0 +1,41 @@
+.liz-puzzle-word .activity-container {
+  width: 100%;
+  position: relative; }
+.liz-puzzle-word .main-img {
+  display: inline-block;
+  width: 20%;
+  border: 2px solid #000;
+  border-right: none; }
+.liz-puzzle-word .sortable-word {
+  position: absolute;
+  width: 80%;
+  height: calc(100% - 4px);
+  top: 0;
+  right: 0;
+  border: 2px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+.liz-puzzle-word .sortable-letter {
+  font-size: 70px;
+  width: calc(1.4em + 2px);
+  height: calc(1.4em + 2px);
+  border: 2px solid #000;
+  border-right-width: 0px; }
+  .liz-puzzle-word .sortable-letter:last-child {
+    border-right-width: 2px; }
+.liz-puzzle-word .stack {
+  margin-top: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around; }
+.liz-puzzle-word .letter {
+  font-size: 70px;
+  color: #FFF;
+  text-align: center;
+  width: 1.4em;
+  height: 1.4em;
+  line-height: 1.4em;
+  text-transform: uppercase;
+  cursor: pointer; }

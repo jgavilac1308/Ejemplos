@@ -1,0 +1,79 @@
+.liz-complete-letters{
+ padding-bottom: 35px!important;
+	.block{
+		margin-bottom: 10px;
+	}
+
+	.item{
+		width: 25%; // 4 por columna
+		
+		// Clases para definir el tamaño
+		@for $i from 1 through 6{
+			&.per-row-#{$i}{ width: (99%/$i); }
+		}
+
+		@media(max-width: 992px){
+			width: 50%;
+			text-align: left;
+			font-size: 18px;
+		}
+
+		float: left;
+		font-size: 24px;
+		text-align: center;
+		padding: 10px 20px;
+
+		.item-margin-bottom{
+			float: left;
+			height: 50px;
+			display: inline-block;
+			margin-top: 25px;
+		}
+
+		.input-container, .letter{ display: inline-block;}
+
+		input[type=text]{
+			width: 20px;
+			text-align: center;
+			outline: none;
+			font-size: 24px;
+			background: transparent;
+			color: #333333;
+			border: none;
+			border-bottom: 2px solid #000;
+
+			@media(max-width: 992px){
+				font-size: 18px;
+			}
+
+			&:focus{
+				color: #ffffff;
+			}
+		}
+	}
+
+	// vocales con las nuevas consonantes
+	.letters{
+		text-align: center;
+
+		.syllable{
+			display: inline-block;
+			padding: 0 20px;
+			font-size: 2em;
+		}
+		
+	}
+
+	.item-help{
+		width: 100%;
+		text-align: center;
+		float: left;
+	}
+
+	.right-answer, .wrong-answer{
+		$size: 25px;
+	    width: $size;
+	    height: $size;
+	    background-size: $size $size;
+	}
+}

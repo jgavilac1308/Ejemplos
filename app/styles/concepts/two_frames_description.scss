@@ -1,0 +1,47 @@
+@import "../bourbon/bourbon";
+@import "../common/_mixins.scss";
+
+.liz-two-frames-description {
+
+	& > .block-content {
+		@include clearfix;
+		padding: 4px;
+	}
+
+	.items {
+		width: 20%;
+		padding: 0 5px;
+		float: left;
+
+		.btn-primary {
+			width: 100%;
+			font-size: 16px;
+			text-align: center;
+		}
+	}
+
+	.main-img {
+		padding: 8px 5px;
+		width: 40%;
+		float: left;
+
+		.main-img-inner {
+			border: 2px solid;
+			min-height: 88px;
+			@include align-children;
+		}
+	}
+
+	.text-box {
+		padding: 8px 5px;
+		width: 40%;
+		float: left;
+
+		.block-content {
+			margin-bottom: 0;
+		}
+	}
+
+
+}
+

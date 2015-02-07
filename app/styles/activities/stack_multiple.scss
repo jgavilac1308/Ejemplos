@@ -1,0 +1,53 @@
+.liz-stack-multiple{
+
+	// Reducimos el espacio para usar los objetos
+	& > .block-content{
+		padding: 2px;
+	}
+
+
+	// Grupos
+	.groups{
+
+		.group{
+			float: left;
+			padding: 2px;
+
+			.block{ text-align: center; }
+			.block-content{ min-height: 3em; padding: 5px; }
+		}
+
+	}
+
+	// Stack
+	.stack{
+		position: fixed;
+		width: 80%;
+		bottom: 0;
+		left: 10%;
+		padding: 15px;
+		text-align: center;
+		max-height: 175px;
+		line-height: 200px;
+
+		.item{
+			padding: 2px;
+			display: inline-block;
+			cursor: pointer;
+
+			img{
+				max-height: 140px;
+			}
+		}
+
+	}
+
+	// Caras 
+	.face{
+		margin-left: -72px;
+		width: 124px;
+		left: 50%;
+		z-index: 6;
+	}
+
+}

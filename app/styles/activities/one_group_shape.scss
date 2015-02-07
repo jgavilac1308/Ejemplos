@@ -1,0 +1,54 @@
+@import "../bourbon/bourbon";
+@import "../common/_mixins";
+
+.liz-one-group-shape{
+
+	.items{
+		width: 50%;
+		float: left;
+		@include clearfix;
+	}
+
+	.item{
+		width: 33%;
+		float: left;
+		cursor: pointer;
+	}
+
+	.group-container{
+		width: 50%;
+		float: right;
+		text-align: center;
+	}
+
+	.canvas-container{
+		display: inline-block;
+		position: relative;
+	}
+
+	.group{
+		width: 100%;
+		position: absolute;
+		top: 0;
+		height: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	.group-item{
+		position: absolute;
+
+		img{
+			@include animation(scale1 0.4s ease-out);
+			@include transform-origin(center center);
+		}
+	}
+
+	// Caras 
+	.face{
+		margin-left: -72px;
+		width: 124px;
+		left: 50%;
+		z-index: 6;
+	}
+}

@@ -1,0 +1,35 @@
+@import "../bourbon/bourbon";
+
+.liz-image-map-description {
+
+	& > .block-content {
+		@include clearfix;
+	}
+
+	.canvas {
+		width: 65%;
+		float: left;
+		position: relative;
+	}
+
+	.items {
+		
+		.item {
+			position: absolute;
+		}
+
+		.item.btn-primary{
+			font-size: 18px;
+			width: auto;
+		}
+
+	}
+
+	.text-box {
+		width: 34%;
+		float: right;
+	}
+
+
+}
+

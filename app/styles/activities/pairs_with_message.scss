@@ -1,0 +1,306 @@
+@import "../bourbon/bourbon";
+@import "../common/_mixins";
+@import "../common/themes";
+
+
+.liz-pairs-with-message {
+
+  text-align: center;
+
+  .block{
+    margin-bottom: 14px;
+    text-align: left;
+  }
+
+  .target, .item{
+    img{
+      z-index: 1000!important;
+      /* max-height: 150px; */
+      display: inline-block;
+    }
+    h2{
+      padding: 0 15px;
+      margin: 0 !important;
+    }
+  }
+
+  .center-all {
+    @include align-children;
+  }
+
+
+  // Contenedor de los items
+  .items{
+    min-height: 250px;
+    position: relative;
+
+    .item-container{
+      display: block;
+      float: left;
+      padding: 4px;
+    }
+
+    // Cada uno de los items
+    .item{
+      position: relative;
+      text-align: center;
+      background: #fff;
+      cursor: pointer;
+
+      img{ max-height: 130px; }
+
+      h1{
+        display: inline-block;
+        padding: 0 15px;
+      }
+
+      h2{
+        padding: 0 15px;
+        margin: 0 !important;
+      }
+
+    }
+  }
+
+  // Contenedor de todos los targets
+  .targets{
+    margin-top: 5px;
+    min-height: 65px;
+    display: inline-block;
+    width: 100%;
+
+    .target-container{
+      display: block;
+      float: left;
+      padding: 4px;
+    }
+
+    // Cada Target
+    .target{
+      position: relative;
+      cursor: pointer;
+
+      img{ /* max-height: 130px; */ }
+
+      // El último hijo no tiene margen a la derecha
+      &:last-child{
+        margin-right: 0;
+      }
+    }
+  }
+
+  // Es la capa que recibe el elemento. Es invisible, pero es importante definir su tamaño
+  // Ya que es aquí donde cae el elemento. Sin tamaño, no se puede soltar
+  .items-targets{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  // Elemento después de caer en el target
+  .item-target{}
+
+  // Caras
+  .face{
+    margin-left: -72px;
+    width: 124px;
+    left: 50%;
+    z-index: 6;
+  }
+
+
+  // *****************************************************************************
+  // Clases
+  // *****************************************************************************
+  .side-to-side{
+
+    .targets{
+      width: 100%;
+    }
+
+    .target{
+      & *{ display: inline-block; }
+      text-align: right;
+    }
+
+    .items-targets{
+      padding: 4px;
+      & *{ display: inline-block; }
+      text-align: left;
+    }
+
+  }
+
+  .align-bottom{
+
+    .items{
+
+      height: 300px!important;
+
+      /* .item{
+
+          display: inline-block;
+      } */
+    }
+
+    .targets{
+      margin-top:50px;
+      width: 100%;
+
+
+
+      .items-targets{
+        z-index: 10!important;
+      }
+
+
+      .target {
+        display: inline-block;
+        padding: 0px!important;
+
+        img {
+
+          z-index: 1000!important;
+        }
+
+      }
+
+    }
+
+  }
+
+  .align-bottom-text{
+
+    .items{
+
+      min-height: 100px!important;
+
+      /* .item{
+
+          display: inline-block;
+      } */
+    }
+
+    .targets{
+      margin-top:0px;
+      width: 100%;
+
+
+
+      .items-targets{
+        z-index: 10!important;
+      }
+
+
+      .target {
+        display: inline-block;
+        padding: 0px!important;
+
+        img {
+
+          z-index: 1000!important;
+        }
+
+      }
+
+    }
+
+  }
+
+  .img-top{
+
+    .items{
+
+      .item{
+
+        padding: 0!important;
+
+        img{
+
+          max-height: 100%;
+        }
+
+        h1{
+          padding: 0;
+          min-width: 100%;
+          color: white
+        }
+      }
+    }
+
+    .targets{
+      width: 100%;
+      min-height: 300px;
+    }
+
+    .target{
+      z-index: 0;
+      height: 200px;
+      margin-top: 100px;
+      display: flex;//centrar verticalmente
+      align-items: center;//centrar verticalmente
+      justify-content: center;//centrar verticalmente
+
+      img{
+
+        z-index: 0;
+      }
+
+    }
+
+  }
+
+  .items-large-1{
+
+    .targets{
+      margin-top:100px!important;
+    }
+
+    .item{
+
+      padding: 0;
+
+      h1{
+        padding: 0;
+      }
+    }
+
+  }
+
+  .items-large-2{
+
+    .targets{
+      margin-top:200px!important;
+    }
+
+    .item{
+
+      padding: 0;
+
+      h1{
+        padding: 0;
+      }
+    }
+
+  }
+
+  .items-large-4{
+
+    .targets{
+      margin-top:400px!important;
+    }
+
+    .item{
+
+      padding: 0;
+
+      h1{
+        padding: 0;
+      }
+    }
+
+  }
+
+}

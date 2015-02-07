@@ -1,0 +1,74 @@
+@import "../bourbon/bourbon";
+@import "../common/mixins";
+
+$base-delay: 0.8s;
+$added-delay: 0.5s;
+
+.liz-images-info {
+
+  .images {
+    @include align-children;
+    justify-content: space-around;
+  }
+
+  .image {
+    max-width: 320px;
+    margin: 0 5px;
+    cursor: pointer;
+    opacity: 0;
+    @include animation(fade-in-top 1s $base-delay forwards);
+  }
+
+  // Ciclo para añadir a cada imagen un delay diferente
+  @for $i from 1 through 10 {
+    .image:nth-child(#{$i}) {
+      @include animation-delay(#{$base-delay + ($added-delay * $i)});
+    }
+  }
+
+  .image-text {
+    text-align: center;
+    font-size: 20px;
+    padding: 4px 6px;
+    color: #ffffff;
+  }
+
+  .text-block {
+    border: 2px solid;
+    min-height: 200px;
+    margin-top: 20px;
+    font-size: 20px;
+
+    p {
+      margin-top: 0;
+      padding: 6px 17px;
+    }
+  }
+
+  .text-block-title {
+    @include clearfix;
+    margin-bottom: 5px;
+    padding: 5px;
+
+    h1 {
+      margin: 0;
+      margin-left: 12px;
+      display: inline-block;
+      color: #fff;
+    }
+
+  }
+
+}
+
+@include keyframes(fade-in-top) {
+  0% {
+    top: -10%;
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}

@@ -1,0 +1,88 @@
+$img-url: "../resources/02/nat/07/";
+.liz-drag-drop-pair-text {
+  .pair-text-groups {
+    width: 100%;
+    font-size: 19px;
+
+    .target-container {
+      margin-bottom: 10px;
+
+      .items-targets {
+        min-height: 50px;
+        position: absolute;
+        right: -38px;
+        top: 6px;
+        width: 56%;
+        z-index: 10;
+
+        .item-target {
+          float: left;
+          position: relative;
+          width: 100%;
+          min-height: 45px;
+          display: table;
+
+          .item {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+            background: url("#{$img-url}rompecabezas-2.png") -15px center;
+            -webkit-background-size: 300px 88px;
+            background-size: 300px 88px;
+          }
+        }
+      }
+    }
+
+    .item-cont {
+      margin-left: 25px;
+
+      .item-container {
+        margin-bottom: 10px;
+        float: left;
+        width: 100%;
+
+        .item-drag {
+          height: 57px;
+          display: table;
+          padding: 0px 4px;
+
+          & > div {
+            cursor: pointer;
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+            background: url("#{$img-url}rompecabezas-2.png") 0;
+            -webkit-background-size: 300px 88px;
+            background-size: 300px 88px;
+            padding-left: 36px;
+          }
+        }
+      }
+    }
+
+    .target-title {
+      height: 57px;
+      display: table;
+      padding: 0px 4px;
+      width: 62%;
+
+      & > div {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        background: url("#{$img-url}rompecabezas-1.png") 0;
+        -webkit-background-size: 300px 88px;
+        background-size: 300px 88px;
+      }
+    }
+  }
+
+  // Faces
+  .face{
+    margin-left: -72px;
+    width: 124px;
+    left: 50%;
+    z-index: 6;
+  }
+}

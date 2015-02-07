@@ -1,0 +1,49 @@
+.liz-group-inputs > .block-content {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+.liz-group-inputs .center {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .liz-group-inputs .center a {
+    width: 24%;
+    float: left;
+    display: inline-block;
+    margin-left: 5px; }
+    .liz-group-inputs .center a img {
+      width: 100%;
+      float: left;
+      display: inline-block;
+      margin-left: 5px; }
+.liz-group-inputs .complete-container {
+  float: left;
+  font-size: 1.4em;
+  padding: 5px;
+  font-family: 'century_gothic';
+  width: 98%;
+  float: right;
+  margin-left: 1%;
+  margin-bottom: 1%; }
+  .liz-group-inputs .complete-container img {
+    width: 98%;
+    float: left;
+    display: inline-block;
+    margin-left: 5px; }
+  .liz-group-inputs .complete-container p {
+    width: 75%;
+    display: inline-block;
+    float: left; }
+.liz-group-inputs .group-input {
+  padding: 0.3em; }
+  .liz-group-inputs .group-input .block {
+    text-align: center; }
+  .liz-group-inputs .group-input .block-content {
+    padding: 0.2em; }
+  .liz-group-inputs .group-input input[type="text"] {
+    width: 100%;
+    border: 2px solid;
+    margin-bottom: 0.6em; }
+    .liz-group-inputs .group-input input[type="text"]:last-child {
+      margin-bottom: 0; }

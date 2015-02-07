@@ -1,0 +1,100 @@
+@import "../common/_mixins.scss";
+@import "../common/themes.scss";
+
+.liz-group-table-complete-words{
+	 padding-bottom: 20px;
+
+	.text-box{
+		width: 100%;
+		float: left;
+		padding: 0.6em;
+		
+
+		.main-img{
+			width: 29%;
+			float: left;
+
+			img{
+				width: 100%;
+			}
+		}
+
+		.examples-container{
+			
+			width: 70%;
+			float: right;
+
+			.words-examples{
+				width:150px;
+				float: left;
+				border-radius: 10px;
+				height: 50px;
+				color: white;text-align: center;
+				padding-top: 12px;
+				margin-left: 10px;
+				margin-bottom: 10px;
+			}
+
+		}
+		
+	}
+
+	.complete-container{
+		border: 3px solid #000;
+		font-size: 1.0em;
+		font-family: 'century_gothic';
+		width: 33%;
+		float: left;
+
+		.item-title{
+			width: 50%;
+			height: 30px;
+			display: inline-block;
+			text-align: center;
+			line-height: 30px;
+			color:white;
+			float: left;
+		}
+
+		.container-input{
+			
+			float: left;
+			width: 50%;
+			height: 30px;
+			display: inline-block;
+
+			input{
+				border:0px;
+				width: 100%;
+				height: 100%;
+
+				&:focus{
+					
+					@extend .fc-1;
+					@extend .bg-3;
+
+				}
+			}
+
+		}
+	}	
+	
+	.input-completed{
+
+		background-color: transparent;
+		color: gray;
+		cursor: no-drop;
+	}
+
+	.right-answer, .wrong-answer{
+		position: relative;
+		top: -30px;
+		left: 80%;
+		$size: 25px;
+	    width: $size;
+	    height: $size;
+	    background-size: $size $size;
+	}
+
+	
+}

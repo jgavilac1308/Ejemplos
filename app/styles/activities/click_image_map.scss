@@ -1,0 +1,23 @@
+@import "../bourbon/bourbon";
+
+.liz-click-image-map{
+
+	// Usamos dos elementos para centrar .inner-canvas
+	.canvas-container{
+		text-align: center;
+	}
+
+	// Toma el tamaño de la imagen interna y nos da la base contenedora de los targets
+	.inner-canvas{
+		position: relative; 
+		display: inline-block;
+	}
+
+	.target{
+		position: absolute;
+		cursor: pointer;
+		/*background: rgba(248, 248, 248, 0.5);*/
+	}
+
+}
+

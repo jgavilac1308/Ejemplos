@@ -1,0 +1,130 @@
+@import "../bourbon/bourbon";
+
+.liz-change-style-click{
+
+	.items{
+		width: 30%;
+		float: left;
+
+		.main-img{
+			width: 50%;
+			margin-left: 25%;
+		}
+	}
+
+	.item{
+		width: 33%;
+		margin-top: 10px;
+	}
+	
+	.inner-title{
+
+		$size: 15em;
+		width: $size;
+		height: $size/5;
+		line-height: $size/5;
+		text-align: center;
+		border-radius: 10px;
+		cursor: pointer;
+		margin-left: 25px;
+		margin-top: 25px;
+		color: #fff;
+		border: 0px solid;
+		@include transition(all 0.4s ease-out);
+
+
+		// Cuando está activo
+		&.is-selected{ box-shadow: 0px 0px 0px 5px #272727; }
+
+	}
+
+	.inner-item{
+		$size: 4.0em;
+		width: $size;
+		height: $size;
+		line-height: $size;
+		text-align: center;
+		border-radius: 50%;
+		margin-top: -8px!important;
+		color: #fff;
+		cursor: pointer;
+		margin: auto;
+		background-color: #fff;
+		border: 3px solid;
+		float: left;
+		@include transition(all 0.4s ease-out);
+
+		// Cuando está activo
+		&.is-selected{ box-shadow: 0px 0px 0px 5px #272727; }
+
+		.inner-item-inner{
+		$size: 3.6em;
+		width: $size;
+		height: $size;
+		line-height: $size;
+		text-align: center;
+		border-radius: 50%;
+		color: #fff;
+		cursor: pointer;
+		margin: auto;
+		background-color: #fff;
+		border: 3px solid;
+		@include transition(all 0.4s ease-out);
+
+		}
+	}
+
+	.text-box{
+		width: 70%;
+		float: left;
+
+		.block{text-align: center;}
+		.block-content{
+
+
+			padding: 0.4em;
+			min-height: 300px;
+			padding-bottom: 30px;
+			padding-top: 20px;
+			-webkit-background-size: 100% 100%;
+			-moz-background-size: 100% 100%;
+			background-size: 100% 100%;
+			
+			
+			
+				width: 100%;
+				float: left;
+
+
+				img{
+					display: block;
+					margin: auto;
+					margin-left: 5%;
+					
+				}
+
+				.inner-text{
+					font-size: 15px;
+					width: 100%;
+					margin-top: 2%;
+					cursor: pointer;
+				}
+			
+
+			
+		}
+
+	}
+
+	.right-answer, .wrong-answer{
+		position: absolute;
+		margin-top:0.3%;
+		left: 3.4%;
+		$size: 50px;
+	    width: $size;
+	    height: $size;
+	    background-size: $size $size;
+	}
+
+}
+

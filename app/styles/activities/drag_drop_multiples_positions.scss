@@ -1,0 +1,114 @@
+.liz-drag-drop-multiples-positions{
+
+	& > .block-content{
+		padding-top: 5px;
+	} 
+	
+	// Cuadro donde van cayendo las imágenes
+	.canvas-container{
+		position: absolute;
+		width: 96%;
+
+		img{
+			margin-left: auto;
+			margin-right: auto;
+
+		}
+		
+	}
+	
+	.groups-container{
+		position: absolute;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+	}
+
+	.group{
+		position: absolute;
+		padding: 5px;
+
+		.inner-group{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			.block-content{
+				height: 100%;
+				position: relative; // Para .items
+				padding: 4px;
+				text-align: center;
+				margin-bottom: 5px;
+				
+				.group-img{
+					display: inline-block;
+					max-height: 200px;
+					opacity: 0.5;
+				}
+
+			}
+		}
+
+		// Donde se sueltan los elementos dentro de cada grupo
+		.inner-group .items{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+
+			.item{
+				float: left;
+				padding: 2px;
+
+				img{
+				display: inline-block;
+				max-height: 40%;
+				}
+
+				div{
+					background-color: red;
+					color: white;
+					font-size: 10px;
+					
+				}
+
+			}
+		}
+
+	}
+
+	.stack.items{
+		position: relative;
+		height: 130px;
+		
+
+
+		.item{
+			position: absolute;
+			top: 0;
+			text-align: center;
+			cursor: pointer;
+			float: left;
+			padding: 5px;	
+
+			img{
+				display: inline-block;
+				max-height: 100%;
+			}
+			div{
+				background-color: red;
+				color: white;
+				
+			}
+		}
+	}
+
+	// Caras
+	.face{
+		margin-left: -72px;
+		width: 124px;
+		left: 50%;
+		z-index: 6;
+	}
+
+}

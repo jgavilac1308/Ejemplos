@@ -1,0 +1,52 @@
+.liz-questions-images .question {
+  margin: 0 auto;
+  margin-top: 2%;
+}
+.liz-questions-images .question img {
+  margin-left: 5%;
+  float: left;
+  border: 3px solid #009500;
+}
+.liz-questions-images .question .question-text, .liz-questions-images .question .answers {
+  font-size: 22px;
+  float: left;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 5%;
+  width: 150px;
+}
+.liz-questions-images .question .question-text, .liz-questions-images .question .answer {
+  padding: 10px;
+  margin-top: 5%;
+}
+.liz-questions-images .question .answers {
+  *zoom: 1;
+  float: left;
+}
+.liz-questions-images .question .answers:before, .liz-questions-images .question .answers:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.liz-questions-images .question .answers:after {
+  clear: both;
+}
+.liz-questions-images .question .onlyText {
+  float: none !important;
+  width: 60% !important;
+  margin: 0 auto;
+}
+.liz-questions-images .question .right-answer, .liz-questions-images .question .wrong-answer {
+  width: 40px;
+  height: 40px;
+  display: block;
+  float: right;
+  background-size: 30px 30px;
+}
+.liz-questions-images .face {
+  margin-left: -72px;
+  width: 124px;
+  left: 50%;
+  top: 0;
+  z-index: 161;
+}

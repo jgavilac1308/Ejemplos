@@ -1,0 +1,121 @@
+@import "../bourbon/bourbon.scss";
+@import "../common/_mixins.scss";
+@import "../common/themes.scss";
+
+.liz-puzzle4{
+
+	.block-content{
+		padding: 5px;
+		overflow: hidden;
+	}
+	
+	// Cuadro donde van cayendo las imágenes
+	.puzzle2-canvas{
+		float: right;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.inner-canvas{
+		position: relative;
+		overflow: hidden;
+		img{ z-index: 1;border: solid 3px;@extend .bd-1 }
+	}
+
+	.main-text{
+
+		width: 700px;
+		height: 700px;
+		font-size: 22px;
+		padding-left: 170px;
+		padding-top: 50px;
+
+		tr{
+		}
+
+		td{
+			padding: 10px;
+			border: 3px solid;
+			@extend .bd-2;
+			@extend .fc-1;
+		}
+
+		th{
+			padding: 10px;
+			border: 3px solid;
+			color: white;
+			@extend .bd-2;
+		}
+
+		.border-right{
+
+			border-right: 3px white;
+
+		} 
+	}
+
+	.items{
+		width: 50%;
+		float: left;
+		@include clearfix;
+	}
+
+	.item{
+		$size: 3em;
+		display: block;
+		max-width: 250px;
+		width: 33%;
+		float: left;
+		text-align: center;
+		font-size: 1.6em;
+		padding: 0.5em 0.6em;
+		cursor: pointer;
+		@include transition-property (color);
+		@include transition-duration(0.3s);
+		@include transition-timing-function(ease-out);
+	}
+
+	.target{
+		position: absolute;
+		border-radius: 50%;
+		/*background: rgba(0,0,0, 0.4); // PARA DEPURAR: comentar/descomentar si es necesario */
+		z-index: 3;
+		overflow: hidden; // target-item rellena el espacio
+	}
+
+	.target-item{
+		$size: 15em;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+
+		&.no-bg{
+
+			background-color: transparent!important;
+		}
+	}
+
+	// elemento que ha sido soltado. Visible si la propiedad preserveText existe en opciones
+	.preserve-text {
+		position: absolute;
+		margin: auto;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		font-size: 22px;
+		text-align: center;
+	}
+
+	// *****************************************************************************
+	// Caras
+	// ***************************************************************************** 
+	.face{
+		margin-left: -72px;
+		width: 124px;
+		left: 50%;
+		z-index: 6;
+		top: 20%;
+	}
+
+}

@@ -1,0 +1,84 @@
+.liz-drag-drop-multiples-positions > .block-content {
+  padding-top: 5px;
+}
+.liz-drag-drop-multiples-positions .canvas-container {
+  position: absolute;
+  width: 96%;
+}
+.liz-drag-drop-multiples-positions .canvas-container img {
+  margin-left: auto;
+  margin-right: auto;
+}
+.liz-drag-drop-multiples-positions .groups-container {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+.liz-drag-drop-multiples-positions .group {
+  position: absolute;
+  padding: 5px;
+}
+.liz-drag-drop-multiples-positions .group .inner-group {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.liz-drag-drop-multiples-positions .group .inner-group .block-content {
+  height: 100%;
+  position: relative;
+  padding: 4px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.liz-drag-drop-multiples-positions .group .inner-group .block-content .group-img {
+  display: inline-block;
+  max-height: 200px;
+  opacity: 0.5;
+}
+.liz-drag-drop-multiples-positions .group .inner-group .items {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.liz-drag-drop-multiples-positions .group .inner-group .items .item {
+  float: left;
+  padding: 2px;
+}
+.liz-drag-drop-multiples-positions .group .inner-group .items .item img {
+  display: inline-block;
+  max-height: 40%;
+}
+.liz-drag-drop-multiples-positions .group .inner-group .items .item div {
+  background-color: red;
+  color: white;
+  font-size: 10px;
+}
+.liz-drag-drop-multiples-positions .stack.items {
+  position: relative;
+  height: 130px;
+}
+.liz-drag-drop-multiples-positions .stack.items .item {
+  position: absolute;
+  top: 0;
+  text-align: center;
+  cursor: pointer;
+  float: left;
+  padding: 5px;
+}
+.liz-drag-drop-multiples-positions .stack.items .item img {
+  display: inline-block;
+  max-height: 100%;
+}
+.liz-drag-drop-multiples-positions .stack.items .item div {
+  background-color: red;
+  color: white;
+}
+.liz-drag-drop-multiples-positions .face {
+  margin-left: -72px;
+  width: 124px;
+  left: 50%;
+  z-index: 6;
+}

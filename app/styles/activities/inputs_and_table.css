@@ -1,0 +1,48 @@
+.liz-inputs-and-table .inputs {
+  *zoom: 1;
+}
+.liz-inputs-and-table .inputs:before, .liz-inputs-and-table .inputs:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.liz-inputs-and-table .inputs:after {
+  clear: both;
+}
+.liz-inputs-and-table .input-container {
+  float: left;
+  padding: 3px;
+}
+.liz-inputs-and-table .input-primary {
+  font-size: 20px;
+  padding: 4px 6px;
+  text-align: center;
+  outline: none;
+}
+.liz-inputs-and-table .table-description {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+.liz-inputs-and-table table {
+  width: 100%;
+}
+.liz-inputs-and-table table, .liz-inputs-and-table table * {
+  border-color: #bd0926 !important;
+}
+.liz-inputs-and-table table th, .liz-inputs-and-table table td {
+  border: 3px solid;
+}
+.liz-inputs-and-table table th {
+  background: #bd0926;
+  color: #fff;
+}
+.liz-inputs-and-table table td {
+  font-size: 18px;
+}
+.liz-inputs-and-table .face {
+  margin-left: -72px;
+  width: 124px;
+  left: 50%;
+  z-index: 6;
+}

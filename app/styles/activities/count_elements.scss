@@ -1,0 +1,66 @@
+.liz-count-elements{
+
+	// Conjunto de números
+	.numbers{
+		width: calc(30% - 1em);
+		margin-right: 1em;
+		min-height: 10em;
+		float: left;
+	}
+
+	// número a arrastrar
+	.number{
+		$size: 1.6em;
+		font-size: $size;
+		line-height: $size;
+		background: #000;
+		width: $size;
+		height: $size;
+		text-align: center;
+		color: #fff;
+		margin-bottom: 7px;
+		border-radius: 50%;
+		cursor: pointer;
+	}
+
+
+	.targets{
+		width: 70%;
+		float: left;
+
+		.target{
+			width: 100%;
+			margin-bottom: 2px;
+			float: left;
+		}
+
+		// Donde cae la imagen
+		.sortable{
+			$size: 2.9em;
+			width: $size;
+			height: $size;
+			float: left;
+			border: 3px solid #000;
+			margin-right: 5px;
+			border-radius: 2px;
+		}
+
+		// Cojunto de imágenes
+		.images{
+			img{
+				display: inline-block;
+				max-height: 2.4em;
+			}
+		}
+
+	}
+	
+	// Iconos de error/éxito
+	.face{
+		margin-left: -72px;
+		width: 124px;
+		left: 50%;
+		z-index: 6;
+	}
+
+}

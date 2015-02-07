@@ -1,0 +1,47 @@
+.liz-concepts-table {
+  padding-bottom: 10px; }
+  .liz-concepts-table .main-img {
+    width: 30%;
+    float: left; }
+  .liz-concepts-table .item {
+    width: 100%;
+    float: left;
+    font-size: 24px;
+    text-align: center; }
+    .liz-concepts-table .item .item-name {
+      width: 100%;
+      height: 70px;
+      text-align: center;
+      color: white; }
+    .liz-concepts-table .item.per-row-1 {
+      width: 99%; }
+    .liz-concepts-table .item.per-row-2 {
+      width: 49.5%; }
+    .liz-concepts-table .item.per-row-3 {
+      width: 33%; }
+    .liz-concepts-table .item.per-row-4 {
+      width: 24.75%; }
+    .liz-concepts-table .item.per-row-5 {
+      width: 19.8%; }
+    .liz-concepts-table .item.per-row-6 {
+      width: 16.5%; }
+    @media (max-width: 992px) {
+      .liz-concepts-table .item {
+        width: 50%;
+        text-align: left;
+        font-size: 18px; } }
+  .liz-concepts-table .complete-container {
+    float: left;
+    border: 3px solid #000;
+    font-size: 1.4em;
+    font-family: 'century_gothic';
+    width: 15%;
+    float: left;
+    margin-left: 1px; }
+    .liz-concepts-table .complete-container .words-container {
+      width: 100%; }
+    .liz-concepts-table .complete-container .words-inner {
+      width: 100%;
+      border-bottom: 2px solid white;
+      float: left;
+      padding: 3px; }

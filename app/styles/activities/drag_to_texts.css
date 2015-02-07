@@ -1,0 +1,61 @@
+
+.liz-drag-to-texts .item {
+  display: inline-block;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 1px;
+  border-radius: 3px;
+  font-size: 25px;
+  left: 40%;
+
+}
+.liz-drag-to-texts .main-img {
+  width: 35%;
+  float: left;
+
+}
+.liz-drag-to-texts .template-container {
+  font-size: 25px;
+  margin-left: -30%;
+}
+.liz-drag-to-texts .drop-container {
+  display: inline-block;
+  width: 110px;
+  border: 2px solid #000;
+  min-height: 36px;
+  margin-bottom: -9px;
+  position: relative;
+  -webkit-transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+.liz-drag-to-texts .drop-container.large {
+  width: 200px;
+}
+.liz-drag-to-texts .drop-container.disabled {
+    background: #BD0926;
+    color: #fff;
+}
+
+
+.liz-drag-to-texts .answer-icon, .liz-drag-to-texts .icon-right, .liz-drag-to-texts .icon-wrong {
+  width: 1.5em;
+  height: 1.5em;
+  background-size: 1.5em;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 8px;
+  -webkit-animation: scale1 0.5s ease-in forwards;
+  -moz-animation: scale1 0.5s ease-in forwards;
+  animation: scale1 0.5s ease-in forwards;
+}
+.liz-drag-to-texts .icon-right {
+  background-image: url("../resources/common/icon_right.png");
+}
+.liz-drag-to-texts .icon-wrong {
+  background-image: url("../resources/common/icon_wrong.png");
+}

@@ -1,0 +1,78 @@
+@import "../bourbon/bourbon.scss";
+@import "../common/_mixins.scss";
+
+$main-img-width: 530px;
+$answer-icon-size: 20px;
+
+.liz-image-map-select {
+
+	& > .block-content {
+		@include clearfix;
+		padding: 0px;
+	}
+
+	// Elementos
+	.items {
+		width: calc(100% - #{$main-img-width});
+		padding: 4px;
+		float: left;
+		@include clearfix;
+
+		.item {
+			width: 33%;
+			float: left;
+			  
+			.btn-primary {
+				text-align: center;
+				font-size: 14px;
+				margin: 0;
+			}
+		}
+	}
+
+	// imagen principal
+	.main-img {
+		width: $main-img-width;
+		float: left;
+		position: relative;
+
+		// para el posicionamiento
+		.item { position: absolute; }
+
+		.inner-item {
+			width: $answer-icon-size;
+			height: $answer-icon-size;
+			cursor: pointer;
+			background: #000;
+			@include transition(all 0.8s);
+			border-radius: 2px;
+
+			&:hover {
+				@include transform(scale(2));
+			}
+		}
+
+	}
+
+	// Caras 
+	.face{
+		margin-left: -72px;
+		width: 124px;
+		left: 50%;
+		top: 0;
+		z-index: 161;
+	}
+
+	// Respuestas
+	.answer-icon {
+		border-radius: 3px;
+		&.right { background-image: url('../resources/common/icon_right_s.png'); }
+		&.wrong { background-image: url('../resources/common/icon_wrong_s.png'); }
+
+		width: $answer-icon-size;
+		height: $answer-icon-size;
+		background-size: $answer-icon-size $answer-icon-size;
+		@include animation(scale1 0.7s);
+	}
+
+}

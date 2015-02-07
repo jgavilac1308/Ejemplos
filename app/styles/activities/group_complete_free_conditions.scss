@@ -1,0 +1,134 @@
+@import "../common/_mixins.scss";
+
+.liz-group-complete-free-conditions{
+	
+	.liz-group-complete-free-conditions-inner{
+		
+	}
+
+	
+	.center{
+		display: flex;//centrar verticalmente
+		align-items: center;//centrar verticalmente
+		justify-content: center;//centrar verticalmente
+
+		a{
+			width: 24%;float: left;display: inline-block;margin-left: 5px;
+
+			img{width: 100%;float: left;display: inline-block;margin-left: 5px;}
+		}
+	}
+	
+	.words-examples{
+		width:200px;
+		float: left;
+		border-radius: 10px;
+		height: 50px;
+		color: white;text-align: center;
+		padding-top: 10px;
+		margin-left: 10px;
+		margin-bottom: 10px;
+	}
+
+	.item{
+
+		width: 100%; // 4 por columna
+		
+		.item-name{
+			width: 100%;
+			height: 50px;
+			text-align: center;
+			line-height: 50px;
+			color:white;
+		}
+
+		
+
+		// Clases para definir el tamaño
+		@for $i from 1 through 6{
+			&.per-row-#{$i}{ width: (99%/$i); }
+		}
+
+		@media(max-width: 992px){
+			width: 50%;
+			text-align: left;
+			font-size: 18px;
+			
+		}
+
+		float: left;
+		font-size: 24px;
+		text-align: center;
+		
+
+	}
+
+	.complete-container{
+		float: left;
+		border: 3px solid #000;
+		font-size: 1.4em;
+		padding: 5px;
+		font-family: 'century_gothic';
+		width: 98%;
+		float: left;
+		margin-left: 1%;
+		margin-bottom: 1%;
+
+		img{width: 24%;float: left;display: inline-block;margin-left: 5px;}
+		p{width: 75%;display: inline-block;float: left;}
+		
+		.complete-words-container{margin-left:1%;}
+
+		span{
+
+			.input-container{width: 211px;border: none;border-bottom: 2px solid #000;margin-left: 1%;}
+
+			div{display: inline-block;}
+
+			textarea[type=text]{
+				width: 100%;
+				outline: none;
+				font-size: 24px;
+				background: transparent;
+				color: #333333;
+				float: left;
+								
+
+				@media(max-width: 992px){
+					font-size: 18px;
+				}
+
+				&:focus{
+					color: #ffffff;
+				}
+
+				&:disabled{
+					color:rgb(201, 201, 202);
+				}
+			}
+
+		}
+	}
+
+	// vocales con las nuevas consonantes
+	.letters{
+		text-align: center;
+
+		.syllable{
+			display: inline-block;
+			padding: 0 20px;
+			font-size: 2em;
+		}
+		
+	}
+
+	.right-answer, .wrong-answer{
+		position: absolute;
+		margin-top:0%;
+		left: 90%;
+		$size: 50px;
+	    width: $size;
+	    height: $size;
+	    background-size: $size $size;
+	}
+}

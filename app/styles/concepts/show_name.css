@@ -1,0 +1,41 @@
+.liz-show-name > .block-content {
+  *zoom: 1;
+}
+.liz-show-name > .block-content:before, .liz-show-name > .block-content:after {
+  content: " ";
+  display: table;
+}
+.liz-show-name > .block-content:after {
+  clear: both;
+}
+.liz-show-name .items {
+  width: 19%;
+  float: left;
+  border: 3px solid;
+  margin-left: 1%;
+  margin-bottom: 1%;
+  cursor: pointer;
+}
+.liz-show-name .items .inner-text {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 40px;
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+.liz-show-name .items .inner-text.is-selected {
+  box-shadow: 0px 0px 0px 5px #272727;
+}
+.liz-show-name .items .inner-text div {
+  color: #fff;
+}
+.liz-show-name .item-wid-2 {
+  width: 100%;
+}
+.liz-show-name .completed {
+  display: inline-table;
+}

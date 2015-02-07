@@ -1,0 +1,29 @@
+.liz-drop-out .liz-drop-out-container {
+  position: relative; }
+.liz-drop-out .group {
+  width: 24em;
+  height: 24em;
+  margin: 19px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  position: relative; }
+  .liz-drop-out .group .item {
+    position: absolute;
+    cursor: pointer; }
+.liz-drop-out .outside {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  padding-top: 2em;
+  padding-left: 40%; }
+  .liz-drop-out .outside .item {
+    width: 25%;
+    float: left; }
+.liz-drop-out .face {
+  margin-left: -72px;
+  width: 124px;
+  left: 50%;
+  z-index: 6; }

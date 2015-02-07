@@ -1,0 +1,18 @@
+.liz-count-elements2 .items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.liz-count-elements2 .item {
+  width: 33%;
+}
+.liz-count-elements2 .item input[type=text] {
+  display: block;
+  margin: auto;
+  width: 50px;
+  border: 2px solid #000;
+  text-align: center;
+  padding: 8px 6px;
+  font-size: 2em;
+  outline: none;
+}

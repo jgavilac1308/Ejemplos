@@ -1,0 +1,133 @@
+.liz-images-block-description .images-block-row {
+  padding: 20px 0px;
+  text-align: center;
+}
+.liz-images-block-description .images-block-row .images-block-col {
+  display: inline-block;
+  float: none;
+  margin-bottom: 30px;
+}
+.liz-images-block-description .images-block-row .images-block-col > div {
+  opacity: 0;
+  -webkit-animation: fade-in-top 1s 0.8s forwards;
+  -moz-animation: fade-in-top 1s 0.8s forwards;
+  animation: fade-in-top 1s 0.8s forwards;
+}
+.liz-images-block-description .images-block-row .images-block-col > div:nth-child(1) {
+  -webkit-animation-delay: 1.3s;
+  -moz-animation-delay: 1.3s;
+  animation-delay: 1.3s;
+}
+.liz-images-block-description .images-block-row .images-block-col > div:nth-child(2) {
+  -webkit-animation-delay: 1.8s;
+  -moz-animation-delay: 1.8s;
+  animation-delay: 1.8s;
+}
+.liz-images-block-description .images-block-row .images-block-col > div:nth-child(3) {
+  -webkit-animation-delay: 2.3s;
+  -moz-animation-delay: 2.3s;
+  animation-delay: 2.3s;
+}
+.liz-images-block-description .images-block-row .images-block-col > div:nth-child(4) {
+  -webkit-animation-delay: 2.8s;
+  -moz-animation-delay: 2.8s;
+  animation-delay: 2.8s;
+}
+.liz-images-block-description .images-block-row .images-block-col > div:nth-child(5) {
+  -webkit-animation-delay: 3.3s;
+  -moz-animation-delay: 3.3s;
+  animation-delay: 3.3s;
+}
+.liz-images-block-description .images-block-row .images-block-col > div:nth-child(6) {
+  -webkit-animation-delay: 3.8s;
+  -moz-animation-delay: 3.8s;
+  animation-delay: 3.8s;
+}
+.liz-images-block-description .images-block-row .images-block-col > div:nth-child(7) {
+  -webkit-animation-delay: 4.3s;
+  -moz-animation-delay: 4.3s;
+  animation-delay: 4.3s;
+}
+.liz-images-block-description .images-block-row .images-block-col > div:nth-child(8) {
+  -webkit-animation-delay: 4.8s;
+  -moz-animation-delay: 4.8s;
+  animation-delay: 4.8s;
+}
+.liz-images-block-description .images-block-row .images-block-col > div:nth-child(9) {
+  -webkit-animation-delay: 5.3s;
+  -moz-animation-delay: 5.3s;
+  animation-delay: 5.3s;
+}
+.liz-images-block-description .images-block-row .images-block-col > div:nth-child(10) {
+  -webkit-animation-delay: 5.8s;
+  -moz-animation-delay: 5.8s;
+  animation-delay: 5.8s;
+}
+.liz-images-block-description .images-block-row .images-block-col > div .image-block-title {
+  padding: 5px;
+  font-size: 20px;
+  color: #FFF;
+}
+.liz-images-block-description .images-block-row .image-block-cursor {
+  cursor: pointer;
+}
+.liz-images-block-description .images-block-row.big-title-blocks-fix {
+  display: table;
+}
+.liz-images-block-description .images-block-row.big-title-blocks-fix .images-block-col {
+  display: table-cell;
+  float: left;
+}
+.liz-images-block-description .images-block-row.big-title-blocks-fix .images-block-col > div .image-block-title {
+  min-height: 98px;
+  font-size: 19px;
+  display: table;
+  width: 100%;
+}
+.liz-images-block-description .images-block-row.big-title-blocks-fix .images-block-col > div .image-block-title > span {
+  display: table-cell;
+  vertical-align: middle;
+}
+.liz-images-block-description .images-block-row.bigger-titles {
+  display: table;
+}
+.liz-images-block-description .images-block-row.bigger-titles .images-block-col {
+  display: table-cell;
+  vertical-align: top;
+}
+.liz-images-block-description .images-block-row.bigger-titles .images-block-col:first-child {
+  margin-left: 130px;
+}
+.liz-images-block-description .images-block-row.bigger-titles .images-block-col > div .image-block-title {
+  min-height: 98px;
+  font-size: 16px;
+  display: table;
+  width: 100%;
+}
+.liz-images-block-description .images-block-row.bigger-titles .images-block-col > div .image-block-title > span {
+  display: table-cell;
+  vertical-align: middle;
+}
+.liz-images-block-description .images-block-row.middle-title {
+  display: table;
+}
+.liz-images-block-description .images-block-row.middle-title .images-block-col {
+  display: table-cell;
+  vertical-align: top;
+}
+.liz-images-block-description .images-block-row.middle-title .images-block-col:first-child {
+  margin-left: 130px;
+}
+.liz-images-block-description .images-block-row.middle-title .images-block-col > div .image-block-title {
+  min-height: 66px;
+  display: table;
+  width: 100%;
+}
+.liz-images-block-description .images-block-row.middle-title .images-block-col > div .image-block-title > span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.zoomContainer {
+  z-index: 4;
+}

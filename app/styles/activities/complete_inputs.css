@@ -1,0 +1,33 @@
+.liz-complete-inputs .input-container {
+  padding: 0 10px; }
+  .liz-complete-inputs .input-container:last-child {
+    padding-bottom: 10px; }
+.liz-complete-inputs .input-group {
+  margin-top: 10px;
+  position: relative;
+  width: 100%;
+  border: 3px solid #000; }
+  .liz-complete-inputs .input-group .input-group-addon {
+    border: 0;
+    border-radius: 0;
+    width: 30%;
+    font-size: 48px;
+    color: #ffffff; }
+  .liz-complete-inputs .input-group input[type="text"] {
+    border-radius: 0;
+    border: none;
+    height: auto;
+    box-shadow: none;
+    font-size: 48px;
+    padding: 0;
+    text-align: center; }
+    .liz-complete-inputs .input-group input[type="text"][disabled="disabled"] {
+      background: #ffffff;
+      cursor: default; }
+  .liz-complete-inputs .input-group .right-answer, .liz-complete-inputs .input-group .wrong-answer {
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    position: absolute;
+    right: 8px;
+    top: 8px; }

@@ -1,0 +1,30 @@
+.liz-zoom .main-img {
+  text-align: center;
+  cursor: pointer; }
+  .liz-zoom .main-img img {
+    display: inline-block; }
+.liz-zoom .text-container {
+  width: 50%;
+  float: left; }
+  .liz-zoom .text-container p {
+    font-size: 20px; }
+.liz-zoom .overlay {
+  background: #fff; }
+.liz-zoom .big-img {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 151;
+  top: 0;
+  left: 0;
+  overflow: scroll; }
+  .liz-zoom .big-img img {
+    color: #fff; }
+.liz-zoom .close-btn {
+  z-index: 152;
+  position: fixed;
+  top: 16px;
+  right: 32px;
+  font-size: 22px;
+  width: 2em;
+  height: 2em; }

@@ -1,0 +1,42 @@
+.liz-image-group-drop .main-img {
+  width: 50%;
+  float: left;
+  position: relative;
+}
+.liz-image-group-drop .group {
+  position: absolute;
+  /*background: rgba(0, 0, 0, 0.5);*/
+}
+.liz-image-group-drop .group .group-inner {
+  position: relative;
+  height: 100%;
+}
+.liz-image-group-drop .group .item {
+  position: absolute;
+}
+.liz-image-group-drop .stack {
+  width: 50%;
+  float: left;
+}
+.liz-image-group-drop .stack .item {
+  float: left;
+  margin-right: 5px;
+}
+.liz-image-group-drop .item {
+  font-size: 27px;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  text-align: center;
+  background: #000;
+  color: #fff;
+  margin-bottom: 2px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.liz-image-group-drop .face {
+  margin-left: -72px;
+  width: 124px;
+  left: 50%;
+  z-index: 6;
+}

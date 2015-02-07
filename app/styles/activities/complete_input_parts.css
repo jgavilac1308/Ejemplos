@@ -1,0 +1,25 @@
+.liz-complete-input-parts .inputPartsBlocks {
+  padding: 40px 30px; }
+  .liz-complete-input-parts .inputPartsBlocks .inputPartsBlock {
+    border: 4px solid;
+    width: 31%;
+    margin-right: 20px;
+    margin-bottom: 20px; }
+    .liz-complete-input-parts .inputPartsBlocks .inputPartsBlock:last-child {
+      margin-right: 0; }
+    .liz-complete-input-parts .inputPartsBlocks .inputPartsBlock > .canvas {
+      width: 100%; }
+      .liz-complete-input-parts .inputPartsBlocks .inputPartsBlock > .canvas .items > .item {
+        width: 90px; }
+        .liz-complete-input-parts .inputPartsBlocks .inputPartsBlock > .canvas .items > .item .right-answer, .liz-complete-input-parts .inputPartsBlocks .inputPartsBlock > .canvas .items > .item .wrong-answer {
+          width: 30px;
+          height: 30px;
+          background-size: 30px 30px;
+          position: absolute;
+          right: 4px;
+          top: 2px; }
+    .liz-complete-input-parts .inputPartsBlocks .inputPartsBlock .inputPartBlockTitle > div {
+      padding: 10px 15px;
+      font-size: 18px;
+      text-align: center;
+      color: #FFFFFF; }

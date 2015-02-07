@@ -1,0 +1,65 @@
+@import "../bourbon/bourbon";
+@import "../common/_mixins";
+
+$letter-size: 1.4em;
+
+.liz-puzzle-word {
+
+  // Contenedor principal
+  .activity-container{
+    width: 100%;
+    position: relative;
+  }
+
+  // Imagen adicional
+  .main-img {
+    display: inline-block; // define el alto del padre
+    width: 20%;
+    border: 2px solid #000;
+    border-right: none;
+  }
+
+  // Usamos la posición absoluta para definir el alto del padre
+  .sortable-word {
+    position: absolute;
+    width: 80%;
+    height: calc(100% - 4px);
+    top: 0;
+    right: 0;
+    border: 2px solid #000;
+    @include align-children;
+  }
+
+  .sortable-letter {
+    font-size: 70px;
+    width: calc(#{$letter-size} + 2px);
+    height: calc(#{$letter-size} + 2px);
+    border: 2px solid #000;
+    border-right-width: 0px;
+
+    &:last-child {
+      border-right-width: 2px;
+    }
+  }
+
+  // Pila inicial
+  .stack {
+    margin-top: 22px;
+    @include align-children;
+    justify-content: space-around;
+  }
+
+  // Cada una de las letras
+  .letter {
+    font-size: 70px;
+    color: #FFF;
+    text-align: center;
+    width: $letter-size;
+    height: $letter-size;
+    line-height: $letter-size;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+
+}

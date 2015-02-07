@@ -1,0 +1,113 @@
+.liz-group-table-text-free .text-box {
+  width: 70%;
+  float: left;
+  padding: 0.6em;
+}
+.liz-group-table-text-free .text-box.textbox1 {
+  width: 30%;
+}
+.liz-group-table-text-free .text-box p {
+  width: 69%;
+  float: left;
+  margin-left: 0.6em;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+.liz-group-table-text-free .text-box .main-img {
+  width: 100%;
+  float: left;
+}
+.liz-group-table-text-free .item {
+  width: 50%;
+  float: left;
+  font-size: 24px;
+  text-align: center;
+}
+.liz-group-table-text-free .item .item-name {
+  width: 100%;
+  height: 108px;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+}
+.liz-group-table-text-free .item.per-row-1 {
+  width: 99%;
+}
+.liz-group-table-text-free .item.per-row-2 {
+  width: 49.5%;
+}
+.liz-group-table-text-free .item.per-row-3 {
+  width: 33%;
+}
+.liz-group-table-text-free .item.per-row-4 {
+  width: 24.75%;
+}
+.liz-group-table-text-free .item.per-row-5 {
+  width: 19.8%;
+}
+.liz-group-table-text-free .item.per-row-6 {
+  width: 16.5%;
+}
+@media (max-width: 992px) {
+  .liz-group-table-text-free .item {
+    width: 50%;
+    text-align: left;
+    font-size: 18px;
+  }
+}
+.liz-group-table-text-free .complete-container {
+  float: left;
+  border: 3px solid #000;
+  font-size: 1.4em;
+  padding: 5px;
+  font-family: 'century_gothic';
+  width: 98%;
+  float: left;
+  margin-left: 1%;
+}
+.liz-group-table-text-free .complete-container .complete-words-container {
+  margin-left: 1%;
+}
+.liz-group-table-text-free .complete-container span .input-container {
+  width: 211px;
+  border: none;
+  border-bottom: 2px solid #000;
+  margin-left: 1%;
+}
+.liz-group-table-text-free .complete-container span div {
+  display: inline-block;
+}
+.liz-group-table-text-free .complete-container span textarea[type=text] {
+  width: 49%;
+  outline: none;
+  font-size: 24px;
+  background: transparent;
+  color: #333333;
+}
+@media (max-width: 992px) {
+  .liz-group-table-text-free .complete-container span textarea[type=text] {
+    font-size: 18px;
+  }
+}
+.liz-group-table-text-free .complete-container span textarea[type=text]:focus {
+  color: #ffffff;
+}
+.liz-group-table-text-free .complete-container span textarea[type=text]:disabled {
+  color: #c9c9ca;
+}
+.liz-group-table-text-free .letters {
+  text-align: center;
+}
+.liz-group-table-text-free .letters .syllable {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 2em;
+}
+.liz-group-table-text-free .right-answer, .liz-group-table-text-free .wrong-answer {
+  position: absolute;
+  margin-top: 3%;
+  left: 90%;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+}

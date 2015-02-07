@@ -1,0 +1,102 @@
+.liz-complete-inputs-description .input-container {
+  padding: 0 10px;
+  width: 20%;
+  float: left;
+}
+.liz-complete-inputs-description .input-container:last-child {
+  padding-bottom: 10px;
+}
+.liz-complete-inputs-description .input-group {
+  margin-top: 10px;
+  position: relative;
+  width: 100%;
+  height: 200px;
+  border: 3px solid #000;
+}
+.liz-complete-inputs-description .input-group-addon {
+  border: 0;
+  border-radius: 0;
+  font-size: 48px;
+  color: #ffffff;
+  width: 50%;
+}
+.liz-complete-inputs-description input[type="text"] {
+  border-radius: 0;
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+  height: auto;
+  box-shadow: none;
+  font-size: 24px;
+  padding: 0;
+  text-align: center;
+}
+.liz-complete-inputs-description input[type="text"][disabled="disabled"] {
+  background: #ffffff;
+  cursor: default;
+}
+.liz-complete-inputs-description .right-answer, .liz-complete-inputs-description .wrong-answer {
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+.liz-complete-inputs-description .block-content {
+  text-align: center;
+}
+.liz-complete-inputs-description .item-container {
+  display: inline-block;
+  padding: 10px 10px;
+}
+.liz-complete-inputs-description .item {
+  position: relative;
+  text-align: center;
+  border: 3px solid #000;
+}
+.liz-complete-inputs-description .item p {
+  text-align: center;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  min-height: 150px;
+}
+.liz-complete-inputs-description .item img {
+  display: inline-block;
+  max-height: 512px !important;
+}
+.liz-complete-inputs-description .item .number {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 4em;
+}
+.liz-complete-inputs-description .text-box {
+  width: 100%;
+  float: left;
+  padding: 0.6em;
+}
+.liz-complete-inputs-description .text-box .block {
+  min-height: 50px;
+}
+.liz-complete-inputs-description .text-box .block-content {
+  min-height: 10em;
+  padding: 0.6em;
+  border: 3px solid #000;
+}
+.liz-complete-inputs-description .text-box .block-content strong {
+  font-size: 20px !important;
+}
+.liz-complete-inputs-description .text-box .block-content strong2 {
+  font-size: 20px !important;
+}
+.liz-complete-inputs-description .text-box .block-content p {
+  float: left;
+  margin-left: 0.6em;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+.liz-complete-inputs-description .feedback {
+  padding: 10px;
+}

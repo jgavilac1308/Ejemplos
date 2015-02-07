@@ -1,0 +1,42 @@
+@import "../common/animations";
+
+.click-transition{
+	.item{
+		float: left;
+		cursor: pointer;
+		padding: 5px;
+		text-align: center;
+
+		p{
+			text-align: center;
+			font-size: 1.6em;
+			letter-spacing: 1px;
+		}
+
+		img{
+			display: inline-block;
+			max-height: 256px;
+		}
+	}
+
+	.img-container{
+		position: relative;
+		min-height: 150px;
+		
+		img{
+			position: absolute;
+			margin: auto;
+			top: 0; left: 0; bottom: 0; right: 0;
+		}
+
+		.hide-transition{
+			@include animation(fadeOut 0.7s ease-in 0s forwards);
+		}
+
+		.back{
+			z-index: -1;
+		}
+		
+
+	}
+}

@@ -1,0 +1,87 @@
+@import "../bourbon/bourbon.scss";
+
+.liz-puzzle3{
+
+	.block-content{
+		padding: 5px;
+	}
+
+	// Imagen base que le dará el tamaño apropiado a items-container
+	.base{
+		opacity: 0;
+	}
+
+	.final-text{
+
+		font-size: 25px;
+		width: 100%;
+		text-align:center;
+		float: left;
+		padding: 10px;
+		margin-top: 20px;
+
+	}
+
+	.items-container{
+	width: calc(50% - 10px);
+		/* width: 524px;
+		height: 402px; */
+		float: left;
+		position: relative;
+		border: 1px solid #000;
+
+		.items{
+
+			.sortable{
+				position: absolute;
+				border: 2px solid #000;
+				/*background: #ededed;*/
+
+				.item{ 
+					width: 100%;
+					height: 100%; 
+					position: absolute; // No se mueven cuando se pone otro elemento encima
+
+				}// .item
+
+			}// .sortable
+		}// .items
+	}// .items.container
+
+
+	// Muy similar a items-container
+	.targets{
+
+		width: calc(50% - 7px);
+		/* width: 524px;
+		height: 402px;*/
+		float: right; 
+		position: relative;
+		border: 1px solid #000;
+
+		.sortable{
+			position: absolute;
+			/* border: 2px solid #000; */
+
+			.item{ 
+				width: 100%;
+				height: 100%; 
+				position: absolute; // No se mueven cuando se pone otro elemento encima
+
+			}// .item
+		}
+	}
+
+	
+	// *****************************************************************************
+	// Caras
+	// ***************************************************************************** 
+	.face{
+		margin-left: -72px;
+		width: 124px;
+		left: 50%;
+		z-index: 6;
+		top: 20%;
+	}
+
+}

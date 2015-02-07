@@ -1,0 +1,49 @@
+.liz-choose-correct-image-secuence {
+
+	.block-content {
+      display: flex;
+
+     		.options {
+            width: 60%;
+            text-align: center;
+              margin-left: 10px;
+
+
+			.option {
+              margin-left: 10px;
+
+              cursor: pointer;
+
+              img {
+                border: 3px solid green;
+                margin-top: 10px;
+                margin-left: 10px;
+				}
+			}
+		}
+
+        .options2{
+          width: 40%;
+
+
+          .option {
+
+            width: 200px;
+            height: 200px;
+
+            .img {
+              cursor: pointer;
+            }
+          }
+
+        }
+	}
+
+	.face{
+		margin-left: -72px;
+		width: 124px;
+		left: 50%;
+		display: none;
+		z-index: 6;
+	}
+}
